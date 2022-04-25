@@ -87,6 +87,47 @@ public class PlayerMovement : MonoBehaviour
             if (grounded)
             {
                 rb.AddForce(orientation.transform.forward * slideForce);
+
+                //Extra gravity
+                rb.AddForce(Vector3.down * Time.deltaTime * 10);
+
+                Vector2 mag = FindVelRelativeToLook();
+                float xMag = mag.x, yMag = mag.y;
+
+                //Prevent sliding and sloppy movement
+                CounterMovement(x, y, mag);
+
+                if (readyToJump && jumping) Jump();
+
+                float maxSpeed = this.maxSpeed;
+
+                //If sliding down a ramp, add force down so player stays grounded and also builds speed
+                if (crouching && grounded && readyToJump)
+                {
+                    rb.AddForce(Vector3.down * Time.deltaTime * 3000);
+                    return;
+                }
+
+                //If speed is larger than maxspeed, cancel out the input so you don't go over max speed
+                if (x > 0 && xMag > maxSpeed) x = 0;
+                if (x < 0 && xMag < -maxSpeed) x = 0;
+                if (y > 0 && yMag > maxSpeed) y = 0;
+                if (y < 0 && yMag < -maxSpeed) y = 0;
+
+                float multiplier = 1f, multiplierV = 1f;
+
+                // Movement in air
+                if (!grounded)
+                {
+                    multiplier = 0.5f;
+                    multiplierV = 0.5f;
+                }
+
+                // Movement while sliding
+
+                if (grounded && crouching) multiplierV = 0f;
+                rb.AddForce(orientation.transform.forward * y * moveSpeed * Time.deltaTime * multiplier * multiplierV);
+                rb.AddForce(orientation.transform.right * x * moveSpeed * Time.deltaTime * multiplier);
             }
         }
     }
