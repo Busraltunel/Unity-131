@@ -15,11 +15,11 @@ C:/Users/yigit/Documents/GitHub/Unity-131/UnityTeam131Game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60634
+60670
 Successfully changed project path to: C:/Users/yigit/Documents/GitHub/Unity-131/UnityTeam131Game
 C:/Users/yigit/Documents/GitHub/Unity-131/UnityTeam131Game
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 39.82 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 39.39 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.25f1 (9b9180224418)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity Hub/editor/Unity 2020.3.25f1/Editor/Data/Resources/UnitySubsystems
@@ -35,35 +35,35 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity Hub/editor/Unity 2020.3.25f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity Hub/editor/Unity 2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity Hub/editor/Unity 2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56424
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56824
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity Hub/editor/Unity 2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001362 seconds.
+Registered in 0.001381 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 38.84 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 39.90 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.376 seconds
+- Completed reload, in  0.381 seconds
 Domain Reload Profiling:
-	ReloadAssembly (376ms)
-		BeginReloadAssembly (36ms)
+	ReloadAssembly (381ms)
+		BeginReloadAssembly (35ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (292ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (298ms)
 			LoadAssemblies (34ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (87ms)
+			SetupTypeCache (89ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (17ms)
-			SetupLoadedEditorAssemblies (121ms)
+			RebuildScriptCaches (18ms)
+			SetupLoadedEditorAssemblies (123ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (39ms)
+				RefreshPlugins (40ms)
 				BeforeProcessingInitializeOnLoad (6ms)
 				ProcessInitializeOnLoadAttributes (55ms)
 				ProcessInitializeOnLoadMethodAttributes (19ms)
@@ -73,24 +73,24 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003493 seconds.
+Registered in 0.003529 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001CB23235030 doesn't match image C:\Users\yigit\Documents\GitHub\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file data-0000019B8B5B4010 doesn't match image C:\Users\yigit\Documents\GitHub\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Assembly-CSharp.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 39.92 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 39.88 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.730 seconds
+- Completed reload, in  0.733 seconds
 Domain Reload Profiling:
-	ReloadAssembly (730ms)
-		BeginReloadAssembly (88ms)
+	ReloadAssembly (734ms)
+		BeginReloadAssembly (89ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (13ms)
-		EndReloadAssembly (602ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (604ms)
 			LoadAssemblies (61ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
 			SetupTypeCache (193ms)
@@ -101,9 +101,9 @@ Domain Reload Profiling:
 				InitializePlatformSupportModulesInManaged (2ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (40ms)
-				BeforeProcessingInitializeOnLoad (56ms)
+				BeforeProcessingInitializeOnLoad (57ms)
 				ProcessInitializeOnLoadAttributes (132ms)
-				ProcessInitializeOnLoadMethodAttributes (6ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -116,10 +116,10 @@ Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3169 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 216.0 MB.
-System memory in use after: 216.2 MB.
+System memory in use after: 216.3 MB.
 
 Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3610.
-Total: 2.517500 ms (FindLiveObjects: 0.217300 ms CreateObjectMapping: 0.110300 ms MarkObjects: 2.173400 ms  DeleteObjects: 0.016000 ms)
+Total: 2.562700 ms (FindLiveObjects: 0.231400 ms CreateObjectMapping: 0.101200 ms MarkObjects: 2.211100 ms  DeleteObjects: 0.018400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -133,212 +133,122 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Team131Game/131TestScene/Models/MilitaryVehicle.fbx
-  artifactKey: Guid(6e61ea07d4709ad40a1e604eca948d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Team131Game/131TestScene/Models/MilitaryVehicle.fbx using Guid(6e61ea07d4709ad40a1e604eca948d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9198186000ddefdcd0b0c91290d821d') in 0.190928 seconds 
-  Import took 0.194817 seconds .
+  path: Assets/Team131Game/131TestScene/Models/MilitaryVehicle2.fbx
+  artifactKey: Guid(e8015649b53be7649adf4022594863f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/131TestScene/Models/MilitaryVehicle2.fbx using Guid(e8015649b53be7649adf4022594863f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43f0c8657a88fa30bc860404cef18525') in 0.188878 seconds 
+  Import took 0.192830 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 18.624047 seconds.
-  path: Assets/Team131Game/131TestScene/Models/Textures/farklı.jpg
-  artifactKey: Guid(796055acf6764cf47917e2ada065b8a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Team131Game/131TestScene/Models/Textures/farklı.jpg using Guid(796055acf6764cf47917e2ada065b8a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be521518e153000d3a254c52b8a00634') in 0.018586 seconds 
-  Import took 0.022429 seconds .
+  Time since last request: 8.579495 seconds.
+  path: Assets/Team131Game/131TestScene/Models/Textures/M_.jpg
+  artifactKey: Guid(caa835e58a6a5e84d8e179cf503fa1db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/131TestScene/Models/Textures/M_.jpg using Guid(caa835e58a6a5e84d8e179cf503fa1db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97ed7908621fb838e0ce4bceef035db0') in 0.017358 seconds 
+  Import took 0.021149 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.764010 seconds.
-  path: Assets/Team131Game/131TestScene/Models/Materials/M_Trash.mat
-  artifactKey: Guid(e88eafe0838a9024fa3c4ed8694c5906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Team131Game/131TestScene/Models/Materials/M_Trash.mat using Guid(e88eafe0838a9024fa3c4ed8694c5906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2326b8b7e64a19331782f6fcb52acfaa') in 0.017204 seconds 
-  Import took 0.021470 seconds .
+  Time since last request: 3.161011 seconds.
+  path: Assets/Team131Game/131TestScene/Models/MilitaryVehicle2.fbx
+  artifactKey: Guid(e8015649b53be7649adf4022594863f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/131TestScene/Models/MilitaryVehicle2.fbx using Guid(e8015649b53be7649adf4022594863f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6360b9648f8546bb7dd215d8f692429d') in 0.016655 seconds 
+  Import took 0.020330 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.417777 seconds.
-  path: Assets/Team131Game/131TestScene/Models/MilitaryVehicle.fbx
-  artifactKey: Guid(6e61ea07d4709ad40a1e604eca948d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Team131Game/131TestScene/Models/MilitaryVehicle.fbx using Guid(6e61ea07d4709ad40a1e604eca948d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a615993c745d5137fcc05892f97f1b8') in 0.014993 seconds 
-  Import took 0.018709 seconds .
+  Time since last request: 16.057404 seconds.
+  path: Assets/Team131Game/131TestScene/Models/Textures/M_MilitaryVehicle2.jpg
+  artifactKey: Guid(caa835e58a6a5e84d8e179cf503fa1db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/131TestScene/Models/Textures/M_MilitaryVehicle2.jpg using Guid(caa835e58a6a5e84d8e179cf503fa1db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '804b7263c983b3cb8975573c62027820') in 0.012075 seconds 
+  Import took 0.016043 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 34.762845 seconds.
+  Time since last request: 4.145867 seconds.
+  path: Assets/Team131Game/131TestScene/Models/Materials/adassad.mat
+  artifactKey: Guid(67a9f67b9d0b7e148b3088d86e83b95c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/131TestScene/Models/Materials/adassad.mat using Guid(67a9f67b9d0b7e148b3088d86e83b95c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8c822ab3b8211c73cdd341a380bfb6c') in 0.018095 seconds 
+  Import took 0.022007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
   path: Assets/Team131Game/131TestScene/Models/Materials/M_Military vehicle1.mat
   artifactKey: Guid(38c8b797a54c0eb40a322d638566058e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Team131Game/131TestScene/Models/Materials/M_Military vehicle1.mat using Guid(38c8b797a54c0eb40a322d638566058e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac458297cd080e35728a8c9c22baec7f') in 0.011508 seconds 
-  Import took 0.015447 seconds .
+Start importing Assets/Team131Game/131TestScene/Models/Materials/M_Military vehicle1.mat using Guid(38c8b797a54c0eb40a322d638566058e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bf3c3e7f7b055471f44452699447ee4') in 0.011451 seconds 
+  Import took 0.014983 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 15.449436 seconds.
-  path: Assets/Team131Game/131TestScene/Models/Textures/M_MilitaryVehicle1.jpg
-  artifactKey: Guid(796055acf6764cf47917e2ada065b8a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Team131Game/131TestScene/Models/Textures/M_MilitaryVehicle1.jpg using Guid(796055acf6764cf47917e2ada065b8a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1050510967d5011189e1e21a10c3156') in 0.010607 seconds 
-  Import took 0.014552 seconds .
+  Time since last request: 13.342638 seconds.
+  path: Assets/Team131Game/131TestScene/Models/Materials/MilitaryVehicle2.mat
+  artifactKey: Guid(67a9f67b9d0b7e148b3088d86e83b95c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/131TestScene/Models/Materials/MilitaryVehicle2.mat using Guid(67a9f67b9d0b7e148b3088d86e83b95c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '218f3bb3d7052a17e47a8fe71fb858be') in 0.009458 seconds 
+  Import took 0.013239 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.536414 seconds.
-  path: Assets/Team131Game/131TestScene/Models/Textures/M_Gloves.jpg
-  artifactKey: Guid(b219b52fb62e2df45b739b2018ee43ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Team131Game/131TestScene/Models/Textures/M_Gloves.jpg using Guid(b219b52fb62e2df45b739b2018ee43ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '638b1a30b2fb7288560c3c357961711f') in 0.012042 seconds 
-  Import took 0.016520 seconds .
+  Time since last request: 34.638904 seconds.
+  path: Assets/Team131Game/131TestScene/Models/Textures/M_MilitaryVehicle2.jpg
+  artifactKey: Guid(caa835e58a6a5e84d8e179cf503fa1db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/131TestScene/Models/Textures/M_MilitaryVehicle2.jpg using Guid(caa835e58a6a5e84d8e179cf503fa1db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88cc310d24845307bfe9313f47d53e84') in 0.007280 seconds 
+  Import took 0.011375 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.129557 seconds.
-  path: Assets/Team131Game/131TestScene/Models/Gloves.fbx
-  artifactKey: Guid(a1fa957b8f0a94649b584d1df1150902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Team131Game/131TestScene/Models/Gloves.fbx using Guid(a1fa957b8f0a94649b584d1df1150902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '492381f0eef0a8c0cca30148530ac835') in 0.025105 seconds 
-  Import took 0.029062 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.765507 seconds.
-  path: Assets/Team131Game/131TestScene/Models/MilitaryVehicle1.fbx
-  artifactKey: Guid(6e61ea07d4709ad40a1e604eca948d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Team131Game/131TestScene/Models/MilitaryVehicle1.fbx using Guid(6e61ea07d4709ad40a1e604eca948d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3f6a9789e0312c716d6e4f967358bea') in 0.023723 seconds 
-  Import took 0.027655 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 39.251190 seconds.
-  path: Assets/Team131Game/131TestScene/Models/Textures/M_MilitaryVehicle1.jpg
-  artifactKey: Guid(796055acf6764cf47917e2ada065b8a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Team131Game/131TestScene/Models/Textures/M_MilitaryVehicle1.jpg using Guid(796055acf6764cf47917e2ada065b8a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd3b12f1de00727982cf12919806e4d0') in 0.007736 seconds 
-  Import took 0.011530 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.210624 seconds.
-  path: Assets/Team131Game/131TestScene/Models/Textures/M_MilitaryVehicle1.jpg
-  artifactKey: Guid(796055acf6764cf47917e2ada065b8a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Team131Game/131TestScene/Models/Textures/M_MilitaryVehicle1.jpg using Guid(796055acf6764cf47917e2ada065b8a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '776cc7c8a28b4011b8b34f2d6ff5c5d0') in 0.010842 seconds 
-  Import took 0.014744 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.298945 seconds.
-  path: Assets/Team131Game/131TestScene/Models/Textures/M_MilitaryVehicle1.jpg
-  artifactKey: Guid(796055acf6764cf47917e2ada065b8a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Team131Game/131TestScene/Models/Textures/M_MilitaryVehicle1.jpg using Guid(796055acf6764cf47917e2ada065b8a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a1d9c7f6b00177ed52fde84868690fe') in 0.010544 seconds 
-  Import took 0.014328 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.623494 seconds.
-  path: Assets/Team131Game/131TestScene/Models/Textures/M_MilitaryVehicle1.jpg
-  artifactKey: Guid(796055acf6764cf47917e2ada065b8a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Team131Game/131TestScene/Models/Textures/M_MilitaryVehicle1.jpg using Guid(796055acf6764cf47917e2ada065b8a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69eba3b8113f40d84f00b265a346d50d') in 0.013622 seconds 
-  Import took 0.017495 seconds .
+  Time since last request: 6.556907 seconds.
+  path: Assets/Team131Game/131TestScene/Models/Textures/M_MilitaryVehicle2.jpg
+  artifactKey: Guid(caa835e58a6a5e84d8e179cf503fa1db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/131TestScene/Models/Textures/M_MilitaryVehicle2.jpg using Guid(caa835e58a6a5e84d8e179cf503fa1db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc7dc35bdb144e66903e5f755645e551') in 0.007938 seconds 
+  Import took 0.011760 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003642 seconds.
+Registered in 0.003810 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001CB220A9820 doesn't match image C:\Users\yigit\Documents\GitHub\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file data-0000019BAFEBA010 doesn't match image C:\Users\yigit\Documents\GitHub\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Assembly-CSharp.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.801 seconds
+- Completed reload, in  0.797 seconds
 Domain Reload Profiling:
-	ReloadAssembly (801ms)
-		BeginReloadAssembly (107ms)
+	ReloadAssembly (797ms)
+		BeginReloadAssembly (104ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (647ms)
-			LoadAssemblies (69ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (646ms)
+			LoadAssemblies (70ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
 			SetupTypeCache (217ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (234ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (231ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (54ms)
-				ProcessInitializeOnLoadAttributes (162ms)
+				BeforeProcessingInitializeOnLoad (55ms)
+				ProcessInitializeOnLoadAttributes (159ms)
 				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3036 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 212.1 MB.
 System memory in use after: 212.3 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3696.
-Total: 3.452800 ms (FindLiveObjects: 0.282200 ms CreateObjectMapping: 0.139200 ms MarkObjects: 3.016500 ms  DeleteObjects: 0.014200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003800 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001CB4D4A1EE0 doesn't match image C:\Users\yigit\Documents\GitHub\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Assembly-CSharp.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.693 seconds
-Domain Reload Profiling:
-	ReloadAssembly (693ms)
-		BeginReloadAssembly (90ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (25ms)
-		EndReloadAssembly (563ms)
-			LoadAssemblies (60ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (189ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (203ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (2ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (48ms)
-				ProcessInitializeOnLoadAttributes (141ms)
-				ProcessInitializeOnLoadMethodAttributes (6ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3036 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 212.1 MB.
-System memory in use after: 212.4 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3698.
-Total: 2.607600 ms (FindLiveObjects: 0.224600 ms CreateObjectMapping: 0.109400 ms MarkObjects: 2.260300 ms  DeleteObjects: 0.012400 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3695.
+Total: 2.672800 ms (FindLiveObjects: 0.233800 ms CreateObjectMapping: 0.108900 ms MarkObjects: 2.317800 ms  DeleteObjects: 0.011600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
