@@ -14,7 +14,7 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
-  m_Fog: 0
+  m_Fog: 1
   m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_FogMode: 3
   m_FogDensity: 0.01
@@ -2879,7 +2879,7 @@ Transform:
   - {fileID: 935752392}
   - {fileID: 1683020751}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &273476383
 GameObject:
@@ -13766,7 +13766,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerCam: {fileID: 2058271576}
   orientation: {fileID: 203486542}
-  moveSpeed: 4500
+  moveSpeed: 5200
   maxSpeed: 20
   grounded: 1
   whatIsGround:
@@ -13774,9 +13774,9 @@ MonoBehaviour:
     m_Bits: 64
   counterMovement: 0.25
   maxSlopeAngle: 30
-  slideForce: 1500
-  slideCounterMovement: 1
-  jumpForce: 550
+  slideForce: 400
+  slideCounterMovement: 0.4
+  jumpForce: 450
 --- !u!33 &1027619411
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -21200,7 +21200,7 @@ Transform:
   - {fileID: 1027619409}
   - {fileID: 2058271576}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1682528743
 GameObject:
