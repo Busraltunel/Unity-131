@@ -12629,6 +12629,37 @@ MonoBehaviour:
   m_SelectedFaces: 
   m_SelectedEdges: []
   m_SelectedVertices: 
+--- !u!1 &906260894 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e8015649b53be7649adf4022594863f8, type: 3}
+  m_PrefabInstance: {fileID: 1193608911}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &906260895
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 906260894}
+  m_Material: {fileID: 13400000, guid: 631155936c78b1f479e796f94f4039d2, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.4850504, y: 1.3449343, z: 3.6492786}
+  m_Center: {x: 0.036424927, y: 2.3938494, z: -0.99767554}
+--- !u!65 &906260896
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 906260894}
+  m_Material: {fileID: 13400000, guid: 631155936c78b1f479e796f94f4039d2, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.6262023, y: 1.434082, z: 6.0959525}
+  m_Center: {x: 0.020875346, y: 1.1344947, z: 0.21730828}
 --- !u!1 &911065298
 GameObject:
   m_ObjectHideFlags: 0
@@ -15765,7 +15796,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e8015649b53be7649adf4022594863f8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 40.34
+      value: 35.99
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e8015649b53be7649adf4022594863f8, type: 3}
       propertyPath: m_LocalPosition.y
@@ -15810,6 +15841,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e8015649b53be7649adf4022594863f8, type: 3}
       propertyPath: m_Name
       value: MilitaryVehicle2
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e8015649b53be7649adf4022594863f8, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e8015649b53be7649adf4022594863f8, type: 3}
