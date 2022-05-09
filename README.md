@@ -65,6 +65,7 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board, Kanban Bo
   ![Screenshot 4](https://www.hizliresim.com/mmyg5rq)
   ![Screenshot 5](https://www.hizliresim.com/or6uzqw)
   ![Screenshot 6](https://www.hizliresim.com/o103n54)
+![Screenshot_2 (1)](https://user-images.githubusercontent.com/77441088/167475009-33fc21bd-8bb2-457c-9322-7af10106abd9.png)
 
 
 - **Sprint Review**: 
