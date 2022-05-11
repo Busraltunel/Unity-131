@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class Camera : MonoBehaviour
 {
-    public Transform player;
+    public Transform target;
 
-    void Update()
+    void LateUpdate()
     {
-        transform.position = player.transform.position;
+        transform.rotation = target.rotation;
+        transform.position = target.position;
     }
 }
