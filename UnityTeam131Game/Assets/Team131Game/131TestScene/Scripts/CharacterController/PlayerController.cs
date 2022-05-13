@@ -11,6 +11,9 @@ public class PlayerController : MonoBehaviour
     public Transform groundCheckPoint;
     public LayerMask whatIsGround;
 
+    public GameObject bullet;
+    public Transform firePoint;
+
     public Animator anim;
 
     public Transform cameraTrans;
@@ -61,6 +64,25 @@ public class PlayerController : MonoBehaviour
         }
 
         chController.Move(moveInput * Time.deltaTime);
+
+        //shooting
+        if (Input.GetMouseButtonDown(0))
+        {
+            RaycastHit hit;
+            if (Physics.Raycast(cameraTrans.position, cameraTrans.forward, out hit, 50f))
+            {
+                if (Vector3.Distance(cameraTrans.position, hit.point) > 2f)
+                {
+                    firePoint.LookAt(hit.point);
+                }
+            }
+            else
+            {
+                firePoint.LookAt(cameraTrans.position + (cameraTrans.forward * 30f));
+            }
+
+            Instantiate(bullet, firePoint.position, firePoint.rotation);
+        }
 
         //camera
         Vector2 mouseInput = new Vector2(Input.GetAxisRaw("Mouse X"), Input.GetAxisRaw("Mouse Y")) * mouseSens;

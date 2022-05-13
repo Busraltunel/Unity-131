@@ -1,177 +1,195 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.25f1 (9b9180224418) revision 10195328'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19043) 64bit CoreSingleLanguage' Language: 'tr' Physical Memory: 16258 MB
+OS: 'Windows 10  (10.0.19043) 64bit Core' Language: 'tr' Physical Memory: 16173 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2020.3.25f1\Editor\Unity.exe
+C:\Users\kalel\OneDrive\Desktop\UnityGames\2020.3.25f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/user/Unity Projects/Unity-131/UnityTeam131Game
+C:/Users/kalel/OneDrive/Desktop/UnityGames/Unity-131/UnityTeam131Game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50711
-Successfully changed project path to: C:/Users/user/Unity Projects/Unity-131/UnityTeam131Game
-C:/Users/user/Unity Projects/Unity-131/UnityTeam131Game
+64855
+Successfully changed project path to: C:/Users/kalel/OneDrive/Desktop/UnityGames/Unity-131/UnityTeam131Game
+C:/Users/kalel/OneDrive/Desktop/UnityGames/Unity-131/UnityTeam131Game
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 116.16 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 69.39 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.25f1 (9b9180224418)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/user/Unity Projects/Unity-131/UnityTeam131Game/Assets
+[Subsystems] Discovering subsystems at path C:/Users/kalel/OneDrive/Desktop/UnityGames/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/kalel/OneDrive/Desktop/UnityGames/Unity-131/UnityTeam131Game/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
-    Version:  Direct3D 11.0 [level 11.0]
-    Renderer: NVIDIA GeForce 940MX (ID=0x134d)
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f99)
     Vendor:   
-    VRAM:     4055 MB
-    Driver:   30.0.15.1259
+    VRAM:     3962 MB
+    Driver:   30.0.15.1215
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56224
+Mono path[0] = 'C:/Users/kalel/OneDrive/Desktop/UnityGames/2020.3.25f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Users/kalel/OneDrive/Desktop/UnityGames/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Users/kalel/OneDrive/Desktop/UnityGames/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56308
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002165 seconds.
+Register platform support module: C:/Users/kalel/OneDrive/Desktop/UnityGames/2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002022 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 115.86 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 67.74 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.009 seconds
+- Completed reload, in  0.643 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1009ms)
-		BeginReloadAssembly (72ms)
+	ReloadAssembly (643ms)
+		BeginReloadAssembly (54ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (837ms)
-			LoadAssemblies (70ms)
+		EndReloadAssembly (515ms)
+			LoadAssemblies (51ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (221ms)
+			SetupTypeCache (162ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (357ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (210ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (116ms)
-				BeforeProcessingInitializeOnLoad (24ms)
-				ProcessInitializeOnLoadAttributes (153ms)
-				ProcessInitializeOnLoadMethodAttributes (50ms)
+				RefreshPlugins (68ms)
+				BeforeProcessingInitializeOnLoad (17ms)
+				ProcessInitializeOnLoadAttributes (88ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.012565 seconds.
+Registered in 0.005226 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000002ABC0CE5010 doesn't match image C:\Users\user\Unity Projects\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-00000284924DA840 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002AD58688E40 doesn't match image C:\Users\user\Unity Projects\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file data-000002846D41FFB0 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002ABC0F0A880 doesn't match image C:\Users\user\Unity Projects\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file data-00000284932C4010 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002ABC16EB020 doesn't match image C:\Users\user\Unity Projects\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-00000284932C4010 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002ABC0C38070 doesn't match image C:\Users\user\Unity Projects\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000002849299B080 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002ADA1A27290 doesn't match image C:\Users\user\Unity Projects\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-0000028492B5F5C0 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002ABC16EB020 doesn't match image C:\Users\user\Unity Projects\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-0000028492BCA0D0 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002ADA2E7B010 doesn't match image C:\Users\user\Unity Projects\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000002846D033010 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002ADA3085020 doesn't match image C:\Users\user\Unity Projects\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000002846D033010 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002ABC0CE5010 doesn't match image C:\Users\user\Unity Projects\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file data-000002846D033010 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002ABD7F5C4C0 doesn't match image C:\Users\user\Unity Projects\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file data-000002846D588220 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002ADA3085020 doesn't match image C:\Users\user\Unity Projects\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file data-00000284924DA840 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002ADA2683C30 doesn't match image C:\Users\user\Unity Projects\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-000002846D101060 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002ADA2F01020 doesn't match image C:\Users\user\Unity Projects\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-000002846D033010 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002ABC0D65020 doesn't match image C:\Users\user\Unity Projects\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000002846D033010 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ProBuilder.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002ABC0F56750 doesn't match image C:\Users\user\Unity Projects\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file data-000002846D033010 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002ADA2AD4020 doesn't match image C:\Users\user\Unity Projects\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-000002846D205710 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002ADA24A4010 doesn't match image C:\Users\user\Unity Projects\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file data-0000028493063010 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002ADA21A1020 doesn't match image C:\Users\user\Unity Projects\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file data-00000284928BBC20 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002ABC0D65020 doesn't match image C:\Users\user\Unity Projects\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file data-000002846D4215B0 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002ADA2AD4020 doesn't match image C:\Users\user\Unity Projects\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file data-0000028493063010 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002ABC0F56B30 doesn't match image C:\Users\user\Unity Projects\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file data-000002846D38B780 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002ABC0F56750 doesn't match image C:\Users\user\Unity Projects\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file data-000002846D39CCE0 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.Mathematics.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002ADA2AD4020 doesn't match image C:\Users\user\Unity Projects\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-0000028493002060 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002ABC117C640 doesn't match image C:\Users\user\Unity Projects\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-00000284927E5010 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002ABC0C6C020 doesn't match image C:\Users\user\Unity Projects\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file data-00000284928BBC20 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002ADA2AFC630 doesn't match image C:\Users\user\Unity Projects\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file data-0000028493063010 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028492161640 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002846D259010 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002846D111030 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002846D420DB0 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002846D420DB0 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028491D06020 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002849308B620 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028492A990D0 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028491D06020 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 143.54 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 69.67 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.625 seconds
+- Completed reload, in  1.345 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2626ms)
-		BeginReloadAssembly (493ms)
+	ReloadAssembly (1346ms)
+		BeginReloadAssembly (160ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (37ms)
-		EndReloadAssembly (2004ms)
-			LoadAssemblies (228ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (1122ms)
+			LoadAssemblies (121ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (652ms)
+			SetupTypeCache (368ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (107ms)
-			SetupLoadedEditorAssemblies (803ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (423ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (144ms)
-				BeforeProcessingInitializeOnLoad (198ms)
-				ProcessInitializeOnLoadAttributes (424ms)
-				ProcessInitializeOnLoadMethodAttributes (19ms)
-				AfterProcessingInitializeOnLoad (12ms)
+				RefreshPlugins (70ms)
+				BeforeProcessingInitializeOnLoad (113ms)
+				ProcessInitializeOnLoadAttributes (219ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
-Refreshing native plugins compatible for Editor in 1.10 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3170 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 216.1 MB.
-System memory in use after: 216.4 MB.
+Unloading 3171 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 216.4 MB.
+System memory in use after: 216.6 MB.
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3612.
-Total: 7.308000 ms (FindLiveObjects: 0.515100 ms CreateObjectMapping: 0.285700 ms MarkObjects: 6.460200 ms  DeleteObjects: 0.045400 ms)
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3613.
+Total: 4.444900 ms (FindLiveObjects: 0.296600 ms CreateObjectMapping: 0.211300 ms MarkObjects: 3.906100 ms  DeleteObjects: 0.029200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -183,4 +201,1443 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Team131Game/131TestScene
+  artifactKey: Guid(98b4bd7b204f8dc4d8454bb090089f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/131TestScene using Guid(98b4bd7b204f8dc4d8454bb090089f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e381f442e5e2d8672290eabdb23c179') in 0.011972 seconds 
+  Import took 0.018068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Team131Game
+  artifactKey: Guid(d564da82e3a9c774aaa87c971cecc725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game using Guid(d564da82e3a9c774aaa87c971cecc725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbac661eadc731f724b8602e2d195d70') in 0.007662 seconds 
+  Import took 0.013739 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.517518 seconds.
+  path: Assets/Team131Game/131TestScene/Prefabs
+  artifactKey: Guid(79899627d00b72f42a090cb7ed290d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/131TestScene/Prefabs using Guid(79899627d00b72f42a090cb7ed290d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e794dc873cb045bebb9ee393b816afe') in 0.011833 seconds 
+  Import took 0.019218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.017547 seconds.
+  path: Assets/Team131Game/131TestScene/Models/Yol denemsi!!!/FloorStreets0103_download600.jpg
+  artifactKey: Guid(84e7fcffef1bd2c4b8c7f546e4306a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/131TestScene/Models/Yol denemsi!!!/FloorStreets0103_download600.jpg using Guid(84e7fcffef1bd2c4b8c7f546e4306a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4185ffb81b519479f501bae3be71419c') in 0.087316 seconds 
+  Import took 0.093908 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Team131Game/131TestScene/Models/Yol denemsi!!!/untitled 1.mat
+  artifactKey: Guid(1df753f7ab234714ca5106fe7e038bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/131TestScene/Models/Yol denemsi!!!/untitled 1.mat using Guid(1df753f7ab234714ca5106fe7e038bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e9045de625e9434c1b9c50acb072981') in 0.207970 seconds 
+  Import took 0.214590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Team131Game/131TestScene/Models/Yol denemsi!!!/untitled.mat
+  artifactKey: Guid(802025ebddd579742a9105462549791e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/131TestScene/Models/Yol denemsi!!!/untitled.mat using Guid(802025ebddd579742a9105462549791e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aabb1ea2e375a7ede6094cdbb4bb40c') in 0.023789 seconds 
+  Import took 0.031288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Team131Game/131TestScene/Models/Yol denemsi!!!/untitled.fbx
+  artifactKey: Guid(ae2493d1a5d43264c8a33990c5a1d39a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/131TestScene/Models/Yol denemsi!!!/untitled.fbx using Guid(ae2493d1a5d43264c8a33990c5a1d39a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abf2750e4f156585ee202d80483b1f6b') in 0.113082 seconds 
+  Import took 0.121160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Team131Game/131TestScene/Models/Yol denemsi!!!/Roads0170_download600.jpg
+  artifactKey: Guid(00ceb7b9200ee254ca6e2844a41e5d96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/131TestScene/Models/Yol denemsi!!!/Roads0170_download600.jpg using Guid(00ceb7b9200ee254ca6e2844a41e5d96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72c70d7495bd8bc587864386a592e7de') in 0.015810 seconds 
+  Import took 0.023194 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.680186 seconds.
+  path: Assets/Team131Game/131TestScene/Prefabs/Bullets
+  artifactKey: Guid(afd203e3f40079844bff560ce4fbd9a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/131TestScene/Prefabs/Bullets using Guid(afd203e3f40079844bff560ce4fbd9a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08f23f690a312f3c51eaf985b445ab53') in 0.008062 seconds 
+  Import took 0.014984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.857635 seconds.
+  path: Assets/Team131Game/131TestScene/Prefabs/Bullets/Bullet.prefab
+  artifactKey: Guid(202b81d3913f1644f8f2cc1e1295c079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/131TestScene/Prefabs/Bullets/Bullet.prefab using Guid(202b81d3913f1644f8f2cc1e1295c079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '257e16ef94c19b1446fd8209e3536155') in 0.021967 seconds 
+  Import took 0.028591 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006035 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000002849717AC20 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028491D44070 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284932C4010 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028491B24020 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002849299B080 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002846D0BF020 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028492BD44E0 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028491B24020 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002846D176010 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002846D7059B0 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000282E45D7B50 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002849A5ED9C0 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002849A647380 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028492BBA0B0 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028496A19010 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ProBuilder.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284921DB030 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002849A302050 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028495C58020 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002849314D020 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028491D44070 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284932C4010 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002846D38B780 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002846D39CCE0 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002849A652310 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002849285D010 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002849314D020 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284932C4010 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002849A588BE0 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002846D40E610 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028495F13030 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028491D44070 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028491D44870 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284924F1020 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028492791010 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028467F4F660 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284932C4010 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.817 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1818ms)
+		BeginReloadAssembly (211ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (63ms)
+		EndReloadAssembly (1503ms)
+			LoadAssemblies (160ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (615ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (72ms)
+			SetupLoadedEditorAssemblies (421ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (132ms)
+				ProcessInitializeOnLoadAttributes (264ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3038 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 212.5 MB.
+System memory in use after: 212.7 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3700.
+Total: 4.193600 ms (FindLiveObjects: 0.295900 ms CreateObjectMapping: 0.185400 ms MarkObjects: 3.690400 ms  DeleteObjects: 0.020900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007714 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000284E008CC90 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284DF6F0470 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284932C4010 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002849A660EE0 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002846D196020 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028496679A40 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028494F36010 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002849A660EE0 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284921DB030 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028495C6A500 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284DFF80F60 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002849324A010 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002849A63CAB0 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028491D06020 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284939A6E50 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ProBuilder.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284921DB030 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002846D196020 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002849640F360 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002849314D020 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284DF6EF070 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028491C5D010 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002849A302050 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002846D39CCE0 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284939D82D0 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284933C0020 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002849314D020 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028491C5D010 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028492728640 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002846DB1DF10 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284E01A40B0 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284DF6F2270 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284DF6EF670 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002846D25A4D0 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028494F36010 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028467F4F660 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028491C5D010 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.459 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1460ms)
+		BeginReloadAssembly (135ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (1251ms)
+			LoadAssemblies (108ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (401ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (434ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (137ms)
+				ProcessInitializeOnLoadAttributes (269ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (23ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3038 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 212.5 MB.
+System memory in use after: 212.8 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3702.
+Total: 4.264100 ms (FindLiveObjects: 0.346300 ms CreateObjectMapping: 0.309500 ms MarkObjects: 3.586700 ms  DeleteObjects: 0.020600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007899 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000284E00914B0 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284DF6EF670 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028494E4C010 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284930D9010 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284E3438030 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284937C0A60 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028494F36010 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028491B24020 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284921DB030 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002849640F360 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284E3426440 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028492DA1E90 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002849A645820 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028491C5D010 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002846DA64040 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ProBuilder.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284921DB030 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284E3438030 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002846D25A4D0 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002849314D020 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284DF6EFC70 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028494E4C010 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028492258430 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002846D39CCE0 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002849A64C8E0 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002849236F020 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002849314D020 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028494E4C010 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028492728640 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002846D9E6020 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028494F3F420 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284DF6F0C70 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284DF6F1270 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028495649CA0 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002849A660EE0 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028467F4F660 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028494E4C010 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.316 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1316ms)
+		BeginReloadAssembly (148ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (1097ms)
+			LoadAssemblies (104ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (390ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (391ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (111ms)
+				ProcessInitializeOnLoadAttributes (254ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3038 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 212.6 MB.
+System memory in use after: 212.8 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3704.
+Total: 6.991300 ms (FindLiveObjects: 0.557600 ms CreateObjectMapping: 0.442600 ms MarkObjects: 5.962000 ms  DeleteObjects: 0.027800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008384 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000284E02A0880 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284DF6F0070 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284932C4010 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284E027A010 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284E611F5E0 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284926E7A70 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284955F0010 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284E3430020 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284921DB030 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284E671B020 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002846D9B0430 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002846D251020 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002849A63B870 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028491C5D010 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284E66B7020 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ProBuilder.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284921DB030 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284955F0010 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002849640F360 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284955F0010 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284DF6F1870 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002849289F020 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284955F8020 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002846D39CCE0 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002849A655F30 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284933C0020 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284E3438030 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002849289F020 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028492258430 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002846D0A5A70 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028492258430 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284DF6F2270 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284DF6F0670 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028495B90D10 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028493713020 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028467F4F660 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002849289F020 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.186 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2187ms)
+		BeginReloadAssembly (209ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (61ms)
+		EndReloadAssembly (1853ms)
+			LoadAssemblies (201ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (670ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (94ms)
+			SetupLoadedEditorAssemblies (615ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (189ms)
+				ProcessInitializeOnLoadAttributes (389ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (26ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3038 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 212.6 MB.
+System memory in use after: 212.8 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3706.
+Total: 8.660000 ms (FindLiveObjects: 0.988500 ms CreateObjectMapping: 0.877500 ms MarkObjects: 6.755700 ms  DeleteObjects: 0.035900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007283 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000284972E3810 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284DF6F0670 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284984FD010 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028495C28010 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028491B983E0 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284E9731A30 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284995A23D0 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002846D425090 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284E27D2010 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284954A4F70 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002846D69B450 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284939C8010 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002849A646140 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284975E0CD0 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284E3406430 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ProBuilder.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284DEEC5FD0 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284DFA8B300 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028496F500C0 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002849314D020 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284DF6F0470 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284DF0D5620 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002846DB1B020 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284E2CC2020 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002849A655F30 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284E3A59010 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002849314D020 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284E2533EB0 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028495A2CD70 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028495394F90 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028497D26EF0 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284DF6EFA70 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284DF6EF870 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284995B47A0 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028492526E70 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028467F5A520 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002846D6E75F0 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.686 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1686ms)
+		BeginReloadAssembly (174ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (1422ms)
+			LoadAssemblies (136ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (521ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (447ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (127ms)
+				ProcessInitializeOnLoadAttributes (286ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (27ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3038 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 212.6 MB.
+System memory in use after: 212.8 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3708.
+Total: 3.899800 ms (FindLiveObjects: 0.274100 ms CreateObjectMapping: 0.164500 ms MarkObjects: 3.438700 ms  DeleteObjects: 0.021600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1733.722334 seconds.
+  path: Assets/Team131Game/131TestScene/Scripts/GameManager.cs
+  artifactKey: Guid(ae7214e1bd3e4984ca0b07936b691b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/131TestScene/Scripts/GameManager.cs using Guid(ae7214e1bd3e4984ca0b07936b691b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '002b6255450d9b33abfc037e4f996ce7') in 0.019870 seconds 
+  Import took 0.029777 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008686 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000284935284B0 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284DF6F0670 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284984FD010 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284E4F98020 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028491B983E0 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284E5DA5A30 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028499B89010 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002846D425090 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284E27D2010 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284E671B020 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028497917F40 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028498860030 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002849A646140 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028491D06020 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028496FCC000 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ProBuilder.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284979B7E20 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284998FB020 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028496F500C0 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284DFA76020 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284DF6EF470 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284DF0D5620 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284DF3AF020 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002846D39CCE0 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002849A652310 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284933C0020 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284E32B6020 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284E2533EB0 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002849819B180 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028495394F90 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028498860030 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284DF6EF470 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284DF6F2070 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284995B47A0 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028492526E70 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028467F4BF20 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284DF0D5620 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.349 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1350ms)
+		BeginReloadAssembly (160ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (1110ms)
+			LoadAssemblies (118ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (395ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (378ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (111ms)
+				ProcessInitializeOnLoadAttributes (243ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3038 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 212.6 MB.
+System memory in use after: 212.8 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3710.
+Total: 4.634600 ms (FindLiveObjects: 0.332200 ms CreateObjectMapping: 0.209200 ms MarkObjects: 4.069700 ms  DeleteObjects: 0.022300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008346 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000284E60928C0 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284DF6F2070 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028491C5D010 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284E1A5A020 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028491B983E0 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028493862870 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284E22D4010 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002846D425090 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284971B0E20 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284E671B020 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002849558CBD0 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284E1085010 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002849A644A70 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028491D06020 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284953F8010 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ProBuilder.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284E0056020 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284998FB020 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028496F500C0 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002849314D020 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284DF6F0A70 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002849560EE50 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284E419A020 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002846D39CCE0 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002849A64AAD0 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284933C0020 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002849314D020 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002849560EE50 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284E26B3930 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028495394F90 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284E1085010 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284DF6F0A70 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284DF6F0A70 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284995B47A0 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000284E586D010 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028467F5D0D0 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002849560EE50 doesn't match image C:\Users\kalel\OneDrive\Desktop\UnityGames\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.323 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1323ms)
+		BeginReloadAssembly (136ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (1113ms)
+			LoadAssemblies (103ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (415ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (378ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (112ms)
+				ProcessInitializeOnLoadAttributes (241ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3038 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 212.6 MB.
+System memory in use after: 212.8 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3712.
+Total: 3.554400 ms (FindLiveObjects: 0.273900 ms CreateObjectMapping: 0.166100 ms MarkObjects: 3.077100 ms  DeleteObjects: 0.036500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 182.680104 seconds.
+  path: Assets/Team131Game/131TestScene/Models
+  artifactKey: Guid(9d0ea7e83152a054b96c8be5b2a18b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/131TestScene/Models using Guid(9d0ea7e83152a054b96c8be5b2a18b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32f8f26b26205cd6e633d7b3ec3d4479') in 0.015986 seconds 
+  Import took 0.025349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.204544 seconds.
+  path: Assets/Team131Game/131TestScene/Models/AssaultRifle.fbx
+  artifactKey: Guid(10dcf2756d948484eb4db24d28ce61a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/131TestScene/Models/AssaultRifle.fbx using Guid(10dcf2756d948484eb4db24d28ce61a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6003721587f0c316a98c6a8924ac795d') in 0.328129 seconds 
+  Import took 0.335489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Team131Game/131TestScene/Models/baseballbat.fbx
+  artifactKey: Guid(88cca63c1a3d15d45bec5f6a8e8bea90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/131TestScene/Models/baseballbat.fbx using Guid(88cca63c1a3d15d45bec5f6a8e8bea90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e407dce7e4b3d7f96f0b4d1d67d1bce7') in 0.044598 seconds 
+  Import took 0.051067 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Team131Game/131TestScene/Models/Gloves.fbx
+  artifactKey: Guid(a1fa957b8f0a94649b584d1df1150902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/131TestScene/Models/Gloves.fbx using Guid(a1fa957b8f0a94649b584d1df1150902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b088c7f8358b7bc0d5d39eb209200513') in 0.060103 seconds 
+  Import took 0.068041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/Team131Game/131TestScene/Models/MilitaryVehicle1.fbx
+  artifactKey: Guid(6e61ea07d4709ad40a1e604eca948d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/131TestScene/Models/MilitaryVehicle1.fbx using Guid(6e61ea07d4709ad40a1e604eca948d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72f60fa85a844443a4737aaa0f373f4a') in 0.036196 seconds 
+  Import took 0.043783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Team131Game/131TestScene/Models/MilitaryVehicle3.fbx
+  artifactKey: Guid(e4cb89fa92708ed479ce6b630bfdb52e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/131TestScene/Models/MilitaryVehicle3.fbx using Guid(e4cb89fa92708ed479ce6b630bfdb52e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f9eec957d2148856c30d1de8d3f699b') in 0.061414 seconds 
+  Import took 0.067974 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Team131Game/131TestScene/Models/Building3.fbx
+  artifactKey: Guid(06435961d92acfb4093d13de68c6b642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/131TestScene/Models/Building3.fbx using Guid(06435961d92acfb4093d13de68c6b642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b38f8f4e2b7074fb4befdea42fa1069c') in 0.066047 seconds 
+  Import took 0.072631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Team131Game/131TestScene/Models/MilitaryVehicle6.fbx
+  artifactKey: Guid(326e0e6b2e01e354ba93d01fd7a96fa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/131TestScene/Models/MilitaryVehicle6.fbx using Guid(326e0e6b2e01e354ba93d01fd7a96fa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e75a63d8441fdd8d2f40eb38cae2aa37') in 0.057441 seconds 
+  Import took 0.064427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Team131Game/131TestScene/Models/MilitaryVehicle5.fbx
+  artifactKey: Guid(61d8030ce7cb5984bbe2018281518c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/131TestScene/Models/MilitaryVehicle5.fbx using Guid(61d8030ce7cb5984bbe2018281518c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac544ba36b4f8239c3c3cabca1082f41') in 0.037275 seconds 
+  Import took 0.043664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Team131Game/131TestScene/Models/Building2.fbx
+  artifactKey: Guid(6204949a1201bfc4da55193c195485ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/131TestScene/Models/Building2.fbx using Guid(6204949a1201bfc4da55193c195485ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4f7a1d33d519b5c0ee9a7aabd0f711e') in 0.047190 seconds 
+  Import took 0.054536 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Team131Game/131TestScene/Models/Building4.fbx
+  artifactKey: Guid(0e691ee2a3bca3d49a52d6a5b2ba37d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/131TestScene/Models/Building4.fbx using Guid(0e691ee2a3bca3d49a52d6a5b2ba37d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2abf135ff3f2486981bee6b81074a21b') in 0.069208 seconds 
+  Import took 0.075314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Team131Game/131TestScene/Models/Smg.fbx
+  artifactKey: Guid(3e3b0b9b1639f13419090f2af0be0d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/131TestScene/Models/Smg.fbx using Guid(3e3b0b9b1639f13419090f2af0be0d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9a187678a980c8c2f3d86645584e701') in 0.093990 seconds 
+  Import took 0.100032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Team131Game/131TestScene/Models/Trash.fbx
+  artifactKey: Guid(a0ea9f8bb126d8c4a9f2158b369b61f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/131TestScene/Models/Trash.fbx using Guid(a0ea9f8bb126d8c4a9f2158b369b61f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83d868fe8da29c77e7bf2137ccad75c2') in 0.099932 seconds 
+  Import took 0.108025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/Team131Game/131TestScene/Models/pistol.fbx
+  artifactKey: Guid(a8ce1dc5dccfa56449125558467f0ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/131TestScene/Models/pistol.fbx using Guid(a8ce1dc5dccfa56449125558467f0ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b8895e0817ca91a59737f947f94be67') in 0.110478 seconds 
+  Import took 0.117068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Team131Game/131TestScene/Models/MilitaryVehicle4.fbx
+  artifactKey: Guid(0769b87c50ed525429b73810e56121f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/131TestScene/Models/MilitaryVehicle4.fbx using Guid(0769b87c50ed525429b73810e56121f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe357d2ee6f6ba6c81f79612f03b3e9a') in 0.066373 seconds 
+  Import took 0.072315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Team131Game/131TestScene/Models/Building1.fbx
+  artifactKey: Guid(ec86467b76990b84a97afd71791e56d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/131TestScene/Models/Building1.fbx using Guid(ec86467b76990b84a97afd71791e56d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4484a53311a72155eabd2255c45e976b') in 0.044394 seconds 
+  Import took 0.051826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Team131Game/131TestScene/Models/Building5.fbx
+  artifactKey: Guid(aa258ddadee82634a9067bfb838f9058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/131TestScene/Models/Building5.fbx using Guid(aa258ddadee82634a9067bfb838f9058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d3e0b12563138e960428a43c26ac0f8') in 0.049486 seconds 
+  Import took 0.057404 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.829465 seconds.
+  path: Assets/Team131Game/131TestScene/Models/Textures
+  artifactKey: Guid(84b7024f4b8943c40af3199133d95dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/131TestScene/Models/Textures using Guid(84b7024f4b8943c40af3199133d95dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac2ec750404bd4f08c3c70726eec73d2') in 0.010525 seconds 
+  Import took 0.019639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.210048 seconds.
+  path: Assets/Team131Game/131TestScene/Models/Textures/11111.PNG
+  artifactKey: Guid(f2e6782e5219afa4b9d017e2efef87fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/131TestScene/Models/Textures/11111.PNG using Guid(f2e6782e5219afa4b9d017e2efef87fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f983d3c3eab3ff54c31d1841800579b0') in 0.023081 seconds 
+  Import took 0.029447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Team131Game/131TestScene/Models/Textures/M_Pistol.jpg
+  artifactKey: Guid(60d55ba7ec008d841ab0de7bb02ec0ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/131TestScene/Models/Textures/M_Pistol.jpg using Guid(60d55ba7ec008d841ab0de7bb02ec0ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ee1f2bf986fd66f675bb3d4e4ffbbbe') in 0.017504 seconds 
+  Import took 0.024157 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Team131Game/131TestScene/Models/Textures/M_Building2.jpg
+  artifactKey: Guid(5bcf49c8df530f442af370092f9b36b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/131TestScene/Models/Textures/M_Building2.jpg using Guid(5bcf49c8df530f442af370092f9b36b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2735401618475eb9b65b00f0af827a43') in 0.020441 seconds 
+  Import took 0.028471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Team131Game/131TestScene/Models/Textures/M_Building1.jpg
+  artifactKey: Guid(89c08da8ac37a7f47b2512b4259b8f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/131TestScene/Models/Textures/M_Building1.jpg using Guid(89c08da8ac37a7f47b2512b4259b8f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49b881b81f1c7cb46d0d6ec969526a47') in 0.017533 seconds 
+  Import took 0.026417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Team131Game/131TestScene/Models/Textures/M_MilitaryVehicle1.jpg
+  artifactKey: Guid(bf3c4992aa7d85147b0cb44c1108e1c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/131TestScene/Models/Textures/M_MilitaryVehicle1.jpg using Guid(bf3c4992aa7d85147b0cb44c1108e1c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7faa42931f5849195f77236f521c7113') in 0.017760 seconds 
+  Import took 0.025673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Team131Game/131TestScene/Models/Textures/M_Gloves.jpg
+  artifactKey: Guid(b219b52fb62e2df45b739b2018ee43ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/131TestScene/Models/Textures/M_Gloves.jpg using Guid(b219b52fb62e2df45b739b2018ee43ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '283192d113f1e37784dddacf28665886') in 0.019515 seconds 
+  Import took 0.028465 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Team131Game/131TestScene/Models/Textures/M_AssaultRifle.jpg
+  artifactKey: Guid(dd06eda2950c2fb45b3d1ef097166555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/131TestScene/Models/Textures/M_AssaultRifle.jpg using Guid(dd06eda2950c2fb45b3d1ef097166555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c58a1c850b45233af8a2e85a4afcf35') in 0.019001 seconds 
+  Import took 0.026965 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/Team131Game/131TestScene/Models/Textures/M_MilitaryVehicle4.jpg
+  artifactKey: Guid(e02af18e55ab02947b5e6c4de1743b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/131TestScene/Models/Textures/M_MilitaryVehicle4.jpg using Guid(e02af18e55ab02947b5e6c4de1743b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98001f7ca0314fe5a215b88ce04b97e7') in 0.018155 seconds 
+  Import took 0.025799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Team131Game/131TestScene/Models/Textures/M_BaseballBat.jpg
+  artifactKey: Guid(1566aea0fcdbb294686881bd01e07406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/131TestScene/Models/Textures/M_BaseballBat.jpg using Guid(1566aea0fcdbb294686881bd01e07406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '203558a81912b0b4666ce6c68e008730') in 0.014743 seconds 
+  Import took 0.023195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Team131Game/131TestScene/Models/Textures/M_StreetLamp.jpg
+  artifactKey: Guid(f149da7a4d7e6874c853507f87992e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/131TestScene/Models/Textures/M_StreetLamp.jpg using Guid(f149da7a4d7e6874c853507f87992e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f70e8ac35b9ac1e32710451f94a60fc5') in 0.017178 seconds 
+  Import took 0.025011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Team131Game/131TestScene/Models/Textures/M_MuzzleFlash.jpg
+  artifactKey: Guid(59471f2f48fc6bc4684232697449c13a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/131TestScene/Models/Textures/M_MuzzleFlash.jpg using Guid(59471f2f48fc6bc4684232697449c13a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00b6a957141de47b94f686606c7694dd') in 0.018669 seconds 
+  Import took 0.028767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Team131Game/131TestScene/Models/Textures/M_Building5.jpg
+  artifactKey: Guid(aed4ccb49bc252b4dac94edb3f072f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/131TestScene/Models/Textures/M_Building5.jpg using Guid(aed4ccb49bc252b4dac94edb3f072f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeed761c99e97a60cf90f11a82443e8d') in 0.019290 seconds 
+  Import took 0.026840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Team131Game/131TestScene/Models/Textures/M_Trash.jpg
+  artifactKey: Guid(53e6542f7d8ad6b4c88fc1f75ab02450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/131TestScene/Models/Textures/M_Trash.jpg using Guid(53e6542f7d8ad6b4c88fc1f75ab02450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '584bbf465c9fb0a605d086cbc5ea258f') in 0.015686 seconds 
+  Import took 0.024439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Team131Game/131TestScene/Models/Textures/M_Building4.jpg
+  artifactKey: Guid(cfdbcb839c29a5444a674ca17913866a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/131TestScene/Models/Textures/M_Building4.jpg using Guid(cfdbcb839c29a5444a674ca17913866a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e08c5b29c2ce6e578c0c5bf1ca1dd1b') in 0.018433 seconds 
+  Import took 0.028075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Team131Game/131TestScene/Models/Textures/M_Smg.jpg
+  artifactKey: Guid(0f35cec6a78ce1e4b94aece9bda4a11e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/131TestScene/Models/Textures/M_Smg.jpg using Guid(0f35cec6a78ce1e4b94aece9bda4a11e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '598ece40f110bde63b25e4cc3b6de107') in 0.016729 seconds 
+  Import took 0.025311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Team131Game/131TestScene/Models/Textures/M_MihitaryVehicle5.jpg
+  artifactKey: Guid(889138c13d91e41439d534e150981c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/131TestScene/Models/Textures/M_MihitaryVehicle5.jpg using Guid(889138c13d91e41439d534e150981c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8564bb095c79f0a99630fde319872a58') in 0.017428 seconds 
+  Import took 0.025950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Team131Game/131TestScene/Models/Textures/M_Building3.jpg
+  artifactKey: Guid(fdb68675b98e82d428fa47b94d4d9270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/131TestScene/Models/Textures/M_Building3.jpg using Guid(fdb68675b98e82d428fa47b94d4d9270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5578a8a3f260a0af8c9935abfb277572') in 0.023154 seconds 
+  Import took 0.030882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Team131Game/131TestScene/Models/Textures/M_MilitaryVehicle3.jpg
+  artifactKey: Guid(299c8a4cf160e1d43b684dab9d720a89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/131TestScene/Models/Textures/M_MilitaryVehicle3.jpg using Guid(299c8a4cf160e1d43b684dab9d720a89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6864749c4ef6809aca91af985fc3d9a9') in 0.019188 seconds 
+  Import took 0.027028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.610581 seconds.
+  path: Assets/Team131Game/131TestScene/Models/Materials
+  artifactKey: Guid(9035d1614de6b3f4495678ee806d3c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/131TestScene/Models/Materials using Guid(9035d1614de6b3f4495678ee806d3c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1511fa10481d4c88c75b8bbc74c22766') in 0.009719 seconds 
+  Import took 0.017976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.135175 seconds.
+  path: Assets/Team131Game/131TestScene/Models/Materials/M_AssaultRifle.mat
+  artifactKey: Guid(3a8e1390844a7b5458c452b2ff659a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/131TestScene/Models/Materials/M_AssaultRifle.mat using Guid(3a8e1390844a7b5458c452b2ff659a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4197ddfe756debcdbc3cd823ca764b6d') in 0.017205 seconds 
+  Import took 0.024537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Team131Game/131TestScene/Models/Materials/M_Military vehicle1.mat
+  artifactKey: Guid(38c8b797a54c0eb40a322d638566058e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/131TestScene/Models/Materials/M_Military vehicle1.mat using Guid(38c8b797a54c0eb40a322d638566058e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ed21b14abf9befecd8958646657cc33') in 0.021223 seconds 
+  Import took 0.027881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Team131Game/131TestScene/Models/Materials/M_MilitaryVehicle3.mat
+  artifactKey: Guid(3ae7b470f16ae0f4eb61f726de9caa32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/131TestScene/Models/Materials/M_MilitaryVehicle3.mat using Guid(3ae7b470f16ae0f4eb61f726de9caa32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfbccd848929dde5e7fe9f22ac0ed63b') in 0.019577 seconds 
+  Import took 0.028275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Team131Game/131TestScene/Models/Materials/M_Building2.mat
+  artifactKey: Guid(895dadbdd404a594fb4335b0a7c4a50f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/131TestScene/Models/Materials/M_Building2.mat using Guid(895dadbdd404a594fb4335b0a7c4a50f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb1e45f40956bf21e6a40b7a760cacb4') in 0.025496 seconds 
+  Import took 0.032701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000476 seconds.
+  path: Assets/Team131Game/131TestScene/Models/Materials/M_MuzzleFlash.mat
+  artifactKey: Guid(1000b65f19331ff4591398a3cf6b5c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/131TestScene/Models/Materials/M_MuzzleFlash.mat using Guid(1000b65f19331ff4591398a3cf6b5c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c10c23e14b48c7125b9f8666e7bb4f6') in 0.020551 seconds 
+  Import took 0.028791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Team131Game/131TestScene/Models/Materials/M_Pistol.mat
+  artifactKey: Guid(3000263acbf3c2148ba6204eb117c36c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/131TestScene/Models/Materials/M_Pistol.mat using Guid(3000263acbf3c2148ba6204eb117c36c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3945404b2f70f352f95feeafcd8a7d9') in 0.018070 seconds 
+  Import took 0.026722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Team131Game/131TestScene/Models/Materials/M_Smg.mat
+  artifactKey: Guid(4b4293cb24350e1428413f81bd1139aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/131TestScene/Models/Materials/M_Smg.mat using Guid(4b4293cb24350e1428413f81bd1139aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6c5f48d24747485c938f131c1176da0') in 0.020671 seconds 
+  Import took 0.029454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Team131Game/131TestScene/Models/Materials/M_Building5.mat
+  artifactKey: Guid(52094b4d8c44a9e46be8b72fa3b4893e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/131TestScene/Models/Materials/M_Building5.mat using Guid(52094b4d8c44a9e46be8b72fa3b4893e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91533d2ca99466dae88468837256eccf') in 0.023094 seconds 
+  Import took 0.031261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/Team131Game/131TestScene/Models/Materials/M_MilitaryVehicle4.mat
+  artifactKey: Guid(823349a8185bceb4ea0c482a08f2632e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/131TestScene/Models/Materials/M_MilitaryVehicle4.mat using Guid(823349a8185bceb4ea0c482a08f2632e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f48fbf4eddf64d869e1e37242203856') in 0.025481 seconds 
+  Import took 0.033923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Team131Game/131TestScene/Models/Materials/M_Trash.mat
+  artifactKey: Guid(e88eafe0838a9024fa3c4ed8694c5906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/131TestScene/Models/Materials/M_Trash.mat using Guid(e88eafe0838a9024fa3c4ed8694c5906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef0927c10c5b5a0827eb49cc6dcbd4e7') in 0.021122 seconds 
+  Import took 0.029316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Team131Game/131TestScene/Models/Materials/MilitaryVehicle2.mat
+  artifactKey: Guid(67a9f67b9d0b7e148b3088d86e83b95c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/131TestScene/Models/Materials/MilitaryVehicle2.mat using Guid(67a9f67b9d0b7e148b3088d86e83b95c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13b92f6258e1c46e256a69eba72f796f') in 0.029775 seconds 
+  Import took 0.040019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Team131Game/131TestScene/Models/Materials/M_Building4.mat
+  artifactKey: Guid(70fd9de06d2e21b4d968d639c31b086c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/131TestScene/Models/Materials/M_Building4.mat using Guid(70fd9de06d2e21b4d968d639c31b086c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85325a6571c79a99826d946d0b51596e') in 0.020238 seconds 
+  Import took 0.028940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Team131Game/131TestScene/Models/Materials/M_StreetLamps.mat
+  artifactKey: Guid(6392303eed595ff458ba2121701932a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/131TestScene/Models/Materials/M_StreetLamps.mat using Guid(6392303eed595ff458ba2121701932a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '465d6d0bd1584d4eb2e17a9d91c80a17') in 0.022912 seconds 
+  Import took 0.030597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Team131Game/131TestScene/Models/Materials/M_MilitaryVehicle5.mat
+  artifactKey: Guid(660f2f17fc5ab884eb72816e0eb1c214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/131TestScene/Models/Materials/M_MilitaryVehicle5.mat using Guid(660f2f17fc5ab884eb72816e0eb1c214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0091c98f4fc8fb540e9091b8fd94f41') in 0.022530 seconds 
+  Import took 0.030721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Team131Game/131TestScene/Models/Materials/MilitaryVehicle6.mat
+  artifactKey: Guid(ae0558b155a74da4e90a9c4f06648333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/131TestScene/Models/Materials/MilitaryVehicle6.mat using Guid(ae0558b155a74da4e90a9c4f06648333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb89f273b5f2b06b8a6ec77ade7c9813') in 0.023672 seconds 
+  Import took 0.033047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000452 seconds.
+  path: Assets/Team131Game/131TestScene/Models/Materials/M_BaseballBat.mat
+  artifactKey: Guid(f56238cb451b1f2449a53c61c7dba6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/131TestScene/Models/Materials/M_BaseballBat.mat using Guid(f56238cb451b1f2449a53c61c7dba6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51b610d79f797b340aa7bc5cc6bb206d') in 0.018900 seconds 
+  Import took 0.028625 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Team131Game/131TestScene/Models/Materials/M_Building3.mat
+  artifactKey: Guid(b9cee71699abffb49805db3a3ae0e1b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/131TestScene/Models/Materials/M_Building3.mat using Guid(b9cee71699abffb49805db3a3ae0e1b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e13daa1b0e60b6bd6d00195835da40eb') in 0.018629 seconds 
+  Import took 0.026883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Team131Game/131TestScene/Models/Materials/M_Gloves.mat
+  artifactKey: Guid(72d392229d01db34d9147b150b484d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/131TestScene/Models/Materials/M_Gloves.mat using Guid(72d392229d01db34d9147b150b484d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48c312fa0d23e4ee18e62f652a740797') in 0.019565 seconds 
+  Import took 0.028702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Team131Game/131TestScene/Models/Materials/M_Building1.mat
+  artifactKey: Guid(ad63c4c49bdeb6d4484d8266cecde9bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/131TestScene/Models/Materials/M_Building1.mat using Guid(ad63c4c49bdeb6d4484d8266cecde9bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc7e90b09c56781764023ebc7dab004f') in 0.020628 seconds 
+  Import took 0.028823 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.467884 seconds.
+  path: Assets/Team131Game/131TestScene/Models/Yol denemsi!!!
+  artifactKey: Guid(8ce7a88875261fe4290f765e6eda7674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/131TestScene/Models/Yol denemsi!!! using Guid(8ce7a88875261fe4290f765e6eda7674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a17c89b493ca8c6185c254b644bf100') in 0.009411 seconds 
+  Import took 0.017896 seconds .
+
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
