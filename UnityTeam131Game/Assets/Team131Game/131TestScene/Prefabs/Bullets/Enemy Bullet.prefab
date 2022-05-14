@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 7923731047107477998}
   - component: {fileID: 7923731047107477999}
   - component: {fileID: 5716231960706458432}
-  m_Layer: 7
+  m_Layer: 9
   m_Name: Enemy Bullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31,7 +31,7 @@ Transform:
   m_GameObject: {fileID: 7923731047107477988}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.142, y: -0.21, z: 1.198}
-  m_LocalScale: {x: 0.02, y: 0.02, z: 0.05}
+  m_LocalScale: {x: 0.02, y: 0.02, z: 2}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -110,8 +110,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1569693853c3cb74ba0705871df7a11e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 20
-  lifeTime: 4
+  moveSpeed: 85
+  lifeTime: 20
   rb: {fileID: 7923731047107477999}
   bulletEffect: {fileID: 3323038287580990422, guid: bb80bb8b411c5fe41baa06f72c7c8e93, type: 3}
   damage: 3
