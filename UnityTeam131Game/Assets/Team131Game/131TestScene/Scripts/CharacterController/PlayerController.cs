@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    public static PlayerController instance;
+
     public float moveSpeed, gravityMod, jumpPower;
     public CharacterController chController;
 
@@ -14,6 +16,9 @@ public class PlayerController : MonoBehaviour
     public GameObject bullet;
     public Transform firePoint;
 
+    //public GameObject impactEffect;
+    //public float range = 100f;
+
     public Animator anim;
 
     public Transform cameraTrans;
@@ -21,19 +26,23 @@ public class PlayerController : MonoBehaviour
 
     public float mouseSens;
     public bool invertX, invertY;
-    
-    void Start()
+
+    private void Awake()
     {
-        
+        instance = this;
     }
 
-    
+    void Start()
+    {
+
+    }
+
+
     void Update()
     {
         //movement
 
-        //moveInput.x = Input.GetAxis("Horizontal") * moveSpeed * Time.deltaTime;
-        //moveInput.z = Input.GetAxis("Vertical") * moveSpeed * Time.deltaTime;
+        if (!PlayerController.instance.gameObject.activeInHierarchy) return;
 
         float yStore = moveInput.y;
 
@@ -68,7 +77,9 @@ public class PlayerController : MonoBehaviour
         //shooting
         if (Input.GetMouseButtonDown(0))
         {
-            RaycastHit hit;
+            if (Input.GetMouseButtonDown(0))
+            {
+                RaycastHit hit;
             if (Physics.Raycast(cameraTrans.position, cameraTrans.forward, out hit, 50f))
             {
                 if (Vector3.Distance(cameraTrans.position, hit.point) > 2f)
@@ -82,26 +93,41 @@ public class PlayerController : MonoBehaviour
             }
 
             Instantiate(bullet, firePoint.position, firePoint.rotation);
+            }
+
+                /*Instantiate(bullet, firePoint.position, firePoint.rotation);
+                RaycastHit hit;
+                if (Physics.Raycast(cameraTrans.position, cameraTrans.forward, out hit, range))
+                {
+                    Instantiate(impactEffect, hit.point, Quaternion.LookRotation(hit.normal));
+                    firePoint.LookAt(hit.point);
+                }
+                else
+                {
+                    // mermi bir yere çarpmazsa
+                    firePoint.LookAt(cameraTrans.position + (cameraTrans.forward * range));
+                }
+            }*/
         }
 
-        //camera
-        Vector2 mouseInput = new Vector2(Input.GetAxisRaw("Mouse X"), Input.GetAxisRaw("Mouse Y")) * mouseSens;
+            //camera
+            Vector2 mouseInput = new Vector2(Input.GetAxisRaw("Mouse X"), Input.GetAxisRaw("Mouse Y")) * mouseSens;
 
-        if (invertX)
-        {
-            mouseInput.x = -mouseInput.x;
+            if (invertX)
+            {
+                mouseInput.x = -mouseInput.x;
+            }
+            if (invertY)
+            {
+                mouseInput.y = -mouseInput.y;
+            }
+
+            transform.rotation = Quaternion.Euler(transform.rotation.eulerAngles.x, transform.rotation.eulerAngles.y + mouseInput.x, transform.rotation.eulerAngles.z);
+            cameraTrans.rotation = Quaternion.Euler(cameraTrans.rotation.eulerAngles + new Vector3(-mouseInput.y, 0f, 0f));
+
+            // magnitude = oyuncunun ne kadar mesafe kat ettiði
+            anim.SetFloat("moveSpeed", moveInput.magnitude);
+            anim.SetBool("onGround", canJump);
+
         }
-        if (invertY)
-        {
-            mouseInput.y = -mouseInput.y;
-        }
-
-        transform.rotation = Quaternion.Euler(transform.rotation.eulerAngles.x, transform.rotation.eulerAngles.y + mouseInput.x, transform.rotation.eulerAngles.z);
-        cameraTrans.rotation = Quaternion.Euler(cameraTrans.rotation.eulerAngles + new Vector3(-mouseInput.y, 0f, 0f));
-
-        // magnitude = oyuncunun ne kadar mesafe kat ettiði
-        anim.SetFloat("moveSpeed", moveInput.magnitude);
-        anim.SetBool("onGround", canJump);
-
     }
-}

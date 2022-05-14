@@ -30,7 +30,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7923731047107477988}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 29.363, y: 1.773, z: 161.487}
+  m_LocalPosition: {x: 0.142, y: -0.21, z: 1.198}
   m_LocalScale: {x: 0.02, y: 0.02, z: 0.05}
   m_Children: []
   m_Father: {fileID: 0}
@@ -96,8 +96,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.3478279, y: 1.4350951, z: 2.159546}
-  m_Center: {x: -0.040102005, y: 0.038918853, z: 0.57977295}
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &7923731047107477998
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -114,6 +114,9 @@ MonoBehaviour:
   lifeTime: 4
   rb: {fileID: 7923731047107477999}
   bulletEffect: {fileID: 3323038287580990422, guid: bb80bb8b411c5fe41baa06f72c7c8e93, type: 3}
+  damage: 3
+  damageEnemy: 1
+  damagePlayer: 0
 --- !u!54 &7923731047107477999
 Rigidbody:
   m_ObjectHideFlags: 0
