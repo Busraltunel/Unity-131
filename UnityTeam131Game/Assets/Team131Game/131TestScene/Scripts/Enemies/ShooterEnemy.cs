@@ -94,8 +94,22 @@ public class ShooterEnemy : MonoBehaviour
                     {
                         fireCount = fireRate;
 
-                        // new copy of the bullets
-                        Instantiate(bullet, firePoint.position, firePoint.rotation);
+                        // enemy player objesinin dýþýndaki bir açýda ateþ etmeyecek ve player objesinin biraz üstüne ateþ edecek
+                        firePoint.LookAt(PlayerController.instance.transform.position + new Vector3(0f, 0.5f, 0f));
+                        // playerýn açýlarýný kontrol etme (enemy 1,1 pozisyonunda olduðunu varsayalým playerýmýz da 3,2 pozisyonunda olsun. enemynin playera ulaþmasý için (3-1),(2-1) konumunda gitmesi lazým)
+                        Vector3 targetDir = PlayerController.instance.transform.position - transform.position;
+                        float angle = Vector3.SignedAngle(targetDir, transform.forward, Vector3.up);
+
+                        if (Mathf.Abs(angle) < 30f)
+                        {
+                            // yeni mermi kopyalarý
+                            Instantiate(bullet, firePoint.position, firePoint.rotation);
+                        }
+                        else
+                        {
+                            shotWaitCounter = waitBetweenShots;
+                        }
+
                     }
                     agent.destination = transform.position;
                 }
