@@ -21,6 +21,8 @@ public class ShooterEnemy : MonoBehaviour
     public float fireRate, waitBetweenShots = 2f, timeToShoot = 1f;
     private float fireCount, shotWaitCounter, shootTimeCounter;
 
+    public Animator anim;
+
     void Start()
     {
         startPoint = transform.position;
@@ -54,6 +56,16 @@ public class ShooterEnemy : MonoBehaviour
                     agent.destination = startPoint;
                 }
             }
+
+
+            if(agent.remainingDistance < .25f) 
+            {
+                anim.SetBool("isMoving", false);
+            }
+            else 
+            {
+                anim.SetBool("isMoving", true);
+            }
         }
         else
         {
@@ -82,6 +94,8 @@ public class ShooterEnemy : MonoBehaviour
                 {
                     shootTimeCounter = timeToShoot;
                 }
+
+                anim.SetBool("isMoving", true);
             }
             else
             {
@@ -104,10 +118,13 @@ public class ShooterEnemy : MonoBehaviour
                         {
                             // yeni mermi kopyalarý
                             Instantiate(bullet, firePoint.position, firePoint.rotation);
+                            anim.SetTrigger("fireShot");
                         }
                         else
                         {
                             shotWaitCounter = waitBetweenShots;
+
+                            
                         }
 
                     }
@@ -117,6 +134,9 @@ public class ShooterEnemy : MonoBehaviour
                 {
                     shotWaitCounter = waitBetweenShots;
                 }
+
+
+                anim.SetBool("isMoving", false);
             }
         }
     }
