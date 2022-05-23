@@ -65,7 +65,9 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board, Kanban Bo
 ![Screenshot 4](https://user-images.githubusercontent.com/77441088/167476462-5772a8f3-71b2-4de6-bce1-6bcb4acf3861.png)
 ![Screenshot 5](https://user-images.githubusercontent.com/77441088/167476663-e5310043-8937-4cbe-af1f-8bceb9934750.png)
 ![Screenshot 6](https://user-images.githubusercontent.com/77441088/167477039-9ff36e8c-5261-4c4c-975f-717462d51306.png)
-
+![screenshot 7](https://user-images.githubusercontent.com/77441088/169898161-cf6eab07-eb68-4b46-bae5-c2def89cd924.png)
+![screenshot 8](https://user-images.githubusercontent.com/77441088/169898303-2d97ef9b-b733-439f-a7ae-ef0583790eb5.png)
+![screenshot 9](https://user-images.githubusercontent.com/77441088/169898562-238328b2-c026-4978-8e24-fdf5fde173b7.png)
 
 
 
