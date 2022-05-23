@@ -91,7 +91,7 @@ Alınan kararlar: Daily Scrum'ların Discord kanalı üzerinde günlük olarak n
  - **Backlog düzeni ve Story seçimleri**: Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir. Sprint başına tahmin edilen puan sayısını geçmeyecek şekilde sıradan seçimler yapılmaktadır. Story başına çıkan tahmin puanı, toplam puanın yarısından az tutulmuştur. 
 - [Miro Backlog Board] https://miro.com/app/board/uXjVO6Xaf2U=/?share_link_id=547147949325
 - **Sprint Review**: 
-Alınan kararlar: Oyunda ileriki seviyede nükleer santarlin içerisine girmeyi planlıyorduk fakat kısıtlı zaman sebebiyle bunu iptal ettik. Sprint Review katılımcıları: Tüm Ekip
+Alınan kararlar: Oyunda komple bir nükleer santral tesisi yapmayı planlıyorduk fakat kısıtlı zaman sebebiyle komple tesis yerine sadece çekirdek odasını hazırlamaya karar verdik. Sprint Review katılımcıları: Tüm Ekip
 
 - **Ürün Durumu**: Ekran görüntüleri:
 - (UI için kullanılan arkaplanlar tamamen temsilidir.)
