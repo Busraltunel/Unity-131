@@ -41,6 +41,11 @@ public class PlayerHealthController : MonoBehaviour
             if (currentHealth <= 0)
             {
                 gameObject.SetActive(false);
+
+                //canýn -deðerlere düþmemesi için
+                currentHealth = 0;
+
+                GameManager.instance.PlayerDeath();
             }
 
         UIController.instance.healthSlider.value = currentHealth;
