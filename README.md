@@ -73,7 +73,7 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board, Kanban Bo
 
 
 - **Sprint Review**: 
-Alınan kararlar: Daily Scrum'ların Discord kanalı üzerinde günlük olarak not alınmasına karar verildi. Sprint Review katılımcıları: Tüm Ekip
+  - Alınan kararlar: Daily Scrum'ların Discord kanalı üzerinde günlük olarak not alınmasına karar verildi. Sprint Review katılımcıları: Tüm Ekip
 
 - **Sprint Retrospective:**
   - Ekip içi iletişim gayet olmasına rağmen, bayram döneminde kopukluklar yaşandı. Bu sürecin tekrarlanmaması için iletişim kuramayacak kişinin bir gün öncesinden haber vermesi gerektiğine karar verildi.
