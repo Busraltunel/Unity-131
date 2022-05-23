@@ -45,7 +45,8 @@ public class Bullets : MonoBehaviour
 
         if (other.gameObject.tag == "Player" && damagePlayer)
         {
-            Debug.Log("Player vuruldu" + transform.position);
+            //Debug.Log("Player vuruldu" + transform.position);
+            PlayerHealthController.instance.DamagePlayer(damage);
         }
 
         Destroy(gameObject);
