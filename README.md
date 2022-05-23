@@ -94,6 +94,7 @@ Alınan kararlar: Daily Scrum'ların Discord kanalı üzerinde günlük olarak n
 Alınan kararlar: Oyunda ileriki seviyede nükleer santarlin içerisine girmeyi planlıyorduk fakat kısıtlı zaman sebebiyle bunu iptal ettik. Sprint Review katılımcıları: Tüm Ekip
 
 - **Ürün Durumu**: Ekran görüntüleri:
+(UI için kullanılan arkaplanlar tamamen temsilidir.)
 ![Screenshot 1](https://user-images.githubusercontent.com/77441088/169896705-33ee4144-4f08-4609-bae1-b7e06256eb4e.PNG)
 ![Screenshot 2](https://user-images.githubusercontent.com/77441088/169896846-f65df624-026d-4dfb-a908-97e1666dfffd.PNG)
 ![Screenshot 3 ](https://user-images.githubusercontent.com/77441088/169897032-a837c1ad-1db1-411c-916e-1ed4fbf5aca8.PNG)
