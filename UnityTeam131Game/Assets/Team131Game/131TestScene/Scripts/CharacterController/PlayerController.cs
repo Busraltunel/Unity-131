@@ -80,6 +80,7 @@ public class PlayerController : MonoBehaviour
             if (Input.GetMouseButtonDown(0))
             {
                 RaycastHit hit;
+                
             if (Physics.Raycast(cameraTrans.position, cameraTrans.forward, out hit, 50f))
             {
                 if (Vector3.Distance(cameraTrans.position, hit.point) > 2f)
