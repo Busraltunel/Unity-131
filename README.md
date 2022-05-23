@@ -89,7 +89,7 @@ Alınan kararlar: Daily Scrum'ların Discord kanalı üzerinde günlük olarak n
 -  **Sprint içinde tamamlanması tahmin edilen puan**: 300 Puan
 -**Daily Scrum**: Daily Scrum'lar her sabah saat 10:00'da Discord ses kanalı üzerinden yapılmıştır. Toplantı her gün 15 dakika sürmüştür ve yazılı notlar alınmıştır. (https://docs.google.com/document/d/1mUiu3xGYhnwxKHJmuSQ7UNpPPEyla-0QSfATdQ3ZcAU/edit?usp=sharing)
  - **Backlog düzeni ve Story seçimleri**: Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir. Sprint başına tahmin edilen puan sayısını geçmeyecek şekilde sıradan seçimler yapılmaktadır. Story başına çıkan tahmin puanı, toplam puanın yarısından az tutulmuştur. 
----[Miro Backlog Board] https://miro.com/app/board/uXjVO6Xaf2U=/?share_link_id=547147949325
+- [Miro Backlog Board] https://miro.com/app/board/uXjVO6Xaf2U=/?share_link_id=547147949325
 - **Sprint Review**: 
 Alınan kararlar: Oyunda ileriki seviyede nükleer santarlin içerisine girmeyi planlıyorduk fakat kısıtlı zaman sebebiyle bunu iptal ettik. Sprint Review katılımcıları: Tüm Ekip
 
