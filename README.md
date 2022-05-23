@@ -48,7 +48,7 @@ ve Empties'lerin temizlenmesine odaklanan birinci şahıs nişancı türünde bi
 
 - **Sprint içinde tamamlanması tahmin edilen puan**: 350 Puan
 
-- **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 1500 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde ilk sprint'in en azından 300 ile başlaması gerektiğine karar verildi.
+- **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 1000 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde ilk sprint'in en azından 300 ile başlaması gerektiğine karar verildi.
 
 - **Backlog düzeni ve Story seçimleri**: Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir. Sprint başına tahmin edilen puan sayısını geçmeyecek şekilde sıradan seçimler yapılmaktadır. Story başına çıkan tahmin puanı, toplam puanın yarısından az tutulmuştur. 
 
@@ -73,7 +73,7 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board, Kanban Bo
 
 
 - **Sprint Review**: 
-Alınan kararlar: Daily Scrum'ların Discord kanalı üzerinde günlük olarak not alınmasına karar verildi.      Sprint Review katılımcıları: Tüm Ekip
+Alınan kararlar: Daily Scrum'ların Discord kanalı üzerinde günlük olarak not alınmasına karar verildi. Sprint Review katılımcıları: Tüm Ekip
 
 - **Sprint Retrospective:**
   - Ekip içi iletişim gayet olmasına rağmen, bayram döneminde kopukluklar yaşandı. Bu sürecin tekrarlanmaması için iletişim kuramayacak kişinin bir gün öncesinden haber vermesi gerektiğine karar verildi.
@@ -88,8 +88,14 @@ Alınan kararlar: Daily Scrum'ların Discord kanalı üzerinde günlük olarak n
 
 # Sprint 2
 
+ **Sprint içinde tamamlanması tahmin edilen puan**: 300 Puan
+  **Daily Scrum**: Daily Scrum'lar her sabah saat 10:00'da Discord ses kanalı üzerinden yapılmıştır. Toplantı her gün 15 dakika sürmüştür ve yazılı notlar alınmıştır. (https://docs.google.com/document/d/1mUiu3xGYhnwxKHJmuSQ7UNpPPEyla-0QSfATdQ3ZcAU/edit?usp=sharing)
+  **Backlog düzeni ve Story seçimleri**: Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir. Sprint başına tahmin edilen puan sayısını geçmeyecek şekilde sıradan seçimler yapılmaktadır. Story başına çıkan tahmin puanı, toplam puanın yarısından az tutulmuştur. 
+---[Miro Backlog Board] https://miro.com/app/board/uXjVO6Xaf2U=/?share_link_id=547147949325
+- **Sprint Review**: 
+Alınan kararlar: Oyunda ileriki seviyede nükleer santarlin içerisine girmeyi planlıyorduk fakat kısıtlı zaman sebebiyle bunu iptal ettik. Sprint Review katılımcıları: Tüm Ekip
 
----
+- **Ürün Durumu**: Ekran görüntüleri:
 
 # Sprint 3
 
