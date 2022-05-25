@@ -27,6 +27,8 @@ public class PlayerController : MonoBehaviour
     public float mouseSens;
     public bool invertX, invertY;
 
+    public Weapon activeWeapon;
+
     private void Awake()
     {
         instance = this;
@@ -34,7 +36,7 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
-
+        UIController.instance.ammoText.text = "AMMO: " + activeWeapon.currentAmmo;
     }
 
 
@@ -74,13 +76,30 @@ public class PlayerController : MonoBehaviour
 
         chController.Move(moveInput * Time.deltaTime);
 
-        //shooting
+        //camera
+        Vector2 mouseInput = new Vector2(Input.GetAxisRaw("Mouse X"), Input.GetAxisRaw("Mouse Y")) * mouseSens;
+
+        if (invertX)
+        {
+            mouseInput.x = -mouseInput.x;
+        }
+        if (invertY)
+        {
+            mouseInput.y = -mouseInput.y;
+        }
+
+        transform.rotation = Quaternion.Euler(transform.rotation.eulerAngles.x, transform.rotation.eulerAngles.y + mouseInput.x, transform.rotation.eulerAngles.z);
+        cameraTrans.rotation = Quaternion.Euler(cameraTrans.rotation.eulerAngles + new Vector3(-mouseInput.y, 0f, 0f));
+
+
+        //SHOOTING
+
+        // for single shots
         if (Input.GetMouseButtonDown(0))
         {
-            if (Input.GetMouseButtonDown(0))
-            {
-                RaycastHit hit;
-                
+
+            RaycastHit hit;
+
             if (Physics.Raycast(cameraTrans.position, cameraTrans.forward, out hit, 50f))
             {
                 if (Vector3.Distance(cameraTrans.position, hit.point) > 2f)
@@ -93,42 +112,52 @@ public class PlayerController : MonoBehaviour
                 firePoint.LookAt(cameraTrans.position + (cameraTrans.forward * 30f));
             }
 
-            Instantiate(bullet, firePoint.position, firePoint.rotation);
-            }
+            //Instantiate(bullet, firePoint.position, firePoint.rotation);
+            FireShot();
 
-                /*Instantiate(bullet, firePoint.position, firePoint.rotation);
-                RaycastHit hit;
-                if (Physics.Raycast(cameraTrans.position, cameraTrans.forward, out hit, range))
-                {
-                    Instantiate(impactEffect, hit.point, Quaternion.LookRotation(hit.normal));
-                    firePoint.LookAt(hit.point);
-                }
-                else
-                {
-                    // mermi bir yere çarpmazsa
-                    firePoint.LookAt(cameraTrans.position + (cameraTrans.forward * range));
-                }
-            }*/
+
+            /*Instantiate(bullet, firePoint.position, firePoint.rotation);
+            RaycastHit hit;
+            if (Physics.Raycast(cameraTrans.position, cameraTrans.forward, out hit, range))
+            {
+                Instantiate(impactEffect, hit.point, Quaternion.LookRotation(hit.normal));
+                firePoint.LookAt(hit.point);
+            }
+            else
+            {
+                // mermi bir yere çarpmazsa
+                firePoint.LookAt(cameraTrans.position + (cameraTrans.forward * range));
+            }
+        }*/
         }
 
-            //camera
-            Vector2 mouseInput = new Vector2(Input.GetAxisRaw("Mouse X"), Input.GetAxisRaw("Mouse Y")) * mouseSens;
-
-            if (invertX)
+        // for auto shots
+        if (Input.GetMouseButton(0) && activeWeapon.canAutoFire)
+        {
+            if (activeWeapon.fireCounter <= 0)
             {
-                mouseInput.x = -mouseInput.x;
+                FireShot();
             }
-            if (invertY)
-            {
-                mouseInput.y = -mouseInput.y;
-            }
-
-            transform.rotation = Quaternion.Euler(transform.rotation.eulerAngles.x, transform.rotation.eulerAngles.y + mouseInput.x, transform.rotation.eulerAngles.z);
-            cameraTrans.rotation = Quaternion.Euler(cameraTrans.rotation.eulerAngles + new Vector3(-mouseInput.y, 0f, 0f));
-
-            // magnitude = oyuncunun ne kadar mesafe kat ettiði
-            anim.SetFloat("moveSpeed", moveInput.magnitude);
-            anim.SetBool("onGround", canJump);
-
         }
+
+        // magnitude = oyuncunun ne kadar mesafe kat ettiði
+        anim.SetFloat("moveSpeed", moveInput.magnitude);
+        anim.SetBool("onGround", canJump);
+
     }
+    public void FireShot()
+    {
+        if (activeWeapon.currentAmmo > 0)
+        {
+            activeWeapon.currentAmmo--;
+
+
+            Instantiate(activeWeapon.bullet, firePoint.position, firePoint.rotation);
+
+            activeWeapon.fireCounter = activeWeapon.fireRate;
+
+            UIController.instance.ammoText.text = "AMMO: " + activeWeapon.currentAmmo;
+        }
+
+    }
+}
