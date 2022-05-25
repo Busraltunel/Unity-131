@@ -20,6 +20,8 @@ public class PlayerController : MonoBehaviour
     //public float range = 100f;
 
     public Animator anim;
+    public Animator weaponanim;
+    
 
     public Transform cameraTrans;
     private Vector3 moveInput;
@@ -157,7 +159,10 @@ public class PlayerController : MonoBehaviour
             activeWeapon.fireCounter = activeWeapon.fireRate;
 
             UIController.instance.ammoText.text = "AMMO: " + activeWeapon.currentAmmo;
+
+            weaponanim.SetTrigger("isShooting");
         }
 
+        
     }
 }

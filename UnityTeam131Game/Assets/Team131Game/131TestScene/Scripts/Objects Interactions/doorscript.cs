@@ -36,7 +36,7 @@ public class doorscript : MonoBehaviour
 
         void Pressed()
         {
-            
+
             RaycastHit doorhit;
 
             if (Physics.Raycast(PlayerCamera.transform.position, PlayerCamera.transform.forward, out doorhit, MaxDistance))
