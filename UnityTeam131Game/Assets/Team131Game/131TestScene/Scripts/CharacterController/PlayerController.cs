@@ -13,7 +13,7 @@ public class PlayerController : MonoBehaviour
     public Transform groundCheckPoint;
     public LayerMask whatIsGround;
 
-    public GameObject bullet;
+    //public GameObject bullet;
     public Transform firePoint;
 
     //public GameObject impactEffect;
@@ -30,6 +30,9 @@ public class PlayerController : MonoBehaviour
     public bool invertX, invertY;
 
     public Weapon activeWeapon;
+    public List<Weapon> allWeapons = new List<Weapon>();
+    public List<Weapon> unlockableWeapons = new List<Weapon>();
+    public int currentWeapon;
 
     private void Awake()
     {
@@ -38,6 +41,10 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
+
+        activeWeapon = allWeapons[currentWeapon];
+        activeWeapon.gameObject.SetActive(true);
+
         UIController.instance.ammoText.text = "AMMO: " + activeWeapon.currentAmmo;
     }
 
@@ -97,7 +104,7 @@ public class PlayerController : MonoBehaviour
         //SHOOTING
 
         // for single shots
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) && activeWeapon.fireCounter <= 0)
         {
 
             RaycastHit hit;
@@ -142,6 +149,12 @@ public class PlayerController : MonoBehaviour
             }
         }
 
+        if (Input.GetAxis("Mouse ScrollWheel") > 0f || (Input.GetAxis("Mouse ScrollWheel") < 0f))
+        {
+            SwitchWeapons();
+        }
+
+
         // magnitude = oyuncunun ne kadar mesafe kat ettiði
         anim.SetFloat("moveSpeed", moveInput.magnitude);
         anim.SetBool("onGround", canJump);
@@ -164,5 +177,49 @@ public class PlayerController : MonoBehaviour
         }
 
         
+    }
+
+    public void SwitchWeapons()
+    {
+        activeWeapon.gameObject.SetActive(false);
+
+        currentWeapon++;
+
+        if (currentWeapon >= allWeapons.Count)
+        {
+            currentWeapon = 0;
+        }
+
+        activeWeapon = allWeapons[currentWeapon];
+        activeWeapon.gameObject.SetActive(true);
+
+        UIController.instance.ammoText.text = "AMMO: " + activeWeapon.currentAmmo;
+    }
+
+    public void addWeapon(string weaponToAdd)
+    {
+        bool weaponUnlocked = false;
+
+        if (unlockableWeapons.Count > 0)
+        {
+            for(int i = 0; i < unlockableWeapons.Count; i++)
+            {
+                if (unlockableWeapons[i].weaponName == weaponToAdd)
+                {
+                    weaponUnlocked = true;
+
+                    allWeapons.Add(unlockableWeapons[i]);
+
+                    unlockableWeapons.RemoveAt(i);
+                    i = unlockableWeapons.Count;
+                }
+            }
+        }
+
+        if (weaponUnlocked)
+        {
+            currentWeapon = allWeapons.Count - 2;
+            SwitchWeapons();
+        }
     }
 }

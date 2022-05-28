@@ -14,6 +14,7 @@ public class Weapon : MonoBehaviour
 
     public int currentAmmo, pickupAmount;
 
+    public string weaponName;
     void Start()
     {
         

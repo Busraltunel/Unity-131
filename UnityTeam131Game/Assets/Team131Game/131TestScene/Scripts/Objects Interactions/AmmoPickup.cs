@@ -18,7 +18,6 @@ public class AmmoPickup : MonoBehaviour
 
             collected = true;
 
-
         }
     }
 }
