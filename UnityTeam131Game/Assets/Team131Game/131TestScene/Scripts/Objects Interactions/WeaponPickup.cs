@@ -5,7 +5,7 @@ using UnityEngine;
 public class WeaponPickup : MonoBehaviour
 {
     public string theGun;
-
+    public AudioSource WeaponTake;
     private bool collected;
     private void OnTriggerEnter(Collider other)
 
@@ -14,6 +14,7 @@ public class WeaponPickup : MonoBehaviour
         {
 
             PlayerController.instance.addWeapon(theGun);
+            WeaponTake.Play();
 
             Destroy(gameObject);
 

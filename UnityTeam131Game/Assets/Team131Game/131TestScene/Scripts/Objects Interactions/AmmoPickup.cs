@@ -6,6 +6,8 @@ public class AmmoPickup : MonoBehaviour
 {
 
     private bool collected;
+    public AudioSource AmmoTake;
+
     private void OnTriggerEnter(Collider other)
 
     {
@@ -13,6 +15,8 @@ public class AmmoPickup : MonoBehaviour
         {
 
             PlayerController.instance.activeWeapon.GetAmmo();
+            AmmoTake.Play();
+
 
             Destroy(gameObject);
 
