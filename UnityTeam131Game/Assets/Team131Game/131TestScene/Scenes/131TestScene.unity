@@ -2140,7 +2140,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &706343894
 GameObject:
@@ -2934,6 +2934,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bgm: {fileID: 0}
+--- !u!82 &1155133709 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 2107654263, guid: 9894d298fea8dac4b9d5b5ea76d12445, type: 3}
+  m_PrefabInstance: {fileID: 5973844349888443619}
+  m_PrefabAsset: {fileID: 0}
 --- !u!43 &1168197641
 Mesh:
   m_ObjectHideFlags: 0
@@ -5302,7 +5307,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!195 &1489102611
 NavMeshAgent:
@@ -6316,7 +6321,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 6cfc53b3e0c8e8b488ae53919f0f2c4a, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6cfc53b3e0c8e8b488ae53919f0f2c4a, type: 3}
       propertyPath: m_LocalScale.x
@@ -6987,6 +6992,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1479368378, guid: 15767f71906dda240a17c516a135d995, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -3.0861816
+      objectReference: {fileID: 0}
     - target: {fileID: 2061916933703613506, guid: 15767f71906dda240a17c516a135d995, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -7095,7 +7104,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2146874087235897335, guid: 7db0bf574a020f447a48f41e9f94dc50, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2146874087235897335, guid: 7db0bf574a020f447a48f41e9f94dc50, type: 3}
       propertyPath: m_LocalPosition.x
@@ -29870,7 +29879,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2107654261, guid: 9894d298fea8dac4b9d5b5ea76d12445, type: 3}
       propertyPath: m_Name
-      value: weaponFire
+      value: AKFire
       objectReference: {fileID: 0}
     - target: {fileID: 2107654263, guid: 9894d298fea8dac4b9d5b5ea76d12445, type: 3}
       propertyPath: m_audioClip
@@ -29878,7 +29887,7 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: 224bb794f60c8fd4cb95e687a5a3bd18, type: 3}
     - target: {fileID: 2107654263, guid: 9894d298fea8dac4b9d5b5ea76d12445, type: 3}
       propertyPath: m_PlayOnAwake
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2107654263, guid: 9894d298fea8dac4b9d5b5ea76d12445, type: 3}
       propertyPath: OutputAudioMixerGroup
@@ -30089,6 +30098,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6069084563260624743, guid: 4bfee093e6ff28e44b0f374fea4fef12, type: 3}
+      propertyPath: AKFire
+      value: 
+      objectReference: {fileID: 1155133709}
+    - target: {fileID: 6069084563260624743, guid: 4bfee093e6ff28e44b0f374fea4fef12, type: 3}
+      propertyPath: bullet
+      value: 
+      objectReference: {fileID: 4382608987230056769, guid: 78f7e90397db64042a913e82fad233dd, type: 3}
     - target: {fileID: 6069084563374617952, guid: 4bfee093e6ff28e44b0f374fea4fef12, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -30137,6 +30154,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CharacterControllerParent
       objectReference: {fileID: 0}
+    - target: {fileID: 6069084563648070995, guid: 4bfee093e6ff28e44b0f374fea4fef12, type: 3}
+      propertyPath: WeaponSoundFire
+      value: 
+      objectReference: {fileID: 1155133709}
     - target: {fileID: 6411104488742731399, guid: 4bfee093e6ff28e44b0f374fea4fef12, type: 3}
       propertyPath: m_IsActive
       value: 1

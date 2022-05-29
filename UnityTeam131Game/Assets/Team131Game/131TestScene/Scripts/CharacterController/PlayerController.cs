@@ -33,6 +33,7 @@ public class PlayerController : MonoBehaviour
     public List<Weapon> allWeapons = new List<Weapon>();
     public List<Weapon> unlockableWeapons = new List<Weapon>();
     public int currentWeapon;
+    
 
     private void Awake()
     {
@@ -174,6 +175,8 @@ public class PlayerController : MonoBehaviour
             UIController.instance.ammoText.text = "AMMO: " + activeWeapon.currentAmmo;
 
             weaponanim.SetTrigger("isShooting");
+
+            
         }
 
         

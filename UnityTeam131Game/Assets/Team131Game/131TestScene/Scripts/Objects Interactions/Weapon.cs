@@ -13,6 +13,7 @@ public class Weapon : MonoBehaviour
     public float fireCounter;
 
     public int currentAmmo, pickupAmount;
+    
 
     public string weaponName;
     void Start()
@@ -26,6 +27,7 @@ public class Weapon : MonoBehaviour
         if (fireCounter > 0)
         {
             fireCounter -= Time.deltaTime;
+            
         }
     }
     public void GetAmmo()

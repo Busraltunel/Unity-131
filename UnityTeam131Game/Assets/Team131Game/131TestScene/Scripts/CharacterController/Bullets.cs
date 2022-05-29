@@ -11,7 +11,8 @@ public class Bullets : MonoBehaviour
     public int damage = 1;
 
     public bool damageEnemy, damagePlayer;
-    public AudioSource weaponFire;
+    
+    
 
     void Start()
     {
@@ -52,6 +53,6 @@ public class Bullets : MonoBehaviour
 
         Destroy(gameObject);
         Instantiate(bulletEffect, transform.position + (transform.forward * (-moveSpeed * Time.deltaTime)), transform.rotation);
-        weaponFire.Play();
+        
     }
 }
