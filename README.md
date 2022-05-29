@@ -19,7 +19,7 @@ Oyun ve Uygulama Akademisi Takım 131
 ## Ürün Açıklaması
 
 - Liquidator: Nobyl, nükleer santral patlaması felaketi sonrasına odaklanan, Ukrayna'nın Pripyat kentindeki 
-Nobyl 2 nükleer santralinin patlatılmasından beş yıl sonrasında geçen, bölgedeki mutasyon canavarların 
+Nobyl 2 nükleer santralinin patlatılmasından beş yıl sonrasında geçen, bölgedeki mutasyona uğramış canavarların 
 ve Empties'lerin temizlenmesine odaklanan birinci şahıs nişancı türünde bir oyundur.
 
 ## Ürün Özellikleri
