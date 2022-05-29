@@ -6,7 +6,7 @@ public class AudioManager : MonoBehaviour
 {
     public static AudioManager instance;
 
-    public AudioSource bgm;
+    //public AudioSource bgm;
 
     private void Awake()
     {
@@ -25,6 +25,6 @@ public class AudioManager : MonoBehaviour
 
     public void StopBGM()
     {
-        bgm.Stop();
+        //bgm.Stop();
     }
 }

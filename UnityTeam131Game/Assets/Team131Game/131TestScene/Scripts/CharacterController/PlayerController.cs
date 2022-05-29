@@ -155,7 +155,6 @@ public class PlayerController : MonoBehaviour
             SwitchWeapons();
         }
 
-
         // magnitude = oyuncunun ne kadar mesafe kat ettiði
         anim.SetFloat("moveSpeed", moveInput.magnitude);
         anim.SetBool("onGround", canJump);
@@ -166,7 +165,6 @@ public class PlayerController : MonoBehaviour
         if (activeWeapon.currentAmmo > 0)
         {
             activeWeapon.currentAmmo--;
-
 
             Instantiate(activeWeapon.bullet, firePoint.position, firePoint.rotation);
 
