@@ -26,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5502392759448047218}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.35, z: -0.038}
+  m_LocalPosition: {x: 0, y: -0.14, z: -0.038}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8799716537724142462}
@@ -4831,7 +4831,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5612510786092149582}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.24, y: 1.4, z: 0.066}
+  m_LocalPosition: {x: 0.24, y: -0.04, z: 0.066}
   m_LocalScale: {x: 0.72312057, y: 0.3, z: 0.22194}
   m_Children: []
   m_Father: {fileID: 8799716537724142462}
@@ -4961,13 +4961,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1569693853c3cb74ba0705871df7a11e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 175
-  lifeTime: 1
+  moveSpeed: 50
+  lifeTime: 2
   rb: {fileID: 8799716537724142457}
   bulletEffect: {fileID: 6428189473341204096, guid: 6b1f6ea372a79654bb2b4d05dbef4f92, type: 3}
-  damage: 1
+  damage: 150
   damageEnemy: 1
-  damagePlayer: 0
+  damagePlayer: 1
 --- !u!54 &8799716537724142457
 Rigidbody:
   m_ObjectHideFlags: 0
