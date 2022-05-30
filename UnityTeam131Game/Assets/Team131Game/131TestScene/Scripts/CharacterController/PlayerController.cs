@@ -82,6 +82,7 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && canJump)
         {
             moveInput.y = jumpPower;
+            anim.SetTrigger("isJumped");
         }
 
         chController.Move(moveInput * Time.deltaTime);
