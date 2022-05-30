@@ -33,13 +33,13 @@ public class Bullets : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Enemy1" && damageEnemy)
+        if (other.gameObject.tag == "NPC" && damageEnemy)
         {
             other.gameObject.GetComponent<EnemyHealth>().EnemyDamage(damage);
             Debug.Log("Enemy Shot");
         }
 
-        if (other.gameObject.tag == "Enemy2" && damageEnemy)
+        if (other.gameObject.tag == "ShooterEnemy" && damageEnemy)
         {
             other.gameObject.GetComponent<EnemyHealth>().EnemyDamage(damage);
             Debug.Log("Enemy2 Shot");

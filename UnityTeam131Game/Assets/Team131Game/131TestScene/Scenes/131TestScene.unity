@@ -1425,7 +1425,7 @@ GameObject:
   - component: {fileID: 414679360}
   m_Layer: 6
   m_Name: Target (5)
-  m_TagString: Enemy1
+  m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2338,7 +2338,7 @@ GameObject:
   - component: {fileID: 568839107}
   m_Layer: 6
   m_Name: Target (1)
-  m_TagString: Enemy1
+  m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2959,7 +2959,7 @@ GameObject:
   - component: {fileID: 722565863}
   m_Layer: 10
   m_Name: ShooterEnemy
-  m_TagString: Enemy2
+  m_TagString: ShooterEnemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3901,7 +3901,7 @@ GameObject:
   - component: {fileID: 1007233652}
   m_Layer: 6
   m_Name: Target (3)
-  m_TagString: Enemy1
+  m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4495,7 +4495,7 @@ GameObject:
   - component: {fileID: 1280578508}
   m_Layer: 6
   m_Name: Target (4)
-  m_TagString: Enemy1
+  m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5226,7 +5226,7 @@ GameObject:
   - component: {fileID: 1399686990}
   m_Layer: 6
   m_Name: Target (2)
-  m_TagString: Enemy1
+  m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5718,7 +5718,7 @@ GameObject:
   - component: {fileID: 1489102611}
   m_Layer: 10
   m_Name: Enemy
-  m_TagString: Enemy1
+  m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6111,7 +6111,7 @@ GameObject:
   - component: {fileID: 1564427208}
   m_Layer: 0
   m_Name: Barrel
-  m_TagString: ExplosiveBarrel
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9630,7 +9630,7 @@ GameObject:
   - component: {fileID: 3935345605104417925}
   m_Layer: 10
   m_Name: Turret
-  m_TagString: Enemy2
+  m_TagString: ShooterEnemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11481,7 +11481,8 @@ GameObject:
   - component: {fileID: 5477835518408510298}
   - component: {fileID: 5477835518408510245}
   - component: {fileID: 5477835518408510244}
-  m_Layer: 6
+  - component: {fileID: 5477835518408510248}
+  m_Layer: 10
   m_Name: Capsule (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11502,6 +11503,20 @@ Transform:
   m_Father: {fileID: 5477835519796712622}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5477835518408510248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5477835518408510246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47407260a80d71e489007d4c0bc0aee4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentHealth: 1
+  DeadEnemy: {fileID: 0}
 --- !u!33 &5477835518408510298
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -15251,7 +15266,7 @@ GameObject:
   - component: {fileID: 5477835518828422832}
   m_Layer: 6
   m_Name: Target
-  m_TagString: Enemy1
+  m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
