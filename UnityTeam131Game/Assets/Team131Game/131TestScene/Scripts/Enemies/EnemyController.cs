@@ -15,6 +15,7 @@ public class EnemyController : MonoBehaviour
     public NavMeshAgent agent;
     public float keepChasingTime = 5f;
     private float chaseCounter;
+    
 
     void Start()
     {
