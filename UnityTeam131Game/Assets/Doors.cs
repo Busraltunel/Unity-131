@@ -4,59 +4,130 @@ using UnityEngine;
 
 public class Doors : MonoBehaviour
 {
+
     public Animator door;
+    public GameObject lockOB;
+    public GameObject keyOB;
     public GameObject openText;
+    public GameObject closeText;
+    public GameObject lockedText;
 
-    public AudioSource doorSound;
 
-    public bool inReach;
+    public AudioSource openSound;
+    public AudioSource closeSound;
+    public AudioSource lockedSound;
+    public AudioSource unlockedSound;
 
-    void Start()
+    private bool inReach;
+    private bool doorisOpen;
+    private bool doorisClosed;
+    public bool locked;
+    public bool unlocked;
+
+
+
+
+
+    void OnTriggerEnter(Collider other)
     {
-        inReach = false;
-    }
-
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.gameObject.tag == "Reach")
+        if (other.gameObject.tag == "Reach" && doorisClosed)
         {
             inReach = true;
             openText.SetActive(true);
         }
+
+        if (other.gameObject.tag == "Reach" && doorisOpen)
+        {
+            inReach = true;
+            closeText.SetActive(true);
+        }
     }
 
-    private void OnTriggerExit(Collider other)
+    void OnTriggerExit(Collider other)
     {
         if (other.gameObject.tag == "Reach")
         {
             inReach = false;
             openText.SetActive(false);
+            lockedText.SetActive(false);
+            closeText.SetActive(false);
         }
     }
-    // Update is called once per frame
+
+    void Start()
+    {
+        inReach = false;
+        doorisClosed = true;
+        doorisOpen = false;
+        closeText.SetActive(false);
+        openText.SetActive(false);
+    }
+
+
+
+
     void Update()
     {
-        if (inReach && Input.GetButtonDown("Interact"))
+        if (lockOB.activeInHierarchy)
         {
-            DoorOpens();
+            locked = true;
+            unlocked = false;
         }
+
         else
         {
-            DoorCloses();
+            unlocked = true;
+            locked = false;
+        }
+
+        if (inReach && keyOB.activeInHierarchy && Input.GetButtonDown("Interact"))
+        {
+            unlockedSound.Play();
+            locked = false;
+            keyOB.SetActive(false);
+            StartCoroutine(unlockDoor());
+        }
+
+        if (inReach && doorisClosed && unlocked && Input.GetButtonDown("Interact"))
+        {
+            door.SetBool("Open", true);
+            door.SetBool("Closed", false);
+            openText.SetActive(false);
+            openSound.Play();
+            doorisOpen = true;
+            doorisClosed = false;
+        }
+
+        else if (inReach && doorisOpen && unlocked && Input.GetButtonDown("Interact"))
+        {
+            door.SetBool("Open", false);
+            door.SetBool("Closed", true);
+            closeText.SetActive(false);
+            closeSound.Play();
+            doorisClosed = true;
+            doorisOpen = false;
+        }
+
+        if (inReach && locked && Input.GetButtonDown("Interact"))
+        {
+            openText.SetActive(false);
+            lockedText.SetActive(true);
+            lockedSound.Play();
+        }
+
+    }
+
+    IEnumerator unlockDoor()
+    {
+        yield return new WaitForSeconds(.05f);
+        {
+
+            unlocked = true;
+            lockOB.SetActive(false);
         }
     }
 
-    void DoorOpens()
-    {
-        door.SetBool("Open", true);
-        door.SetBool("Closed", false);
-        doorSound.Play();
-    }
 
-    void DoorCloses()
-    {
-        door.SetBool("Open", false);
-        door.SetBool("Closed", true);
 
-    }
+
 }

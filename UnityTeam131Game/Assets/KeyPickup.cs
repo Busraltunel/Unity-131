@@ -11,6 +11,7 @@ public class KeyPickup : MonoBehaviour
 
     public bool inReach;
 
+
     void Start()
     {
         inReach = false;
@@ -18,24 +19,28 @@ public class KeyPickup : MonoBehaviour
         invOB.SetActive(false);
     }
 
-    private void OnTriggerEnter(Collider other)
+
+    void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Reach");
+        if (other.gameObject.tag == "Reach")
         {
             inReach = true;
             pickUpText.SetActive(true);
+
         }
     }
 
-    private void OnTriggerExit(Collider other)
+    void OnTriggerExit(Collider other)
     {
-        if (other.gameObject.tag == "Reach");
+        if (other.gameObject.tag == "Reach")
         {
             inReach = false;
             pickUpText.SetActive(false);
+
         }
     }
-    // Update is called once per frame
+
+
     void Update()
     {
         if (inReach && Input.GetButtonDown("Interact"))
@@ -45,5 +50,7 @@ public class KeyPickup : MonoBehaviour
             invOB.SetActive(true);
             pickUpText.SetActive(false);
         }
+
+
     }
 }
