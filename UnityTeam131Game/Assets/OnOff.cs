@@ -24,8 +24,8 @@ public class OnOff : MonoBehaviour
         if (PlayerInZone && Input.GetKeyDown(KeyCode.E))           //if in zone and press E key
         {
             lightorobj.SetActive(!lightorobj.activeSelf);
-            gameObject.GetComponent<AudioSource>().Play();
-            gameObject.GetComponent<Animator>().Play("switch");
+            
+            
         }
     }
 
