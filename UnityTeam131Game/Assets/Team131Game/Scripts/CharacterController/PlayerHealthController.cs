@@ -8,8 +8,7 @@ public class PlayerHealthController : MonoBehaviour
 
     public int maxHealth, currentHealth;
 
-    //public float invincibleLenght = 1f;
-    //private float invincibleCounter;
+
 
     private void Awake()
     {
@@ -28,29 +27,26 @@ public class PlayerHealthController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        /*if (invincibleCounter > 0)
-        {
-            invincibleCounter -= Time.deltaTime;
-        }*/
+
     }
 
     public void DamagePlayer(int damageAmount)
     {
-            currentHealth -= damageAmount;
+        currentHealth -= damageAmount;
 
         UIController.instance.ShowDamage();
 
-            if (currentHealth <= 0)
-            {
-                gameObject.SetActive(false);
+        if (currentHealth <= 0)
+        {
+            gameObject.SetActive(false);
 
-                //canýn -deðerlere düþmemesi için
-                currentHealth = 0;
+            //canýn -deðerlere düþmemesi için
+            currentHealth = 0;
 
-                GameManager.instance.PlayerDeath();
+            GameManager.instance.PlayerDeath();
 
-                AudioManager.instance.StopBGM();
-            }
+            AudioManager.instance.StopBGM();
+        }
 
         UIController.instance.healthSlider.value = currentHealth;
         UIController.instance.healthText.text = "HEALTH: " + currentHealth;
@@ -70,12 +66,4 @@ public class PlayerHealthController : MonoBehaviour
         UIController.instance.healthText.text = "HEALTH: " + currentHealth;
 
     }
-
-        /*if (invincibleCounter <= 0)
-        {
-            invincibleCounter = invincibleLenght;
-        }
-      }*/
-
-    
 }
