@@ -7,21 +7,21 @@ public class StoryTeller : MonoBehaviour
     public Animator animator;
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
-    void onTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Player")
+        if (other.gameObject.tag == "Player")     //if player in zone
         {
-            animator.SetTrigger("AAAAnimation");
+            animator.SetTrigger("aaa");
         }
-        
     }
 }
+
