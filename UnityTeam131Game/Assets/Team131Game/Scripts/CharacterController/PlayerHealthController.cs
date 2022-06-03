@@ -9,6 +9,7 @@ public class PlayerHealthController : MonoBehaviour
     public int maxHealth, currentHealth;
 
     public AudioClip deathClip;
+    public Animator animator;
 
 
     private void Awake()
@@ -40,6 +41,7 @@ public class PlayerHealthController : MonoBehaviour
         if (currentHealth <= 0)
         {
             gameObject.SetActive(false);
+            animator.SetBool("isDead", true);
 
             //canýn -deðerlere düþmemesi için
             currentHealth = 0;
@@ -48,6 +50,10 @@ public class PlayerHealthController : MonoBehaviour
 
             AudioSource.PlayClipAtPoint(deathClip, transform.position);
             AudioManager.instance.StopBGM();
+        }
+        else
+        {
+            animator.SetBool("isDead", false);
         }
 
         UIController.instance.healthSlider.value = currentHealth;

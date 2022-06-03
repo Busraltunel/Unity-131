@@ -39,7 +39,7 @@ public class Bullets : MonoBehaviour
         if (other.gameObject.tag == "NPC" && damageEnemy)
         {
             other.gameObject.GetComponent<EnemyHealth>().EnemyDamage(damage);
-            Debug.Log("Enemy Shot");
+            //Debug.Log("Enemy Shot");
             Instantiate(bulletEffectEnemy, transform.position + (transform.forward * (-moveSpeed * Time.deltaTime)), transform.rotation);
             Destroy(gameObject,1);
         }
@@ -47,7 +47,7 @@ public class Bullets : MonoBehaviour
         if (other.gameObject.tag == "ShooterEnemy" && damageEnemy)
         {
             other.gameObject.GetComponent<EnemyHealth>().EnemyDamage(damage);
-            Debug.Log("Enemy2 Shot");
+            //Debug.Log("Enemy2 Shot");
             Instantiate(bulletEffectEnemy, transform.position + (transform.forward * (-moveSpeed * Time.deltaTime)), transform.rotation);
             EnemyHitSound.Play();
             Destroy(gameObject,1);
