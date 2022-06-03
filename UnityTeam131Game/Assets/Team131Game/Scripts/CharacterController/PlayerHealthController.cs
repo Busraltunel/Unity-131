@@ -41,7 +41,7 @@ public class PlayerHealthController : MonoBehaviour
         if (currentHealth <= 0)
         {
             gameObject.SetActive(false);
-            animator.SetBool("isDead", true);
+           // animator.SetBool("isDead", true);
 
             //canýn -deðerlere düþmemesi için
             currentHealth = 0;
@@ -53,7 +53,7 @@ public class PlayerHealthController : MonoBehaviour
         }
         else
         {
-            animator.SetBool("isDead", false);
+           // animator.SetBool("isDead", false);
         }
 
         UIController.instance.healthSlider.value = currentHealth;
