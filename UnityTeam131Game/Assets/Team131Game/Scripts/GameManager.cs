@@ -9,6 +9,8 @@ public class GameManager : MonoBehaviour
 
     public float waitAfterDie = 2f;
 
+    public AudioClip deathClip;
+
     private void Awake()
     {
         instance = this;
@@ -27,7 +29,8 @@ public class GameManager : MonoBehaviour
     public void PlayerDeath()
     {
         StartCoroutine(PlayerDeathCo());
-        
+      //playerDiesSound.Play();
+
         //direkt respawn etme
         //SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
@@ -35,6 +38,7 @@ public class GameManager : MonoBehaviour
     public IEnumerator PlayerDeathCo()
     {
         yield return new WaitForSeconds(waitAfterDie);
+        AudioSource.PlayClipAtPoint(deathClip, transform.position);
 
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }

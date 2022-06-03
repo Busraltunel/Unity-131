@@ -4075,6 +4075,7 @@ Transform:
   m_LocalPosition: {x: 43.55, y: 1.3, z: 156.25}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 5626001787144808707}
   - {fileID: 5626001787284151607}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -4269,8 +4270,8 @@ Transform:
   - {fileID: 1885366194104909530}
   - {fileID: 5626001786615178089}
   - {fileID: 5626001786858104896}
-  m_Father: {fileID: 5626001787284151607}
-  m_RootOrder: 8
+  m_Father: {fileID: 5626001787120266502}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!20 &5626001787144808711
 Camera:
@@ -4570,9 +4571,8 @@ Transform:
   - {fileID: 1885366192410924031}
   - {fileID: 5626001787509018141}
   - {fileID: 5626001786303941907}
-  - {fileID: 5626001787144808707}
   m_Father: {fileID: 5626001787120266502}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!143 &5626001787284151606
 CharacterController:
@@ -4661,6 +4661,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 100
   currentHealth: 0
+  deathClip: {fileID: 8300000, guid: 06304fec0ca68c541bf6b7803a39e4b0, type: 3}
 --- !u!114 &5626001787284151594
 MonoBehaviour:
   m_ObjectHideFlags: 0

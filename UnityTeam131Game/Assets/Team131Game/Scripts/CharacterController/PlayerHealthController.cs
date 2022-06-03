@@ -8,6 +8,7 @@ public class PlayerHealthController : MonoBehaviour
 
     public int maxHealth, currentHealth;
 
+    public AudioClip deathClip;
 
 
     private void Awake()
@@ -45,6 +46,7 @@ public class PlayerHealthController : MonoBehaviour
 
             GameManager.instance.PlayerDeath();
 
+            AudioSource.PlayClipAtPoint(deathClip, transform.position);
             AudioManager.instance.StopBGM();
         }
 
