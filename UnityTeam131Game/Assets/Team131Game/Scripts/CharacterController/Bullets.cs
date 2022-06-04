@@ -9,6 +9,7 @@ public class Bullets : MonoBehaviour
 
     public GameObject bulletEffectEnvironment;
     public GameObject bulletEffectEnemy;
+    public GameObject bulletEffectEmpties;
     public int damage = 1;
 
     public bool damageEnemy, damagePlayer;
@@ -51,6 +52,15 @@ public class Bullets : MonoBehaviour
             Instantiate(bulletEffectEnemy, transform.position + (transform.forward * (-moveSpeed * Time.deltaTime)), transform.rotation);
             EnemyHitSound.Play();
             Destroy(gameObject,1);
+        }
+
+        if (other.gameObject.tag == "EmptiesEnemy" && damageEnemy)
+        {
+            other.gameObject.GetComponent<EnemyHealth>().EnemyDamage(damage);
+            //Debug.Log("Enemy2 Shot");
+            Instantiate(bulletEffectEmpties, transform.position + (transform.forward * (-moveSpeed * Time.deltaTime)), transform.rotation);
+            EnemyHitSound.Play();
+            Destroy(gameObject, 1);
         }
 
         if (other.gameObject.tag == "Player" && damagePlayer)
