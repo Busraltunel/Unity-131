@@ -21,6 +21,7 @@ public class GameManager : MonoBehaviour
     {
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
+        Time.timeScale = 1f;
     }
     void Update()
     {
@@ -55,12 +56,14 @@ public class GameManager : MonoBehaviour
         {
             UIController.instance.pauseScreen.SetActive(false);
             Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
             Time.timeScale = 1f;
         }
         else
         {
             UIController.instance.pauseScreen.SetActive(true);
             Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
             Time.timeScale = 0f;
         }
             
