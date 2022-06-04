@@ -24,7 +24,10 @@ public class GameManager : MonoBehaviour
     }
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            PauseUnpause();
+        }
     }
 
     public void PlayerDeath()
@@ -44,5 +47,22 @@ public class GameManager : MonoBehaviour
         yield return new WaitForSeconds(waitAfterDie);
 
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    public void PauseUnpause()
+    {
+        if (UIController.instance.pauseScreen.activeInHierarchy)
+        {
+            UIController.instance.pauseScreen.SetActive(false);
+            Cursor.lockState = CursorLockMode.Locked;
+            Time.timeScale = 1f;
+        }
+        else
+        {
+            UIController.instance.pauseScreen.SetActive(true);
+            Cursor.lockState = CursorLockMode.None;
+            Time.timeScale = 0f;
+        }
+            
     }
 }
