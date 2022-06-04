@@ -9,4 +9,9 @@ public class ChaptersMenu : MonoBehaviour
  {
   SceneManager.LoadScene(1);
  }
+
+    public void TestScene()
+    {
+        SceneManager.LoadScene(2);
+    }
 }
