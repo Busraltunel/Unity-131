@@ -66,13 +66,8 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board, Kanban Bo
 ![Screenshot 6](https://user-images.githubusercontent.com/77441088/167477039-9ff36e8c-5261-4c4c-975f-717462d51306.png)
 
 
-
-
-
-
-
 - **Sprint Review**: 
-  - Alınan kararlar: Daily Scrum'ların Discord kanalı üzerinde günlük olarak not alınmasına karar verildi. Sprint Review katılımcıları: Tüm Ekip
+- Alınan kararlar: Daily Scrum'ların Discord kanalı üzerinde günlük olarak not alınmasına karar verildi. Sprint Review katılımcıları: Tüm Ekip
 
 - **Sprint Retrospective:**
   - Ekip içi iletişim gayet olmasına rağmen, bayram döneminde kopukluklar yaşandı. Bu sürecin tekrarlanmaması için iletişim kuramayacak kişinin bir gün öncesinden haber vermesi gerektiğine karar verildi.
@@ -85,10 +80,11 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board, Kanban Bo
 
 # Sprint 2
 
--  **Sprint içinde tamamlanması tahmin edilen puan**: 300 Puan
--**Daily Scrum**: Daily Scrum'lar her sabah saat 10:00'da Discord ses kanalı üzerinden yapılmıştır. Toplantı her gün 15 dakika sürmüştür ve yazılı notlar alınmıştır. (https://docs.google.com/document/d/1mUiu3xGYhnwxKHJmuSQ7UNpPPEyla-0QSfATdQ3ZcAU/edit?usp=sharing)
- - **Backlog düzeni ve Story seçimleri**: Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir. Sprint başına tahmin edilen puan sayısını geçmeyecek şekilde sıradan seçimler yapılmaktadır. Story başına çıkan tahmin puanı, toplam puanın yarısından az tutulmuştur. 
-- [Miro Backlog Board] (https://miro.com/app/board/uXjVO6Xaf2U=/?share_link_id=633709052401)
+- **Sprint içinde tamamlanması tahmin edilen puan**: 300 Puan
+- **Daily Scrum**: Daily Scrum'lar her sabah saat 10:00'da Discord ses kanalı üzerinden yapılmıştır. Toplantı her gün 15 dakika sürmüştür ve yazılı notlar alınmıştır. (https://docs.google.com/document/d/1mUiu3xGYhnwxKHJmuSQ7UNpPPEyla-0QSfATdQ3ZcAU/edit?usp=sharing)
+- **Backlog düzeni ve Story seçimleri**: Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir. Sprint başına tahmin edilen puan sayısını geçmeyecek şekilde sıradan seçimler yapılmaktadır. Story başına çıkan tahmin puanı, toplam puanın yarısından az tutulmuştur. 
+- [Miro Backlog Board](https://miro.com/app/board/uXjVO6Xaf2U=/?share_link_id=633709052401)
+- [Miro Moodboard](https://miro.com/app/board/uXjVO2DLwP4=/?share_link_id=814631969518)
 - **Sprint Review**: 
 Alınan kararlar: Oyunda komple bir nükleer santral tesisi yapmayı planlıyorduk fakat kısıtlı zaman sebebiyle komple tesis yerine sadece çekirdek odasını hazırlamaya karar verdik. Sprint Review katılımcıları: Tüm Ekip
 
@@ -96,17 +92,34 @@ Alınan kararlar: Oyunda komple bir nükleer santral tesisi yapmayı planlıyord
 - (UI için kullanılan arkaplanlar tamamen temsilidir.)
 ![Screenshot 1](https://user-images.githubusercontent.com/77441088/169896705-33ee4144-4f08-4609-bae1-b7e06256eb4e.PNG)
 ![Screenshot 2](https://user-images.githubusercontent.com/77441088/169896846-f65df624-026d-4dfb-a908-97e1666dfffd.PNG)
-![Screenshot 3 ](https://user-images.githubusercontent.com/77441088/169897032-a837c1ad-1db1-411c-916e-1ed4fbf5aca8.PNG)
+![Screenshot 3](https://user-images.githubusercontent.com/77441088/169897032-a837c1ad-1db1-411c-916e-1ed4fbf5aca8.PNG)
 ![screenshot 4](https://user-images.githubusercontent.com/77441088/169897515-7f21b752-50df-41fb-8e15-081d509189d9.png)
 ![screenshot 7](https://user-images.githubusercontent.com/77441088/169898161-cf6eab07-eb68-4b46-bae5-c2def89cd924.png)
 ![screenshot 8](https://user-images.githubusercontent.com/77441088/169898303-2d97ef9b-b733-439f-a7ae-ef0583790eb5.png)
 ![screenshot 9](https://user-images.githubusercontent.com/77441088/169898562-238328b2-c026-4978-8e24-fdf5fde173b7.png)
 
 
-- - **Sprint Retrospective:** Ekip zamanla daha iyi kaynaştı ve iletişim sıkıntısı giderildi fakat hayattaki yoğunluklar sebebiyle bazı görevlerde gecikmeler oldu. Bu gecikmelerin 3. Sprint başında telafi edilmesi yönünde herkes birbirini motive etti. 
+- **Sprint Retrospective:** Ekip zamanla daha iyi kaynaştı ve iletişim sıkıntısı giderildi fakat hayattaki yoğunluklar sebebiyle bazı görevlerde gecikmeler oldu. Bu gecikmelerin 3. Sprint başında telafi edilmesi yönünde herkes birbirini motive etti. 
 
 
 
 # Sprint 3
 
----
+- **Sprint içinde tamamlanması tahmin edilen puan**: 350 Puan
+- **Daily Scrum**: 3. Sprint'te herkesin yoğunluğundan dolayı, Daily Scrum'lar her akşam saat 20:00'de Discord ses kanalı üzerinden yapılmıştır. Toplantı her gün 15-30 dakika arası sürmüştür ve yazılı notlar alınmıştır. Gruptaki tüm üyeler gün içinde yaptıklarını Discord Sprint 3 kanalına yazmışlardır.
+![dailyscrum1](https://user-images.githubusercontent.com/93131711/172041125-5cb33590-9b91-41f0-ab45-f81102e91860.png)
+![dailyscrum2](https://user-images.githubusercontent.com/93131711/172041148-61c7cc0d-7ca4-4550-b6ea-d4d628bfc1ee.png)
+![dailyscrum3](https://user-images.githubusercontent.com/93131711/172041162-3631ea72-c4a1-45d5-840f-8fa6fe9b7e40.png)
+![dailyscrum4](https://user-images.githubusercontent.com/93131711/172041186-31b1fce8-e427-484a-9a87-4224dd60c4fb.png)
+
+- **Backlog düzeni ve Story seçimleri**: Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir. Sprint başına tahmin edilen puan sayısını geçmeyecek şekilde sıradan seçimler yapılmaktadır.
+-  [Miro Backlog Board](https://miro.com/app/board/uXjVO6Xaf2U=/?share_link_id=633709052401)
+-  [Miro Moodboard](https://miro.com/app/board/uXjVO2DLwP4=/?share_link_id=814631969518)
+
+- **Sprint Review**: 
+Alınan kararlar:
+
+
+- **Ürün Durumu**: Ekran görüntüleri:
+
+- **Sprint Retrospective:**
