@@ -7,6 +7,8 @@ public class EnemyHealth : MonoBehaviour
     public int currentHealth = 5;
     public GameObject DeadEnemy;
 
+    public EnemyController enemyCon;
+
     void Start()
     {
 
@@ -21,6 +23,11 @@ public class EnemyHealth : MonoBehaviour
     public void EnemyDamage(int damageAmount)
     {
         currentHealth -= damageAmount;
+
+        if (enemyCon != null)
+        {
+            enemyCon.GetShot();
+        }
 
         if (currentHealth <= 0)
         {

@@ -33,7 +33,10 @@ public class PlayerController : MonoBehaviour
     public List<Weapon> allWeapons = new List<Weapon>();
     public List<Weapon> unlockableWeapons = new List<Weapon>();
     public int currentWeapon;
-    
+
+    public float maxViewAngle = 60f;
+
+    public AudioSource footStepPause;
 
     private void Awake()
     {
@@ -52,7 +55,7 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        if (!UIController.instance.pauseScreen.activeInHierarchy)
+        if (!UIController.instance.pauseScreen.activeInHierarchy && !GameManager.instance.LevelEnding)
         {
             //movement
 
@@ -65,7 +68,7 @@ public class PlayerController : MonoBehaviour
 
             moveInput = horizontalMove + verticalMove;
 
-            // forward ve right speedlerin �arp�lmamas� i�in
+            // forward ve right speedlerin carpilmamasi icin
             moveInput.Normalize();
 
             moveInput = moveInput * moveSpeed;
@@ -103,9 +106,17 @@ public class PlayerController : MonoBehaviour
             }
 
             transform.rotation = Quaternion.Euler(transform.rotation.eulerAngles.x,
-                transform.rotation.eulerAngles.y + mouseInput.x, transform.rotation.eulerAngles.z);
-            cameraTrans.rotation =
-                Quaternion.Euler(cameraTrans.rotation.eulerAngles + new Vector3(-mouseInput.y, 0f, 0f));
+            transform.rotation.eulerAngles.y + mouseInput.x, transform.rotation.eulerAngles.z);
+            cameraTrans.rotation = Quaternion.Euler(cameraTrans.rotation.eulerAngles + new Vector3(-mouseInput.y, 0f, 0f));
+
+            if (cameraTrans.rotation.eulerAngles.x > maxViewAngle && cameraTrans.rotation.eulerAngles.x < 180f)
+            {
+                cameraTrans.rotation = Quaternion.Euler(maxViewAngle, cameraTrans.rotation.eulerAngles.y, cameraTrans.rotation.z);
+            }
+            else if (cameraTrans.rotation.eulerAngles.x > 180f && cameraTrans.rotation.eulerAngles.x < 360f - maxViewAngle)
+            {
+                cameraTrans.rotation = Quaternion.Euler(-maxViewAngle, cameraTrans.rotation.eulerAngles.y, cameraTrans.rotation.z);
+            }
 
 
             //SHOOTING
@@ -128,23 +139,8 @@ public class PlayerController : MonoBehaviour
                     firePoint.LookAt(cameraTrans.position + (cameraTrans.forward * 30f));
                 }
 
-                //Instantiate(bullet, firePoint.position, firePoint.rotation);
                 FireShot();
 
-
-                /*Instantiate(bullet, firePoint.position, firePoint.rotation);
-                RaycastHit hit;
-                if (Physics.Raycast(cameraTrans.position, cameraTrans.forward, out hit, range))
-                {
-                    Instantiate(impactEffect, hit.point, Quaternion.LookRotation(hit.normal));
-                    firePoint.LookAt(hit.point);
-                }
-                else
-                {
-                    // mermi bir yere �arpmazsa
-                    firePoint.LookAt(cameraTrans.position + (cameraTrans.forward * range));
-                }
-            }*/
             }
 
             // for auto shots

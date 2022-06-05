@@ -680,6 +680,15 @@ AnimationClip:
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
+        time: 0.13333334
+        value: {x: 0.137, y: 0.05438672, z: 0.58958983}
+        inSlope: {x: 0, y: 0.011601561, z: 0.047695044}
+        outSlope: {x: 0, y: 0.011601561, z: 0.047695044}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
         time: 0.2
         value: {x: 0.137, y: 0.063, z: 0.625}
         inSlope: {x: 0, y: 0, z: 0}
@@ -2562,6 +2571,15 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
+        time: 0.13333334
+        value: 0.137
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
         time: 0.2
         value: 0.137
         inSlope: 0
@@ -2599,6 +2617,15 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
+        time: 0.13333334
+        value: 0.05438672
+        inSlope: 0.011601561
+        outSlope: 0.011601561
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
         time: 0.2
         value: 0.063
         inSlope: 0
@@ -2631,6 +2658,15 @@ AnimationClip:
         value: 0.588
         inSlope: 0
         outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.13333334
+        value: 0.58958983
+        inSlope: 0.047695044
+        outSlope: 0.047695044
         tangentMode: 136
         weightedMode: 0
         inWeight: 0.33333334
@@ -8081,7 +8117,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Guns/pistol/BulletShell (1)
+    path: 'Guns/ShotGun '
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -8091,7 +8127,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Guns/pistol/BulletShell (1)
+    path: 'Guns/ShotGun '
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -8101,7 +8137,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Guns/pistol/BulletShell (1)
+    path: 'Guns/ShotGun '
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -8231,7 +8267,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: 'Guns/ShotGun '
+    path: Guns/pistol/BulletShell (1)
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -8241,7 +8277,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: 'Guns/ShotGun '
+    path: Guns/pistol/BulletShell (1)
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -8251,7 +8287,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: 'Guns/ShotGun '
+    path: Guns/pistol/BulletShell (1)
     classID: 4
     script: {fileID: 0}
   m_HasGenericRootTransform: 1

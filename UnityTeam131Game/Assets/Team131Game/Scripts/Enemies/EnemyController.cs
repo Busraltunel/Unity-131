@@ -15,7 +15,8 @@ public class EnemyController : MonoBehaviour
     public NavMeshAgent agent;
     public float keepChasingTime = 5f;
     private float chaseCounter;
-    
+
+    private bool wasShot;
 
     void Start()
     {
@@ -61,10 +62,25 @@ public class EnemyController : MonoBehaviour
 
             if (Vector3.Distance(transform.position, targetPoint) > distanceToLose)
             {
-                chasing = false;
-                chaseCounter = keepChasingTime;
+                if (!wasShot)
+                {
+                    chasing = false;
+
+                    chaseCounter = keepChasingTime;
+                }
+            }
+            else
+            {
+                wasShot = false;
             }
         }
+
+    }
+
+    public void GetShot()
+    {
+        wasShot = true;
+        chasing = true;
 
     }
 

@@ -9,7 +9,9 @@ public class GameManager : MonoBehaviour
 
     public float waitAfterDie = 2f;
 
-    public Animator animator;
+    [HideInInspector]
+    public bool LevelEnding;
+
     public AudioClip deathClip;
 
     private void Awake()
@@ -58,6 +60,7 @@ public class GameManager : MonoBehaviour
             Cursor.lockState = CursorLockMode.Locked;
             Cursor.visible = false;
             Time.timeScale = 1f;
+            PlayerController.instance.footStepPause.Play();
         }
         else
         {
@@ -65,6 +68,8 @@ public class GameManager : MonoBehaviour
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
             Time.timeScale = 0f;
+
+            PlayerController.instance.footStepPause.Stop();
         }
             
     }
