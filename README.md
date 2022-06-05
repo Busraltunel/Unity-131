@@ -6,11 +6,10 @@ Oyun ve Uygulama Akademisi Takım 131
 
 ## Takım Elemanları
 
-- Büşra Altunel: Team Member/Product Owner
-- Şule Hilal Karakuş: Team Member/Scrum Master
-- Yiğit Yalçın: Team Member/Developer
-- Görkem Kaleli: Team Member/Developer
-- Nur Şenavcı: Team Member/Developer
+- Büşra Altunel: Team Member/Product Owner/Scrum Master
+- Yiğit Yalçın: Team Member/Developer/Game Artist
+- Görkem Kaleli: Team Member/Developer/Coder
+- Nur Şenavcı: Team Member/Developer/UI Artist
 
 ## Ürün İsmi
 
@@ -37,7 +36,7 @@ ve Empties'lerin temizlenmesine odaklanan birinci şahıs nişancı türünde bi
 
 ## Product Backlog URL
 
-[Miro Backlog Board](https://miro.com/app/board/uXjVO6Xaf2U=/?share_link_id=107042339340)
+[Miro Backlog Board](https://miro.com/app/board/uXjVO6Xaf2U=/?share_link_id=633709052401)
 [Miro Moodboard](https://miro.com/app/board/uXjVO2DLwP4=/?share_link_id=814631969518)
 
 ---
@@ -89,7 +88,7 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board, Kanban Bo
 -  **Sprint içinde tamamlanması tahmin edilen puan**: 300 Puan
 -**Daily Scrum**: Daily Scrum'lar her sabah saat 10:00'da Discord ses kanalı üzerinden yapılmıştır. Toplantı her gün 15 dakika sürmüştür ve yazılı notlar alınmıştır. (https://docs.google.com/document/d/1mUiu3xGYhnwxKHJmuSQ7UNpPPEyla-0QSfATdQ3ZcAU/edit?usp=sharing)
  - **Backlog düzeni ve Story seçimleri**: Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir. Sprint başına tahmin edilen puan sayısını geçmeyecek şekilde sıradan seçimler yapılmaktadır. Story başına çıkan tahmin puanı, toplam puanın yarısından az tutulmuştur. 
-- [Miro Backlog Board] https://miro.com/app/board/uXjVO6Xaf2U=/?share_link_id=547147949325
+- [Miro Backlog Board] (https://miro.com/app/board/uXjVO6Xaf2U=/?share_link_id=633709052401)
 - **Sprint Review**: 
 Alınan kararlar: Oyunda komple bir nükleer santral tesisi yapmayı planlıyorduk fakat kısıtlı zaman sebebiyle komple tesis yerine sadece çekirdek odasını hazırlamaya karar verdik. Sprint Review katılımcıları: Tüm Ekip
 
