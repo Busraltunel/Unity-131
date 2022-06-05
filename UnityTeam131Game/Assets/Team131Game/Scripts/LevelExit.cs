@@ -9,7 +9,12 @@ public class LevelExit : MonoBehaviour
     public string nextLevel;
 
     public float waitToEndLevel = 2f;
+    private Scene scene;
 
+    private void Awake()
+    {
+        scene = SceneManager.GetActiveScene();
+    }
 
     void Start()
     {
@@ -33,10 +38,10 @@ public class LevelExit : MonoBehaviour
 
     private IEnumerator EndLevelCo()
     {
-        PlayerPrefs.SetString(nextLevel + "_cp", "");
+        //PlayerPrefs.SetString(nextLevel + "_cp", "");
 
         yield return new WaitForSeconds(waitToEndLevel);
 
-        SceneManager.LoadScene(nextLevel);
+        SceneManager.LoadScene(scene.buildIndex + 1);
     }
 }
