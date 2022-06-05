@@ -30,7 +30,7 @@ public class Loading : MonoBehaviour
         bar.transform.localScale = new Vector3(sayi / 100, 1, 1);
         if (sayi < 100)
         {
-            sayi += Time.deltaTime * 9;
+            sayi += Time.deltaTime * 12;
         }
         if (sayi >= 100)
         {
