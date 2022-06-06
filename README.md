@@ -49,6 +49,7 @@ ve Empties'lerin temizlenmesine odaklanan birinci şahıs nişancı türünde bi
 - [Oyun Sesleri](https://opengameart.org/)
 - [Oyun Sesleri](https://freesound.org/search/?g=1&f=&q=handling&s=Duration+%28short+first%29&w=&advanced=0&page=7#sound)
 - [Oyunda kullandığımız Texture’lar](https://www.textures.com/)
+- [Oyunda kullandığımız Texture’lar](https://3dtextures.me/)
 
 ---
 
@@ -134,5 +135,10 @@ Alınan kararlar: 3. Sprint'de arkadaşımızın aramızdan ayrılmasından dola
 - Sprint Review katılımcıları: Tüm Ekip
 
 - **Ürün Durumu**: Ekran görüntüleri:
+
+![4](https://user-images.githubusercontent.com/93131711/172230486-ad00919c-e542-46d2-a711-5097e0b20f65.PNG)
+![3](https://user-images.githubusercontent.com/93131711/172230522-b8b1023c-7085-41f1-929e-67ab847ffde3.PNG)
+![2](https://user-images.githubusercontent.com/93131711/172230537-1aaf964c-d74a-428d-a97f-5930236d280b.PNG)
+![1](https://user-images.githubusercontent.com/93131711/172230547-ebd10758-14c6-487b-926c-62bd3afcb883.PNG)
 
 - **Sprint Retrospective:** Son Sprint olması ve dört kişi kalmamız sebebiyle başta biraz sıkıntılı bir döneme girsek de, çabuk toparlayıp kalan işlerimize dört elle sarıldık. Ortaya çıkardığımız iş birtakım eksikleri olsa da hepimizin içine sindi. 
