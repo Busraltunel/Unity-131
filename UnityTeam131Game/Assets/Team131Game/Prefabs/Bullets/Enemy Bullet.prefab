@@ -66,7 +66,8 @@ MonoBehaviour:
   rb: {fileID: 7923731047107477999}
   bulletEffectEnvironment: {fileID: 3323038287580990422, guid: bb80bb8b411c5fe41baa06f72c7c8e93, type: 3}
   bulletEffectEnemy: {fileID: 3323038287580990422, guid: fbff36943f2c76d4ca7acbb1ab7e5e2c, type: 3}
-  damage: 3
+  bulletEffectEmpties: {fileID: 0}
+  damage: 5
   damageEnemy: 0
   damagePlayer: 1
   EnemyHitSound: {fileID: 3840752306962243726}
@@ -137,7 +138,7 @@ TrailRenderer:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.08219147
+        value: 0.04297638
         inSlope: 0
         outSlope: 0
         tangentMode: 0
