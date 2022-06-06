@@ -40,6 +40,16 @@ ve Empties'lerin temizlenmesine odaklanan birinci şahıs nişancı türünde bi
 - [Miro Moodboard](https://miro.com/app/board/uXjVO2DLwP4=/?share_link_id=814631969518)
 - [Game Desing Document](https://docs.google.com/document/d/16ENNLMy4iLyZDZlZeuvmyq_wKJYy9C5D/edit?usp=sharing&ouid=116119319976991765463&rtpof=true&sd=true)
 
+## Kullanılan Assetler
+
+- Free Zombie Character Sounds
+- Environmental Asset Pack 
+- Russian Building Lowpoly Pack
+- 8K Skybox Pack Free
+- [Oyun Sesleri](https://opengameart.org/)
+- [Oyun Sesleri](https://freesound.org/search/?g=1&f=&q=handling&s=Duration+%28short+first%29&w=&advanced=0&page=7#sound)
+- [Oyunda kullandığımız Texture’lar](https://www.textures.com/)
+
 ---
 
 # Sprint 1
@@ -113,7 +123,8 @@ Alınan kararlar: Oyunda komple bir nükleer santral tesisi yapmayı planlıyord
 ![dailyscrum3](https://user-images.githubusercontent.com/93131711/172041162-3631ea72-c4a1-45d5-840f-8fa6fe9b7e40.png)
 ![dailyscrum4](https://user-images.githubusercontent.com/93131711/172041186-31b1fce8-e427-484a-9a87-4224dd60c4fb.png)
 
-- **Backlog düzeni ve Story seçimleri**: Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir. Sprint başına tahmin edilen puan sayısını geçmeyecek şekilde sıradan seçimler yapılmaktadır.
+- **Backlog düzeni ve Story seçimleri**: Sprint başına tahmin edilen puan sayısını geçmeyecek şekilde sıradan seçimler yapılmaktadır. Eski Sprint'den kalan görevlerimizin çoğunu tamamlamakla birlikte, son Sprint içinde tahmin ettiğimiz toplam 350 puanın 275 puanlık kısmını tamamlamış bulunuyoruz. 
+Eski Sprint'te seçtiğimiz iki Story'nin puan değerinin tahmin edildiğinden çok daha yüksek olduğuna karar verdik ve onlara yeni puan ataması yaptık.
 -  [Miro Backlog Board](https://miro.com/app/board/uXjVO6Xaf2U=/?share_link_id=633709052401)
 -  [Miro Moodboard](https://miro.com/app/board/uXjVO2DLwP4=/?share_link_id=814631969518)
 
