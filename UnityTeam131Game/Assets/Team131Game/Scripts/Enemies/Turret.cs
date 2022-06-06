@@ -12,6 +12,7 @@ public class Turret : MonoBehaviour
     public Transform gun;
     public Transform firePoint;
     public float rotateSpeed = 45f;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -29,6 +30,8 @@ public class Turret : MonoBehaviour
             //gun.rotation = Quaternion.LookRotation(newDirection);
 
             shotCounter -= Time.deltaTime;
+            
+            
 
             if (shotCounter <= 0)
             {
@@ -42,4 +45,7 @@ public class Turret : MonoBehaviour
             //gun.rotation = Quaternion.Lerp(gun.rotation, Quaternion.Euler(0f, gun.rotation.eulerAngles.y + 10f, 0f), rotateSpeed * Time.deltaTime);
         }
     }
+
+    
+    
 }
