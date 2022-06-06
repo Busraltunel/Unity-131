@@ -1,0 +1,1728 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.25f1 (9b9180224418) revision 10195328'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19043) 64bit CoreSingleLanguage' Language: 'tr' Physical Memory: 16258 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.25f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/user/Unity Projects/Unity-131/UnityTeam131Game
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+58127
+Successfully changed project path to: C:/Users/user/Unity Projects/Unity-131/UnityTeam131Game
+C:/Users/user/Unity Projects/Unity-131/UnityTeam131Game
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 145.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.25f1 (9b9180224418)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/user/Unity Projects/Unity-131/UnityTeam131Game/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce 940MX (ID=0x134d)
+    Vendor:   
+    VRAM:     4055 MB
+    Driver:   30.0.15.1295
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56788
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002180 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 97.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.876 seconds
+Domain Reload Profiling:
+	ReloadAssembly (876ms)
+		BeginReloadAssembly (78ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (688ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (233ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (250ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (98ms)
+				BeforeProcessingInitializeOnLoad (18ms)
+				ProcessInitializeOnLoadAttributes (95ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005588 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001D36E721750 doesn't match image C:\Users\user\Unity Projects\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D36E687060 doesn't match image C:\Users\user\Unity Projects\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D36E2687E0 doesn't match image C:\Users\user\Unity Projects\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D368C39010 doesn't match image C:\Users\user\Unity Projects\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D36959F020 doesn't match image C:\Users\user\Unity Projects\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D36E2E25E0 doesn't match image C:\Users\user\Unity Projects\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D36E7A68E0 doesn't match image C:\Users\user\Unity Projects\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D368F3E790 doesn't match image C:\Users\user\Unity Projects\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D36E37E080 doesn't match image C:\Users\user\Unity Projects\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D36EBC2040 doesn't match image C:\Users\user\Unity Projects\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D36E37E080 doesn't match image C:\Users\user\Unity Projects\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D368B5D020 doesn't match image C:\Users\user\Unity Projects\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D36EA1CE00 doesn't match image C:\Users\user\Unity Projects\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D368D455F0 doesn't match image C:\Users\user\Unity Projects\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D36E37E080 doesn't match image C:\Users\user\Unity Projects\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D36D5BC010 doesn't match image C:\Users\user\Unity Projects\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ProBuilder.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D36EBC2040 doesn't match image C:\Users\user\Unity Projects\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D368EB9020 doesn't match image C:\Users\user\Unity Projects\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D36DD0F630 doesn't match image C:\Users\user\Unity Projects\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D368BB3FA0 doesn't match image C:\Users\user\Unity Projects\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D36DE40020 doesn't match image C:\Users\user\Unity Projects\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D36DE40020 doesn't match image C:\Users\user\Unity Projects\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D36EA1CE00 doesn't match image C:\Users\user\Unity Projects\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D369109410 doesn't match image C:\Users\user\Unity Projects\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D368F471A0 doesn't match image C:\Users\user\Unity Projects\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D3694D2020 doesn't match image C:\Users\user\Unity Projects\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D36DD0F630 doesn't match image C:\Users\user\Unity Projects\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D36D652020 doesn't match image C:\Users\user\Unity Projects\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D36E49DEC0 doesn't match image C:\Users\user\Unity Projects\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D36ECF7C70 doesn't match image C:\Users\user\Unity Projects\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D36EA1CE00 doesn't match image C:\Users\user\Unity Projects\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D368BB35F0 doesn't match image C:\Users\user\Unity Projects\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D368BB35F0 doesn't match image C:\Users\user\Unity Projects\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D36D8F2020 doesn't match image C:\Users\user\Unity Projects\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D36D683A40 doesn't match image C:\Users\user\Unity Projects\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D368A80A00 doesn't match image C:\Users\user\Unity Projects\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D36D8F2020 doesn't match image C:\Users\user\Unity Projects\Unity-131\UnityTeam131Game\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Error: Could not load signature of ReadmeEditor:SelectReadme due to: Could not load file or assembly 'Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Could not load signature of ReadmeEditor:SelectReadme due to: Could not load file or assembly 'Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Unloading broken assembly Library/ScriptAssemblies/Assembly-CSharp-Editor.dll, this assembly can cause crashes in the runtime
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 78.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.391 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1391ms)
+		BeginReloadAssembly (166ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (1157ms)
+			LoadAssemblies (120ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (392ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (444ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (79ms)
+				BeforeProcessingInitializeOnLoad (109ms)
+				ProcessInitializeOnLoadAttributes (238ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3359 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 249.3 MB.
+System memory in use after: 249.6 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3842.
+Total: 4.679200 ms (FindLiveObjects: 0.318200 ms CreateObjectMapping: 0.221300 ms MarkObjects: 4.095200 ms  DeleteObjects: 0.043000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Bush.fbx
+  artifactKey: Guid(23ff7d8acab137d4580d8104552f4527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bush.fbx using Guid(23ff7d8acab137d4580d8104552f4527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8942f95bf284605327580fff8afaf29') in 0.445589 seconds 
+  Import took 0.452896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/CeilingLight.fbx
+  artifactKey: Guid(fc260c0de4bc23146914baf1cb2b6cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CeilingLight.fbx using Guid(fc260c0de4bc23146914baf1cb2b6cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ad66369603df9c363246cb5dbf5a5a7') in 0.063319 seconds 
+  Import took 0.077973 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/AssaultRıfle2.fbx
+  artifactKey: Guid(13facb7cdcd1e834f9d103229e242306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssaultRıfle2.fbx using Guid(13facb7cdcd1e834f9d103229e242306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1396fdc528674a604001813444481e53') in 0.112609 seconds 
+  Import took 0.122979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/157187__rbirdwise__campfire-crackle-3.wav
+  artifactKey: Guid(7a650f726ce72444b9669740b3d83d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/157187__rbirdwise__campfire-crackle-3.wav using Guid(7a650f726ce72444b9669740b3d83d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bbab857b685cff22009cbc0065f97c0') in 0.074530 seconds 
+  Import took 0.089281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000619 seconds.
+  path: Assets/255716__paul368__silenced-pistol-layered-powerful.wav
+  artifactKey: Guid(662e7be18c47eb646b7ed8ce10b38dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/255716__paul368__silenced-pistol-layered-powerful.wav using Guid(662e7be18c47eb646b7ed8ce10b38dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88fa4b76f35db2667c3f9bc7d025d4a2') in 0.039418 seconds 
+  Import took 0.051809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/button03.mp3.flac
+  artifactKey: Guid(0e48ebe33f7fa534787492cd9527178b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/button03.mp3.flac using Guid(0e48ebe33f7fa534787492cd9527178b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdcfe4078828af115d23d3e0855b7aa4') in 0.036223 seconds 
+  Import took 0.049584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/34251__pauliep83__silenced-gun.wav
+  artifactKey: Guid(fbe4dd8f56ccabe40831c86cae7204e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/34251__pauliep83__silenced-gun.wav using Guid(fbe4dd8f56ccabe40831c86cae7204e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5441a016c8828e31403f6da9c1812b4') in 0.047274 seconds 
+  Import took 0.061950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/60009__qubodup__swosh_22.flac
+  artifactKey: Guid(6fa484053655e2142af947deb34da69f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/60009__qubodup__swosh_22.flac using Guid(6fa484053655e2142af947deb34da69f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54b81b0303dd227c82998fb44cd4aa0b') in 0.042525 seconds 
+  Import took 0.059152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/amb_mountains.flac
+  artifactKey: Guid(29cd903c7bb2c544da5093c46a38ab0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/amb_mountains.flac using Guid(29cd903c7bb2c544da5093c46a38ab0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4c0abf926525a675e3b09a61618c88a') in 0.039095 seconds 
+  Import took 0.054074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/CampFire.fbx
+  artifactKey: Guid(762b8c54b1c91e342a095280228e1522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CampFire.fbx using Guid(762b8c54b1c91e342a095280228e1522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33e7b3c90f40f4793c24b44c66d5ec79') in 0.045195 seconds 
+  Import took 0.055876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/boombox.jpg
+  artifactKey: Guid(c8922ac3102f1274f93dc083f11341bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/boombox.jpg using Guid(c8922ac3102f1274f93dc083f11341bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ed80a295d7bdafe383bac0d97856107') in 0.047864 seconds 
+  Import took 0.063681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000543 seconds.
+  path: Assets/Dead Tree 2 RFS_Tree 1 Mat_AlbedoTransparency.png
+  artifactKey: Guid(f9fca283c4c3b12499955ef7e1fccf1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dead Tree 2 RFS_Tree 1 Mat_AlbedoTransparency.png using Guid(f9fca283c4c3b12499955ef7e1fccf1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f963931b1a11977e65bb3be27af8333') in 0.050286 seconds 
+  Import took 0.062495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 139.156843 seconds.
+  path: Assets/Team131Game/Prefabs/Checkpoint.prefab
+  artifactKey: Guid(5e7d1a1b993ffe240bea81828ab808c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Prefabs/Checkpoint.prefab using Guid(5e7d1a1b993ffe240bea81828ab808c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '531c8c8d8254ffc7a39849b8d3216a71') in 0.027828 seconds 
+  Import took 0.034441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Team131Game/Prefabs/Key (1).prefab
+  artifactKey: Guid(eb5e95bb58d7c47459d68e3394bc0291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Prefabs/Key (1).prefab using Guid(eb5e95bb58d7c47459d68e3394bc0291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33830aa0f9493a520c9588be0d6f3053') in 0.035612 seconds 
+  Import took 0.049099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000936 seconds.
+  path: Assets/Team131Game/Prefabs/DeadBody.prefab
+  artifactKey: Guid(9ba73f2931f6da044842f4d341a92c6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Prefabs/DeadBody.prefab using Guid(9ba73f2931f6da044842f4d341a92c6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3bc603e05aab85f3e38947e0a6d36fd') in 0.075069 seconds 
+  Import took 0.085342 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Team131Game/Prefabs/EmptiesDeadBody.prefab
+  artifactKey: Guid(cd0f9a90258e6394ca0739e214deae72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Prefabs/EmptiesDeadBody.prefab using Guid(cd0f9a90258e6394ca0739e214deae72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2f15a488b498c2dfccba7e0d9dde986') in 0.058448 seconds 
+  Import took 0.070710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Team131Game/Prefabs/Tree 2.prefab
+  artifactKey: Guid(447f521b46432154482e06c6492ed065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Prefabs/Tree 2.prefab using Guid(447f521b46432154482e06c6492ed065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '999ad309a71135c83f7e9e333ed48f8d') in 0.052011 seconds 
+  Import took 0.070480 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Team131Game/Prefabs/LoadingScreenCanvas.prefab
+  artifactKey: Guid(972f64002008b23498d9e578ff07892e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Prefabs/LoadingScreenCanvas.prefab using Guid(972f64002008b23498d9e578ff07892e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c72a37e3697fda5b1e40c44e764a6f50') in 0.147852 seconds 
+  Import took 0.161681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Team131Game/Prefabs/CoreObjects.prefab
+  artifactKey: Guid(d5da02bebffc0f64b92cb47c2b7f9792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Prefabs/CoreObjects.prefab using Guid(d5da02bebffc0f64b92cb47c2b7f9792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76c408b80774ea35fefcebc3f9f39684') in 0.128139 seconds 
+  Import took 0.138165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Team131Game/Prefabs/Door.prefab
+  artifactKey: Guid(8bc28c279931b634e8ee99f4cf3c7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Prefabs/Door.prefab using Guid(8bc28c279931b634e8ee99f4cf3c7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bee7b3d3234909b3fc777b04a5ccf2b') in 0.028262 seconds 
+  Import took 0.037893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Team131Game/Prefabs/Tree 4.prefab
+  artifactKey: Guid(2757d5d529e724b46a7bf80d7ef397c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Prefabs/Tree 4.prefab using Guid(2757d5d529e724b46a7bf80d7ef397c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd02b2d8492f698e7649d4d4a3cf7663') in 0.030488 seconds 
+  Import took 0.053748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.544819 seconds.
+  path: Assets/Team131Game/Models/AmmoBox.fbx
+  artifactKey: Guid(81bc4e58c276659409afff4f47ec3456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Models/AmmoBox.fbx using Guid(81bc4e58c276659409afff4f47ec3456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '262ca0028537e8db93bd0d2e9f768175') in 0.159634 seconds 
+  Import took 0.175643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/UnitySampleScene/ExampleAssets/Models/hammer_low.fbx
+  artifactKey: Guid(68a66fb5a71f8204a8dcb613c97d1fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnitySampleScene/ExampleAssets/Models/hammer_low.fbx using Guid(68a66fb5a71f8204a8dcb613c97d1fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3872d604e8c5785796554872ed0226dc') in 0.067168 seconds 
+  Import took 0.078769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Elevator.fbx
+  artifactKey: Guid(58ded864550d9bc4daeeb10d2077696b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Elevator.fbx using Guid(58ded864550d9bc4daeeb10d2077696b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f18f867332fedb1422e4c4abaf967db9') in 0.126720 seconds 
+  Import took 0.138798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Team131Game/Prefabs/Bullets/EmptiesEnemyBulletEffect 1.prefab
+  artifactKey: Guid(1643fdd43c67c164b8ec2dbdc602da5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Prefabs/Bullets/EmptiesEnemyBulletEffect 1.prefab using Guid(1643fdd43c67c164b8ec2dbdc602da5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6067182703ccd258cb7674eedf2d0518') in 0.086568 seconds 
+  Import took 0.107215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001353 seconds.
+  path: Assets/Team131Game/Prefabs/Bullets/Enemy Bullet.prefab
+  artifactKey: Guid(6f467b0d0a8e78a478392932fe911b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Prefabs/Bullets/Enemy Bullet.prefab using Guid(6f467b0d0a8e78a478392932fe911b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64f0d53d103cf1f45d489c72598d6504') in 0.081467 seconds 
+  Import took 0.096192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Team131Game/Prefabs/Bullets/Bullet Effect.prefab
+  artifactKey: Guid(bb80bb8b411c5fe41baa06f72c7c8e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Prefabs/Bullets/Bullet Effect.prefab using Guid(bb80bb8b411c5fe41baa06f72c7c8e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2128048d955f9ca5f3be7cabdb0c90c7') in 0.078221 seconds 
+  Import took 0.095862 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Team131Game/Prefabs/Bullets/EnemyBulletEffect.prefab
+  artifactKey: Guid(fbff36943f2c76d4ca7acbb1ab7e5e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Prefabs/Bullets/EnemyBulletEffect.prefab using Guid(fbff36943f2c76d4ca7acbb1ab7e5e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '880b184fe1aa47361cf5f9311124dc69') in 0.057892 seconds 
+  Import took 0.085787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/UnitySampleScene/ExampleAssets/Models/jigsaw_low.fbx
+  artifactKey: Guid(8b73e8872ca76104bbca4ee2b704a1b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnitySampleScene/ExampleAssets/Models/jigsaw_low.fbx using Guid(8b73e8872ca76104bbca4ee2b704a1b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b2d7c4500efe0d6778b7db2de8c5982') in 0.092664 seconds 
+  Import took 0.104886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Team131Game/Models/Building3.fbx
+  artifactKey: Guid(06435961d92acfb4093d13de68c6b642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Models/Building3.fbx using Guid(06435961d92acfb4093d13de68c6b642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0399f808a28092cfe3d0b09bb84bb83') in 0.121533 seconds 
+  Import took 0.131320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/UnitySampleScene/ExampleAssets/Models/magneticlevel_low.fbx
+  artifactKey: Guid(bae110eee250e4b418b188f4ae4e3170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnitySampleScene/ExampleAssets/Models/magneticlevel_low.fbx using Guid(bae110eee250e4b418b188f4ae4e3170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2e76e6fd8da9e87599faf346ac753bd') in 0.103050 seconds 
+  Import took 0.113031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Team131Game/Models/Building2.fbx
+  artifactKey: Guid(6204949a1201bfc4da55193c195485ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Models/Building2.fbx using Guid(6204949a1201bfc4da55193c195485ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1ae913581b5c7554be74e06e77c6e80') in 0.118732 seconds 
+  Import took 0.126799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Team131Game/Models/AssaultRifle.fbx
+  artifactKey: Guid(10dcf2756d948484eb4db24d28ce61a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Models/AssaultRifle.fbx using Guid(10dcf2756d948484eb4db24d28ce61a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '727ea9d787148d75b44b1dabce65cc98') in 0.092385 seconds 
+  Import took 0.104031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Team131Game/Prefabs/Bullets/AssaultRifleBullet.prefab
+  artifactKey: Guid(78f7e90397db64042a913e82fad233dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Prefabs/Bullets/AssaultRifleBullet.prefab using Guid(78f7e90397db64042a913e82fad233dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f05e7cb06999c302704e6b58ca8e9ef5') in 0.032309 seconds 
+  Import took 0.043553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Team131Game/Models/Building4.fbx
+  artifactKey: Guid(0e691ee2a3bca3d49a52d6a5b2ba37d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Models/Building4.fbx using Guid(0e691ee2a3bca3d49a52d6a5b2ba37d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba60178f53311723703c003ddc642fff') in 0.110244 seconds 
+  Import took 0.119791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/UnitySampleScene/ExampleAssets/Prefabs/Construction Light Low.prefab
+  artifactKey: Guid(bf0a225a9ff184f2789f3036faaa9150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnitySampleScene/ExampleAssets/Prefabs/Construction Light Low.prefab using Guid(bf0a225a9ff184f2789f3036faaa9150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '631c06294727904f90865b3a138e56df') in 0.083798 seconds 
+  Import took 0.093462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Team131Game/Models/Hands.fbx
+  artifactKey: Guid(fa603e5222ef1a34682f0ff8c81a8677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Models/Hands.fbx using Guid(fa603e5222ef1a34682f0ff8c81a8677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd5690e88b40aacc6be153ce6e2492d6') in 0.102532 seconds 
+  Import took 0.112214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Team131Game/Models/Empties.fbx
+  artifactKey: Guid(6cfc53b3e0c8e8b488ae53919f0f2c4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Models/Empties.fbx using Guid(6cfc53b3e0c8e8b488ae53919f0f2c4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22738c678214f27ee925b66ea459d432') in 0.094054 seconds 
+  Import took 0.101708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/UnitySampleScene/ExampleAssets/Models/ConstructionLight_Low.fbx
+  artifactKey: Guid(e3ae06a3979f53046aa05330d69de1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnitySampleScene/ExampleAssets/Models/ConstructionLight_Low.fbx using Guid(e3ae06a3979f53046aa05330d69de1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23e11a1d94a221a050e8301640438edb') in 0.078879 seconds 
+  Import took 0.088609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Team131Game/Prefabs/Bullets/BaseBallBullet.prefab
+  artifactKey: Guid(4dd4ed3e489fd904d87fe748c0b9ecd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Prefabs/Bullets/BaseBallBullet.prefab using Guid(4dd4ed3e489fd904d87fe748c0b9ecd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64f7935f0d14189b50d1bd502a230326') in 0.012994 seconds 
+  Import took 0.027283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000788 seconds.
+  path: Assets/Menu UI/ChaptersMenu.prefab
+  artifactKey: Guid(49f5fd1239640d5418a62dbf05fcc71d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu UI/ChaptersMenu.prefab using Guid(49f5fd1239640d5418a62dbf05fcc71d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '416290481802814eb65d9fe1a21a7d86') in 0.066724 seconds 
+  Import took 0.082160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Team131Game/Models/Key.fbx
+  artifactKey: Guid(3a09c557d7fb9ce4193960a5c354653b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Models/Key.fbx using Guid(3a09c557d7fb9ce4193960a5c354653b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23e7fa0d58e0410dfb0a05cebbe4e438') in 0.071900 seconds 
+  Import took 0.083376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Team131Game/Models/BulletShell.fbx
+  artifactKey: Guid(13935cc441c7b4a4496b070dea788dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Models/BulletShell.fbx using Guid(13935cc441c7b4a4496b070dea788dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8200fa10cef00e1fa0a39282c3bf0929') in 0.184675 seconds 
+  Import took 0.243495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Menu UI/MainMenu.prefab
+  artifactKey: Guid(03745e45717a1e24c8464339eb2243eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu UI/MainMenu.prefab using Guid(03745e45717a1e24c8464339eb2243eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '504a59c5a4dd9a31bead968a316037e4') in 0.031259 seconds 
+  Import took 0.041209 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/Team131Game/Models/Bridge.fbx
+  artifactKey: Guid(0bd3317abed4b724b8c2fbbb569241e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Models/Bridge.fbx using Guid(0bd3317abed4b724b8c2fbbb569241e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a16417a8c946da7309f2c447f8fa0a2') in 0.060781 seconds 
+  Import took 0.070426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Team131Game/Models/Hands 1.fbx
+  artifactKey: Guid(fb0f015004cabf84784a696fbef451a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Models/Hands 1.fbx using Guid(fb0f015004cabf84784a696fbef451a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8525ece10e3d26a906362d456d6edcf') in 0.063350 seconds 
+  Import took 0.070050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Team131Game/Models/Building1.fbx
+  artifactKey: Guid(ec86467b76990b84a97afd71791e56d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Models/Building1.fbx using Guid(ec86467b76990b84a97afd71791e56d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5cbc52640444f6bb5474565a2cd874d') in 0.055785 seconds 
+  Import took 0.063761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Team131Game/Models/Building5.fbx
+  artifactKey: Guid(aa258ddadee82634a9067bfb838f9058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Models/Building5.fbx using Guid(aa258ddadee82634a9067bfb838f9058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04e8d50bc47ac37b912a46893f084d5a') in 0.066891 seconds 
+  Import took 0.076755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.237738 seconds.
+  path: Assets/Team131Game/Models/Medkit.fbx
+  artifactKey: Guid(ee4d2928db3f9d646944cde616914dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Models/Medkit.fbx using Guid(ee4d2928db3f9d646944cde616914dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fede5c41c3facdaac8057c691d4d4802') in 0.031804 seconds 
+  Import took 0.040387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000397 seconds.
+  path: Assets/UnitySampleScene/ExampleAssets/Prefabs/Paint Supplies.prefab
+  artifactKey: Guid(283e6530a665e4513959d1cd4883682f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnitySampleScene/ExampleAssets/Prefabs/Paint Supplies.prefab using Guid(283e6530a665e4513959d1cd4883682f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ba5846967725f088a7227886704194c') in 0.148855 seconds 
+  Import took 0.159398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Team131Game/Models/MilitaryVehicle1.fbx
+  artifactKey: Guid(6e61ea07d4709ad40a1e604eca948d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Models/MilitaryVehicle1.fbx using Guid(6e61ea07d4709ad40a1e604eca948d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6844545a148545581f9a3ba312faaeb0') in 0.060451 seconds 
+  Import took 0.068188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Team131Game/Models/MilitaryVehicle3.fbx
+  artifactKey: Guid(e4cb89fa92708ed479ce6b630bfdb52e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Models/MilitaryVehicle3.fbx using Guid(e4cb89fa92708ed479ce6b630bfdb52e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eebbeac83624775c9edd755ff823a9e3') in 0.065889 seconds 
+  Import took 0.074979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Team131Game/Models/MilitaryVehicle6.fbx
+  artifactKey: Guid(326e0e6b2e01e354ba93d01fd7a96fa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Models/MilitaryVehicle6.fbx using Guid(326e0e6b2e01e354ba93d01fd7a96fa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fe2bb88c428d6cc9c2c55f5310ba393') in 0.078708 seconds 
+  Import took 0.087430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Team131Game/Models/MilitaryVehicle5.fbx
+  artifactKey: Guid(61d8030ce7cb5984bbe2018281518c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Models/MilitaryVehicle5.fbx using Guid(61d8030ce7cb5984bbe2018281518c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dea30c34fca2ed0a5dd21928a866273') in 0.060395 seconds 
+  Import took 0.066656 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/UnitySampleScene/ExampleAssets/Models/paintbucket_low.fbx
+  artifactKey: Guid(b451a052397f03c4f8a04d915d1c0492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnitySampleScene/ExampleAssets/Models/paintbucket_low.fbx using Guid(b451a052397f03c4f8a04d915d1c0492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5058b25dcc2a9b2a6a67d18087628a4') in 0.105512 seconds 
+  Import took 0.116657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Menu UI/OptionsMenu.prefab
+  artifactKey: Guid(aa0d54e6e2dea024c839147403590872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu UI/OptionsMenu.prefab using Guid(aa0d54e6e2dea024c839147403590872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9df7d1a7f55ec2b872f3e92bcd561b35') in 0.038708 seconds 
+  Import took 0.049441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Team131Game/Models/Pistol.fbx
+  artifactKey: Guid(a8ce1dc5dccfa56449125558467f0ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Models/Pistol.fbx using Guid(a8ce1dc5dccfa56449125558467f0ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48e9702b57c83629291e727360059d30') in 0.116990 seconds 
+  Import took 0.127117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Shotgun.fbx
+  artifactKey: Guid(ed9f69f41cdc5384aaebb3922e95deb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shotgun.fbx using Guid(ed9f69f41cdc5384aaebb3922e95deb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bc86f398f6497c2c4b33d86863c39ba') in 0.082908 seconds 
+  Import took 0.089876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Shack.fbx
+  artifactKey: Guid(f581f957801bd7d4ea5d42c642d5a749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shack.fbx using Guid(f581f957801bd7d4ea5d42c642d5a749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdde11e751d8e1f52c3221851e6e3f11') in 0.058745 seconds 
+  Import took 0.068082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/UnitySampleScene/ExampleAssets/Models/safetygoggles_low.fbx
+  artifactKey: Guid(6296e48663fd7ad46b1a2af507f871cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnitySampleScene/ExampleAssets/Models/safetygoggles_low.fbx using Guid(6296e48663fd7ad46b1a2af507f871cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3d2410d4b7040f3cf35a73f2b795727') in 0.089473 seconds 
+  Import took 0.100034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Team131Game/Prefabs/Bullets/Pistol Bullet.prefab
+  artifactKey: Guid(025ccdf0071b43f44803286da33d4041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Prefabs/Bullets/Pistol Bullet.prefab using Guid(025ccdf0071b43f44803286da33d4041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1b1b184cb590fa43efde62420eddda3') in 0.026762 seconds 
+  Import took 0.038896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Team131Game/Models/Roads.fbx
+  artifactKey: Guid(87b9cc5755b5dae4f9c195b469cfc3cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Models/Roads.fbx using Guid(87b9cc5755b5dae4f9c195b469cfc3cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8113f571877bea5d5c169c4b7d49153a') in 0.047936 seconds 
+  Import took 0.057506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Radio.fbx
+  artifactKey: Guid(a8da442c526ef604c880b566cbd2acb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Radio.fbx using Guid(a8da442c526ef604c880b566cbd2acb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de6ce1d31e77dc1553e2167ed535536e') in 0.083307 seconds 
+  Import took 0.093551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Team131Game/Models/Rails.fbx
+  artifactKey: Guid(f4f3ef8e2941aaa479399d70d16e9278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Models/Rails.fbx using Guid(f4f3ef8e2941aaa479399d70d16e9278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f4dfa1515a53521ffa6e40cf0621ed0') in 0.065856 seconds 
+  Import took 0.072646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/UnitySampleScene/ExampleAssets/Prefabs/Props.prefab
+  artifactKey: Guid(85dfab9623c67784fa7894de63cd1604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnitySampleScene/ExampleAssets/Prefabs/Props.prefab using Guid(85dfab9623c67784fa7894de63cd1604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abe6d0bb78a0b73c58240061b26f90a6') in 0.177984 seconds 
+  Import took 0.186061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Team131Game/Models/MilitaryVehicle4.fbx
+  artifactKey: Guid(0769b87c50ed525429b73810e56121f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Models/MilitaryVehicle4.fbx using Guid(0769b87c50ed525429b73810e56121f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '608fe9c53d35c633cd9ca4ed39f3b392') in 0.077919 seconds 
+  Import took 0.084853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/UnitySampleScene/ExampleAssets/Models/safetyhat_low.fbx
+  artifactKey: Guid(9d0d902f71acfe646a46cb625f815a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnitySampleScene/ExampleAssets/Models/safetyhat_low.fbx using Guid(9d0d902f71acfe646a46cb625f815a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f091f968c18d9e26908aefee3ff4c4f3') in 0.049975 seconds 
+  Import took 0.057194 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.414282 seconds.
+  path: Assets/Team131Game/Prefabs/Bullets/ShotGunBullet.prefab
+  artifactKey: Guid(68d7772ec1cd32344ba88ad28c9a0bad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Prefabs/Bullets/ShotGunBullet.prefab using Guid(68d7772ec1cd32344ba88ad28c9a0bad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c07cf18350160d264cb597128929498') in 0.018895 seconds 
+  Import took 0.031103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/Signs.fbx
+  artifactKey: Guid(dedc173ccf0ee85448e47a80884ddf61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Signs.fbx using Guid(dedc173ccf0ee85448e47a80884ddf61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17015d89c377f2d115e1d9ec9b9b79da') in 0.153251 seconds 
+  Import took 0.161546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Team131Game/Models/StreetLampSmall.fbx
+  artifactKey: Guid(6650a0482dc996543b50b84dfd986e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Models/StreetLampSmall.fbx using Guid(6650a0482dc996543b50b84dfd986e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8ca0b1340765e64b2f2276e8ddce7f7') in 0.120694 seconds 
+  Import took 0.130050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 2.prefab
+  artifactKey: Guid(fdad9d952ae84cafb74c63f2e694d042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 2.prefab using Guid(fdad9d952ae84cafb74c63f2e694d042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '894d5f1324cc75e830be9ea116be398d') in 0.055819 seconds 
+  Import took 0.067261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Team131Game/Models/TransmissionTower.fbx
+  artifactKey: Guid(cf2c18ba24bd9e846be8af811691ed11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Models/TransmissionTower.fbx using Guid(cf2c18ba24bd9e846be8af811691ed11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f9c676ba9b42f573c08fd9b9df6a90a') in 0.063817 seconds 
+  Import took 0.070693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Team131Game/Models/Train2.fbx
+  artifactKey: Guid(3c7142508454bbc4bbe5ce15cf98b927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Models/Train2.fbx using Guid(3c7142508454bbc4bbe5ce15cf98b927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9e53bc16915d13c643e24ddf2482717') in 0.054140 seconds 
+  Import took 0.065092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Team131Game/Models/TrainStation.fbx
+  artifactKey: Guid(5184cdad48aef6f409efdcb929f7ad1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Models/TrainStation.fbx using Guid(5184cdad48aef6f409efdcb929f7ad1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '338af7f877ea10519d77840004d249d7') in 0.081874 seconds 
+  Import took 0.089269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Prefabs/Text Popup.prefab
+  artifactKey: Guid(b06f0e6c1dfa4356ac918da1bb32c603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Prefabs/Text Popup.prefab using Guid(b06f0e6c1dfa4356ac918da1bb32c603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95955d751cb1b495fdc197a0df867928') in 0.063770 seconds 
+  Import took 0.072383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/UnitySampleScene/ExampleAssets/Models/Stud.fbx
+  artifactKey: Guid(34624edaccd9d704a95ed404d919b492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnitySampleScene/ExampleAssets/Models/Stud.fbx using Guid(34624edaccd9d704a95ed404d919b492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6903c948f73e6877a9c3f9b5a0be48a3') in 0.070880 seconds 
+  Import took 0.080299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Team131Game/Models/Spider.fbx
+  artifactKey: Guid(3e86fdfe3d0adf94f8bc6b0814a192e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Models/Spider.fbx using Guid(3e86fdfe3d0adf94f8bc6b0814a192e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eaddd44eb450206c6a762c921b811b0') in 0.068424 seconds 
+  Import took 0.082464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Team131Game/Models/Smg.fbx
+  artifactKey: Guid(3e3b0b9b1639f13419090f2af0be0d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Models/Smg.fbx using Guid(3e3b0b9b1639f13419090f2af0be0d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36e3cf20e5935f3bc7994c47d3da5604') in 0.108912 seconds 
+  Import took 0.120308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Team131Game/Models/Trash.fbx
+  artifactKey: Guid(a0ea9f8bb126d8c4a9f2158b369b61f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Models/Trash.fbx using Guid(a0ea9f8bb126d8c4a9f2158b369b61f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f79db4fbebb26efe50cf16b1d53834e') in 0.118019 seconds 
+  Import took 0.125943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Team131Game/Prefabs/Bullets/SMG Bullet.prefab
+  artifactKey: Guid(ddfb0da824e7cca4393038b2c2ae2af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Prefabs/Bullets/SMG Bullet.prefab using Guid(ddfb0da824e7cca4393038b2c2ae2af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dcf54acb9313ad4ec36694133bd2191') in 0.041097 seconds 
+  Import took 0.051612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Table.fbx
+  artifactKey: Guid(965b777940526a24eb655ef831f0ff83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table.fbx using Guid(965b777940526a24eb655ef831f0ff83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'addcc56ffc48a92e9cc986b33e629b3b') in 0.077124 seconds 
+  Import took 0.095889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Team131Game/Models/Train.fbx
+  artifactKey: Guid(64b45f0374c75db469acb5ae45a6e81b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Models/Train.fbx using Guid(64b45f0374c75db469acb5ae45a6e81b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '159735b8e11d985ba8e24a4a334f2bea') in 0.088802 seconds 
+  Import took 0.099398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 1.prefab
+  artifactKey: Guid(a6e39ced0ea046bcb636c3f0b2e2a745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 1.prefab using Guid(a6e39ced0ea046bcb636c3f0b2e2a745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59d020ff2594b62f8ce8ef5d29e8071d') in 0.081595 seconds 
+  Import took 0.091255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Team131Game/Models/Toilet.fbx
+  artifactKey: Guid(2e50b87843aa9a34492c877f956f5950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Models/Toilet.fbx using Guid(2e50b87843aa9a34492c877f956f5950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4673d4db42e8ee6764168afc0155d31d') in 0.132416 seconds 
+  Import took 0.143186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Team131Game/Models/Soldier.fbx
+  artifactKey: Guid(7448dace4901e244984e67f636c70ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Models/Soldier.fbx using Guid(7448dace4901e244984e67f636c70ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1540cc3af487ff59b49b7eecabf69474') in 0.124816 seconds 
+  Import took 0.136533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/UnitySampleScene/ExampleAssets/Models/small_plane.fbx
+  artifactKey: Guid(aeaee610429f51f44981e141eb2a3545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnitySampleScene/ExampleAssets/Models/small_plane.fbx using Guid(aeaee610429f51f44981e141eb2a3545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fd237b144b03060b756b4e2309f36f8') in 0.078587 seconds 
+  Import took 0.093207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.373155 seconds.
+  path: Assets/Tree 2.FBX
+  artifactKey: Guid(320316bb06a9fc34cb1e5840c72ba325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree 2.FBX using Guid(320316bb06a9fc34cb1e5840c72ba325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a372066da4db36d856e3d22ed8a1fa8d') in 0.130164 seconds 
+  Import took 0.152753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Tree 4.FBX
+  artifactKey: Guid(c5f6ae5768117d74dbe1cb86f66bd9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree 4.FBX using Guid(c5f6ae5768117d74dbe1cb86f66bd9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87c5d067c3d5ca25af21c032813ff70c') in 0.114304 seconds 
+  Import took 0.125606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/UnitySampleScene/ExampleAssets/Prefabs/Workshop Set.prefab
+  artifactKey: Guid(a87f0180d46fd334b9025d0314a0dc70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnitySampleScene/ExampleAssets/Prefabs/Workshop Set.prefab using Guid(a87f0180d46fd334b9025d0314a0dc70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e898c75c07a6fd4609869cec76b7e96') in 0.128391 seconds 
+  Import took 0.140444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Team131Game/Models/TreeWall.fbx
+  artifactKey: Guid(3bd654481ca39954584deda34f4c53c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Models/TreeWall.fbx using Guid(3bd654481ca39954584deda34f4c53c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6114a6ed878060463226c6f59352b4fb') in 0.069859 seconds 
+  Import took 0.077959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Team131Game/Models/Tree2.fbx
+  artifactKey: Guid(6e3fb3abe73dce74e88806a4ea263837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Models/Tree2.fbx using Guid(6e3fb3abe73dce74e88806a4ea263837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c7c2c27f15325ea9aebafda713791b8') in 0.058708 seconds 
+  Import took 0.073119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/UnitySampleScene/ExampleAssets/Prefabs/Workbench_LOD0.prefab
+  artifactKey: Guid(c0adcaeba3022437293536832628fdf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnitySampleScene/ExampleAssets/Prefabs/Workbench_LOD0.prefab using Guid(c0adcaeba3022437293536832628fdf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31cf603b17ad555d2bd88148dddd5221') in 0.072649 seconds 
+  Import took 0.081136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Team131Game/Models/Wall.fbx
+  artifactKey: Guid(1e1266f043894b64c901bc662aeb2eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Models/Wall.fbx using Guid(1e1266f043894b64c901bc662aeb2eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9476bc3ef96afa24653f91af1871bff0') in 0.068531 seconds 
+  Import took 0.088476 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/UnitySampleScene/ExampleAssets/Prefabs/Workbench.prefab
+  artifactKey: Guid(8850d132797ff49298ba781e8e1c9bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnitySampleScene/ExampleAssets/Prefabs/Workbench.prefab using Guid(8850d132797ff49298ba781e8e1c9bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d1b830d364b8d9c70f087723c34bd2c') in 0.065668 seconds 
+  Import took 0.078538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Team131Game/Models/Tree1.fbx
+  artifactKey: Guid(c7b4711e6dd540c42bfa807e84e2652a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Models/Tree1.fbx using Guid(c7b4711e6dd540c42bfa807e84e2652a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f7166f94532ec6a8f2a3460b4128ff8') in 0.064785 seconds 
+  Import took 0.077470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/UnitySampleScene/ExampleAssets/Models/Workshop_Set.fbx
+  artifactKey: Guid(47616bd0cda748d4cbedcfc908506b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnitySampleScene/ExampleAssets/Models/Workshop_Set.fbx using Guid(47616bd0cda748d4cbedcfc908506b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30d46bd41085d5b7f386e299f6e96d0b') in 0.142560 seconds 
+  Import took 0.155802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/UnitySampleScene/ExampleAssets/Prefabs/Workbench_LOD1.prefab
+  artifactKey: Guid(38d5ecfa2b93c4095b4cc5d4a590e676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnitySampleScene/ExampleAssets/Prefabs/Workbench_LOD1.prefab using Guid(38d5ecfa2b93c4095b4cc5d4a590e676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5babd802dddb3dce0ff3f605468f569f') in 0.056690 seconds 
+  Import took 0.072771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001789 seconds.
+  path: Assets/Team131Game/Models/Turret.fbx
+  artifactKey: Guid(09c022fa1c691a64284af736944ed54e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Models/Turret.fbx using Guid(09c022fa1c691a64284af736944ed54e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70c9896ed59c0c0d8c524400cad753c8') in 0.157872 seconds 
+  Import took 0.172188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 82.512088 seconds.
+  path: Assets/Team131Game/Materials/M_AmmoBox.mat
+  artifactKey: Guid(1405457c18f39ef4eaffae25b24e76ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Materials/M_AmmoBox.mat using Guid(1405457c18f39ef4eaffae25b24e76ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '651114164884bc7e0f736d46705ce181') in 0.023343 seconds 
+  Import took 0.031485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/Team131Game/Materials/M_SoldierBody.mat
+  artifactKey: Guid(45916ff28fb3dcd4abff4f8d782fe890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Materials/M_SoldierBody.mat using Guid(45916ff28fb3dcd4abff4f8d782fe890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f927bc5ba22d5c258867c1adcf04eda') in 0.085712 seconds 
+  Import took 0.096616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Team131Game/Materials/M_CheckPointParticle1.mat
+  artifactKey: Guid(d73f2a93cd2b29d499ca24faf75920ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Materials/M_CheckPointParticle1.mat using Guid(d73f2a93cd2b29d499ca24faf75920ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ea0a971e6ae8277b247813d1a9f3e78') in 0.031125 seconds 
+  Import took 0.039553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000794 seconds.
+  path: Assets/Team131Game/Materials/M_ShotGun.mat
+  artifactKey: Guid(50b1c42ca0e8e1344b7cb9eb2f61f340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Materials/M_ShotGun.mat using Guid(50b1c42ca0e8e1344b7cb9eb2f61f340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99d21b461daa4d5a25a233baf154fa1d') in 0.038058 seconds 
+  Import took 0.047931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000753 seconds.
+  path: Assets/Team131Game/Materials/M_Empties1.mat
+  artifactKey: Guid(b3e61684bde18584799d42da367dafe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Materials/M_Empties1.mat using Guid(b3e61684bde18584799d42da367dafe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ffa4ea965a4f6ce7a0e2a9192c6589f') in 0.038975 seconds 
+  Import took 0.046528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/Team131Game/Materials/M_Military vehicle1.mat
+  artifactKey: Guid(38c8b797a54c0eb40a322d638566058e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Materials/M_Military vehicle1.mat using Guid(38c8b797a54c0eb40a322d638566058e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b63640a46ecfc5d9eefa7a1733cd449') in 0.030594 seconds 
+  Import took 0.043782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Team131Game/Materials/M_MilitaryVehicle3.mat
+  artifactKey: Guid(3ae7b470f16ae0f4eb61f726de9caa32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Materials/M_MilitaryVehicle3.mat using Guid(3ae7b470f16ae0f4eb61f726de9caa32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e11e981dafffe6e4fbfa90a3af5a1323') in 0.028484 seconds 
+  Import took 0.042625 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000426 seconds.
+  path: Assets/Team131Game/Materials/M_Building2.mat
+  artifactKey: Guid(895dadbdd404a594fb4335b0a7c4a50f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Materials/M_Building2.mat using Guid(895dadbdd404a594fb4335b0a7c4a50f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb1e45f40956bf21e6a40b7a760cacb4') in 0.027846 seconds 
+  Import took 0.040549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Team131Game/Materials/M_MuzzleFlash.mat
+  artifactKey: Guid(1000b65f19331ff4591398a3cf6b5c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Materials/M_MuzzleFlash.mat using Guid(1000b65f19331ff4591398a3cf6b5c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fbe06f0ee44cccd6c883277e0f9d632') in 0.037167 seconds 
+  Import took 0.045671 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Team131Game/Materials/M_Empties2.mat
+  artifactKey: Guid(71a68be4f282b67428eee9c26e1888ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Materials/M_Empties2.mat using Guid(71a68be4f282b67428eee9c26e1888ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3319bb6ca31d5dbc6cd0c3dad14c918d') in 0.032385 seconds 
+  Import took 0.046206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Team131Game/Materials/M_Pistol.mat
+  artifactKey: Guid(3000263acbf3c2148ba6204eb117c36c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Materials/M_Pistol.mat using Guid(3000263acbf3c2148ba6204eb117c36c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3945404b2f70f352f95feeafcd8a7d9') in 0.024834 seconds 
+  Import took 0.036016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Team131Game/Materials/M_Smg.mat
+  artifactKey: Guid(4b4293cb24350e1428413f81bd1139aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Materials/M_Smg.mat using Guid(4b4293cb24350e1428413f81bd1139aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6c5f48d24747485c938f131c1176da0') in 0.040890 seconds 
+  Import took 0.051422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Team131Game/Materials/M_Building5.mat
+  artifactKey: Guid(52094b4d8c44a9e46be8b72fa3b4893e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Materials/M_Building5.mat using Guid(52094b4d8c44a9e46be8b72fa3b4893e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91533d2ca99466dae88468837256eccf') in 0.027424 seconds 
+  Import took 0.037113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Team131Game/Materials/M_MilitaryVehicle2.mat
+  artifactKey: Guid(67a9f67b9d0b7e148b3088d86e83b95c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Materials/M_MilitaryVehicle2.mat using Guid(67a9f67b9d0b7e148b3088d86e83b95c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6a9383175ccac8143cfdaa7fd3c6d1a') in 0.027690 seconds 
+  Import took 0.041725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Team131Game/Materials/M_Roads.mat
+  artifactKey: Guid(1df753f7ab234714ca5106fe7e038bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Materials/M_Roads.mat using Guid(1df753f7ab234714ca5106fe7e038bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ef34cf520a6288175bbe15ff23e993e') in 0.030110 seconds 
+  Import took 0.041278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Team131Game/Materials/M_MilitaryVehicle4.mat
+  artifactKey: Guid(823349a8185bceb4ea0c482a08f2632e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Materials/M_MilitaryVehicle4.mat using Guid(823349a8185bceb4ea0c482a08f2632e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19f6c799c2fc489a187d94da17f6f7f2') in 0.027195 seconds 
+  Import took 0.039373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000957 seconds.
+  path: Assets/Team131Game/Materials/M_Hands.mat
+  artifactKey: Guid(f305d45ebd90fed4aa240c7c02b9a297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Materials/M_Hands.mat using Guid(f305d45ebd90fed4aa240c7c02b9a297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5070e6c3309a44a064bebe0de1f67ade') in 0.029732 seconds 
+  Import took 0.039093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Team131Game/Materials/M_Building4.mat
+  artifactKey: Guid(70fd9de06d2e21b4d968d639c31b086c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Materials/M_Building4.mat using Guid(70fd9de06d2e21b4d968d639c31b086c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85325a6571c79a99826d946d0b51596e') in 0.030205 seconds 
+  Import took 0.041075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Team131Game/Materials/M_Barrel.mat
+  artifactKey: Guid(112a4d463a3f27e469b8bd10aba7b214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Materials/M_Barrel.mat using Guid(112a4d463a3f27e469b8bd10aba7b214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02e7672e88b8ecbfd140daad4b7622a7') in 0.030366 seconds 
+  Import took 0.039385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Team131Game/Materials/M_Medkit.mat
+  artifactKey: Guid(3bb52cca3a3ed29419fb532ad153d2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Materials/M_Medkit.mat using Guid(3bb52cca3a3ed29419fb532ad153d2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bfbd0d5cb05f4ad163d1764875704ca') in 0.032099 seconds 
+  Import took 0.046317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Team131Game/Materials/M_MilitaryVehicle5.mat
+  artifactKey: Guid(660f2f17fc5ab884eb72816e0eb1c214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Materials/M_MilitaryVehicle5.mat using Guid(660f2f17fc5ab884eb72816e0eb1c214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57e55e2f0b9dba8c7c4ea9940d3c1392') in 0.034501 seconds 
+  Import took 0.046338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/Team131Game/Materials/M_AssaultRifle.mat
+  artifactKey: Guid(3a8e1390844a7b5458c452b2ff659a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Materials/M_AssaultRifle.mat using Guid(3a8e1390844a7b5458c452b2ff659a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4197ddfe756debcdbc3cd823ca764b6d') in 0.030503 seconds 
+  Import took 0.040832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Team131Game/Materials/M_Blood.mat
+  artifactKey: Guid(e4b7d12bc0f02ca489e095221cc48bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Materials/M_Blood.mat using Guid(e4b7d12bc0f02ca489e095221cc48bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '146e7489263c83b6feafe6bfea5b3917') in 0.041795 seconds 
+  Import took 0.050764 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000429 seconds.
+  path: Assets/Team131Game/Materials/M_MilitaryVehicle4Burned.mat
+  artifactKey: Guid(a546e1a0b7fca43439016fafe2d1be8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Materials/M_MilitaryVehicle4Burned.mat using Guid(a546e1a0b7fca43439016fafe2d1be8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8b6b538635c5eb418e6e72ded897259') in 0.028740 seconds 
+  Import took 0.042533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000446 seconds.
+  path: Assets/Team131Game/Materials/M_Spider.mat
+  artifactKey: Guid(9aa8c96c2717ec242b246ba212d6d623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Materials/M_Spider.mat using Guid(9aa8c96c2717ec242b246ba212d6d623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eba291f45e18ac7f0f1a94bcb7c1158') in 0.033648 seconds 
+  Import took 0.047088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Team131Game/Materials/M_Soldierequipments.mat
+  artifactKey: Guid(d3b11359b70c401498a2918ac575bb14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Materials/M_Soldierequipments.mat using Guid(d3b11359b70c401498a2918ac575bb14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a62fb5607714fbc114544a16475c313') in 0.030781 seconds 
+  Import took 0.040454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Team131Game/Materials/M_MilitaryVehicle6.mat
+  artifactKey: Guid(ae0558b155a74da4e90a9c4f06648333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Materials/M_MilitaryVehicle6.mat using Guid(ae0558b155a74da4e90a9c4f06648333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed562adc7ccc159ce86a32673691b7b3') in 0.037533 seconds 
+  Import took 0.045253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Team131Game/Materials/M_MilitaryVehicle5Burned.mat
+  artifactKey: Guid(6db9aa73d558e5748a92503db05ec78c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Materials/M_MilitaryVehicle5Burned.mat using Guid(6db9aa73d558e5748a92503db05ec78c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b67c31f221745c81a9627d9a6d0a1290') in 0.032873 seconds 
+  Import took 0.045485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000465 seconds.
+  path: Assets/Team131Game/Materials/M_BaseballBat.mat
+  artifactKey: Guid(f56238cb451b1f2449a53c61c7dba6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Materials/M_BaseballBat.mat using Guid(f56238cb451b1f2449a53c61c7dba6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b880d0b0e0e43e0c5a42275a551386e7') in 0.038066 seconds 
+  Import took 0.050480 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Team131Game/Materials/M_Building3.mat
+  artifactKey: Guid(b9cee71699abffb49805db3a3ae0e1b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Materials/M_Building3.mat using Guid(b9cee71699abffb49805db3a3ae0e1b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e13daa1b0e60b6bd6d00195835da40eb') in 0.025912 seconds 
+  Import took 0.036549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Team131Game/Materials/M_Gloves.mat
+  artifactKey: Guid(72d392229d01db34d9147b150b484d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Materials/M_Gloves.mat using Guid(72d392229d01db34d9147b150b484d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48c312fa0d23e4ee18e62f652a740797') in 0.030588 seconds 
+  Import took 0.044486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Team131Game/Materials/M_BulletShell.mat
+  artifactKey: Guid(649417ee0e2e33649916f4dac684fc60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Materials/M_BulletShell.mat using Guid(649417ee0e2e33649916f4dac684fc60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7ea3b335b93519d653f8722c2c9c491') in 0.032219 seconds 
+  Import took 0.040131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Team131Game/Materials/M_Building1.mat
+  artifactKey: Guid(ad63c4c49bdeb6d4484d8266cecde9bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Materials/M_Building1.mat using Guid(ad63c4c49bdeb6d4484d8266cecde9bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d93e4b1df6b8bbb990508cad075987c') in 0.031854 seconds 
+  Import took 0.044653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.209290 seconds.
+  path: Assets/Team131Game/Sound/AmmoTake.wav
+  artifactKey: Guid(75c1b7744e64f3d4eae2d3290da3c569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Sound/AmmoTake.wav using Guid(75c1b7744e64f3d4eae2d3290da3c569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a308946894c2b001151363e8b9be91f') in 0.018906 seconds 
+  Import took 0.028981 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/Team131Game/Sound/LockedDoor.mp3
+  artifactKey: Guid(a78699e206af2f540b34cf77840986df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Sound/LockedDoor.mp3 using Guid(a78699e206af2f540b34cf77840986df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8d4bc5fdb34e8172d10961eb5b91a5b') in 0.042997 seconds 
+  Import took 0.053284 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Team131Game/Sound/Pistol_01_Fire_05_SFX.wav
+  artifactKey: Guid(b2d159f7e00d44d9bbc2d50a0c4fef59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Sound/Pistol_01_Fire_05_SFX.wav using Guid(b2d159f7e00d44d9bbc2d50a0c4fef59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ba1cb627d9e707c7916f6696ec2da24') in 0.036752 seconds 
+  Import took 0.050656 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Team131Game/Sound/OpenDoor.wav
+  artifactKey: Guid(2d0b0da9b1ff9244cb8ff2d0bc63c733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Sound/OpenDoor.wav using Guid(2d0b0da9b1ff9244cb8ff2d0bc63c733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df2f7ba4ba2a1b1d559594289bab0947') in 0.030707 seconds 
+  Import took 0.041791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Team131Game/Sound/indoor-footsteps.wav
+  artifactKey: Guid(293dda465a8a68f48a1520ef09a2cc4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Sound/indoor-footsteps.wav using Guid(293dda465a8a68f48a1520ef09a2cc4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '692af4eb6621ae5aabeaf7a1cc21d01c') in 0.042507 seconds 
+  Import took 0.052816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Team131Game/Sound/HealthTake.wav
+  artifactKey: Guid(1fa2736fc93e0dc42b9c2cae3595c7b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Sound/HealthTake.wav using Guid(1fa2736fc93e0dc42b9c2cae3595c7b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f0ba5090b9e1eea018907d161e53cd6') in 0.030982 seconds 
+  Import took 0.045074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Team131Game/Sound/Painsounds v2 - Track 5 - Urggh.ogg
+  artifactKey: Guid(cac596a345a731a4eb7d9c91675c1a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Sound/Painsounds v2 - Track 5 - Urggh.ogg using Guid(cac596a345a731a4eb7d9c91675c1a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07690a428e8a3789be90e93988a7391b') in 0.029927 seconds 
+  Import took 0.046095 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Team131Game/Sound/Pistol_01_Fire_02_SFX.wav
+  artifactKey: Guid(4d6281aa604094f04839cffa502096c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Sound/Pistol_01_Fire_02_SFX.wav using Guid(4d6281aa604094f04839cffa502096c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a555835aba80277d9dcca04e0e15102f') in 0.034163 seconds 
+  Import took 0.050013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Team131Game/Sound/grass__footsteps.mp3
+  artifactKey: Guid(ed31ac56dd735e14094cb1f8ecb58c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Sound/grass__footsteps.mp3 using Guid(ed31ac56dd735e14094cb1f8ecb58c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32428fd04ba511573e609c250e615f02') in 0.035091 seconds 
+  Import took 0.043867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000635 seconds.
+  path: Assets/Team131Game/Sound/Painsounds v2 - Track 2 - Hurgh.ogg
+  artifactKey: Guid(47f9e0d0bcf8f1643b55d802965e3c27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Sound/Painsounds v2 - Track 2 - Hurgh.ogg using Guid(47f9e0d0bcf8f1643b55d802965e3c27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f538c386f49ccb2ad652d71a603eb662') in 0.024974 seconds 
+  Import took 0.046276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000583 seconds.
+  path: Assets/Team131Game/Sound/KeySound.wav
+  artifactKey: Guid(fce32d97a83dabc4484796cbbb3b2a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Sound/KeySound.wav using Guid(fce32d97a83dabc4484796cbbb3b2a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '280b5c671878d564fccffdce540ceadb') in 0.037726 seconds 
+  Import took 0.046995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000655 seconds.
+  path: Assets/Team131Game/Ui/Asset 6@2x.png
+  artifactKey: Guid(4a21816aea9d82640ae12de09d1fcb7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Ui/Asset 6@2x.png using Guid(4a21816aea9d82640ae12de09d1fcb7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e0cc742193a5a952964746b09efc4db') in 0.042965 seconds 
+  Import took 0.051488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Team131Game/Ui/Asset 7@2x.png
+  artifactKey: Guid(7141463a412adfe459cb7c40f87e664c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Ui/Asset 7@2x.png using Guid(7141463a412adfe459cb7c40f87e664c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85790fd1bff81e31bee87164b81cb5e6') in 0.032043 seconds 
+  Import took 0.044256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Team131Game/Ui/Asset 15@2x.png
+  artifactKey: Guid(14bb46ec4e8b8d0469ab44134d1590f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Ui/Asset 15@2x.png using Guid(14bb46ec4e8b8d0469ab44134d1590f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86023f69a6fbe26ae624c23fb864e2f3') in 0.027144 seconds 
+  Import took 0.036769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Team131Game/Ui/Asset 14@2x.png
+  artifactKey: Guid(c42a0f850ed8e0e45b64d172a0d0f464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Ui/Asset 14@2x.png using Guid(c42a0f850ed8e0e45b64d172a0d0f464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b3d17a7a0492af05b48c0bcb72fd7aa') in 0.033380 seconds 
+  Import took 0.049006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Team131Game/Ui/crosshair@2x.png
+  artifactKey: Guid(e771706f521d5dd4b8ef35e6159b7069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Ui/crosshair@2x.png using Guid(e771706f521d5dd4b8ef35e6159b7069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11a92844bb2296b7d81e6cd6f9e87e03') in 0.039660 seconds 
+  Import took 0.047077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002376 seconds.
+  path: Assets/Team131Game/Ui/Asset 11@2x.png
+  artifactKey: Guid(d7513a890531d3b4daedd64e441f25b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Ui/Asset 11@2x.png using Guid(d7513a890531d3b4daedd64e441f25b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2607ae1538e4630215b85822b99e98ae') in 0.035620 seconds 
+  Import took 0.046367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Team131Game/Ui/Asset 10@2x.png
+  artifactKey: Guid(c36c33a5abe613a41a813ae1b6185d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Ui/Asset 10@2x.png using Guid(c36c33a5abe613a41a813ae1b6185d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '209e12262ba63d64e1e807e366b55e57') in 0.036157 seconds 
+  Import took 0.048536 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000452 seconds.
+  path: Assets/Team131Game/Ui/Asset 8@2x.png
+  artifactKey: Guid(5950719a8e93ccf498f2ff640bd11e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Ui/Asset 8@2x.png using Guid(5950719a8e93ccf498f2ff640bd11e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '031b9954352f6f3ffe0c1de05cde8a84') in 0.040260 seconds 
+  Import took 0.052483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Team131Game/Ui/Asset 13@2x.png
+  artifactKey: Guid(376c1d7e031ddf94d9ec43d977dc534f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Ui/Asset 13@2x.png using Guid(376c1d7e031ddf94d9ec43d977dc534f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9928abd9474930392fdb37c347f927a5') in 0.037053 seconds 
+  Import took 0.047654 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Team131Game/Ui/Asset 5@2x.png
+  artifactKey: Guid(2687c5221958649428ee8dd767f02390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Ui/Asset 5@2x.png using Guid(2687c5221958649428ee8dd767f02390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa9b5af5a5fa46de5d467d667c905a40') in 0.036554 seconds 
+  Import took 0.050217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Team131Game/Sound/Painsounds v2 - Track 1 - Arrrch.ogg
+  artifactKey: Guid(d527cd5af31d021469965508cd378437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Sound/Painsounds v2 - Track 1 - Arrrch.ogg using Guid(d527cd5af31d021469965508cd378437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a256dde854c6bcb3154567004880dda') in 0.029763 seconds 
+  Import took 0.039621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Team131Game/Ui/Asset 12@2x.png
+  artifactKey: Guid(5d14807f22f48ea4ca20385c385ca913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Ui/Asset 12@2x.png using Guid(5d14807f22f48ea4ca20385c385ca913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccea73b0958354f0a69bd8ba6a44f67b') in 0.033257 seconds 
+  Import took 0.049410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000633 seconds.
+  path: Assets/Team131Game/Sound/Pistol_01_Fire_01_SFX.wav
+  artifactKey: Guid(2203773368e4340d98c114f55c2dd7fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Sound/Pistol_01_Fire_01_SFX.wav using Guid(2203773368e4340d98c114f55c2dd7fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e0671821ead543a8c0976876d431b75') in 0.035013 seconds 
+  Import took 0.046682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Team131Game/Sound/Painsounds v2 - Track 6 - hyyrdhh.ogg
+  artifactKey: Guid(c7a4fafc26cb7e94ab6284df7cd86ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Sound/Painsounds v2 - Track 6 - hyyrdhh.ogg using Guid(c7a4fafc26cb7e94ab6284df7cd86ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a0d7cc5ea58d0fde9d638b972967d54') in 0.030434 seconds 
+  Import took 0.042803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000806 seconds.
+  path: Assets/Team131Game/Sound/Painsounds v2 - Track 3 - Huuurh.ogg
+  artifactKey: Guid(00776f376cb477f44b383dad1c730b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Sound/Painsounds v2 - Track 3 - Huuurh.ogg using Guid(00776f376cb477f44b383dad1c730b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2a45f93bd098081b78b2f2f37799df6') in 0.030482 seconds 
+  Import took 0.041943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Team131Game/Sound/Pistol_01_Fire_03_SFX.wav
+  artifactKey: Guid(0dbe91efb8ee94e6695ef0f552d202ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Sound/Pistol_01_Fire_03_SFX.wav using Guid(0dbe91efb8ee94e6695ef0f552d202ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a492ae1f6db5ae6ca0fbcdcb45979575') in 0.036887 seconds 
+  Import took 0.048319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Team131Game/Ui/Asset 9@2x.png
+  artifactKey: Guid(90f92c83a2b9fbd48a2e24b261e51329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Ui/Asset 9@2x.png using Guid(90f92c83a2b9fbd48a2e24b261e51329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2517d3f1216084b08aef757d5ef9746') in 0.034467 seconds 
+  Import took 0.042901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Team131Game/Sound/Painsounds v2 - Track 4 - Arrggh .ogg
+  artifactKey: Guid(d0dbd564401c4c54abf43d81350ed322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Sound/Painsounds v2 - Track 4 - Arrggh .ogg using Guid(d0dbd564401c4c54abf43d81350ed322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe6221e629649c91d3cbac613e409159') in 0.025916 seconds 
+  Import took 0.033900 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Team131Game/Sound/Pistol_01_Fire_04_SFX.wav
+  artifactKey: Guid(b33e2cff5225f4437a43a11d35763d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Sound/Pistol_01_Fire_04_SFX.wav using Guid(b33e2cff5225f4437a43a11d35763d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54f3b0c8ffbd1c5d1ce7a3ad59ea20ab') in 0.036826 seconds 
+  Import took 0.047671 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Team131Game/Textures/M_Building2.jpg
+  artifactKey: Guid(5bcf49c8df530f442af370092f9b36b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Textures/M_Building2.jpg using Guid(5bcf49c8df530f442af370092f9b36b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2735401618475eb9b65b00f0af827a43') in 0.015641 seconds 
+  Import took 0.029832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Team131Game/Textures/M_Roads.jpg
+  artifactKey: Guid(00ceb7b9200ee254ca6e2844a41e5d96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Textures/M_Roads.jpg using Guid(00ceb7b9200ee254ca6e2844a41e5d96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8be2ae67580534bda593e01a01ec6e4d') in 0.022453 seconds 
+  Import took 0.034617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Team131Game/Textures/M_SandBags.png
+  artifactKey: Guid(b0d0eea85c11cab42acc96154ad59d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Textures/M_SandBags.png using Guid(b0d0eea85c11cab42acc96154ad59d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cad5f4dcb5642c3ac7d1de03ae36d0ba') in 0.025413 seconds 
+  Import took 0.037182 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Team131Game/Textures/M_Empties2.jpg
+  artifactKey: Guid(e337edd993bd82e4b985d2b68d15d06d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Textures/M_Empties2.jpg using Guid(e337edd993bd82e4b985d2b68d15d06d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8ed648d4ebe4436678e563701b09229') in 0.026112 seconds 
+  Import took 0.036885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000404 seconds.
+  path: Assets/Team131Game/Textures/M_Spider.jpg
+  artifactKey: Guid(6b0d7462f15f65344a3bcf6a090b0607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Textures/M_Spider.jpg using Guid(6b0d7462f15f65344a3bcf6a090b0607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f571de1553312dff561e35ff30b46328') in 0.021778 seconds 
+  Import took 0.033945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/Team131Game/Textures/M_Pistol.jpg
+  artifactKey: Guid(60d55ba7ec008d841ab0de7bb02ec0ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Textures/M_Pistol.jpg using Guid(60d55ba7ec008d841ab0de7bb02ec0ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ee1f2bf986fd66f675bb3d4e4ffbbbe') in 0.024496 seconds 
+  Import took 0.038859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Team131Game/Textures/M_Building1.jpg
+  artifactKey: Guid(89c08da8ac37a7f47b2512b4259b8f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Textures/M_Building1.jpg using Guid(89c08da8ac37a7f47b2512b4259b8f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49b881b81f1c7cb46d0d6ec969526a47') in 0.023021 seconds 
+  Import took 0.035430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Team131Game/Textures/M_MilitaryVehicle1.jpg
+  artifactKey: Guid(bf3c4992aa7d85147b0cb44c1108e1c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Textures/M_MilitaryVehicle1.jpg using Guid(bf3c4992aa7d85147b0cb44c1108e1c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7faa42931f5849195f77236f521c7113') in 0.040838 seconds 
+  Import took 0.050242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Team131Game/Textures/M_Hands.png
+  artifactKey: Guid(aea66dc26eeeb3647a0d9aa840ac8dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Textures/M_Hands.png using Guid(aea66dc26eeeb3647a0d9aa840ac8dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a87aeeb2cef5c26a1c1a53081005cba6') in 0.031748 seconds 
+  Import took 0.042279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Team131Game/Textures/M_AssaultRifle.jpg
+  artifactKey: Guid(dd06eda2950c2fb45b3d1ef097166555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Textures/M_AssaultRifle.jpg using Guid(dd06eda2950c2fb45b3d1ef097166555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '515e268c4721eb692589106b687b96fa') in 0.029167 seconds 
+  Import took 0.042222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000869 seconds.
+  path: Assets/Team131Game/Textures/M_SoldierEquipments.png
+  artifactKey: Guid(cce17eaaf6101ed4298730273f39feb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Textures/M_SoldierEquipments.png using Guid(cce17eaaf6101ed4298730273f39feb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5861441d9957c5dcfeb69ef3ae139dd') in 0.030560 seconds 
+  Import took 0.046675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Team131Game/Textures/M_Train1.png
+  artifactKey: Guid(1a32e9bffc5a11a498dd32f122610568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Textures/M_Train1.png using Guid(1a32e9bffc5a11a498dd32f122610568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cab3bbb1be04df8df2d432a2c214578a') in 0.028515 seconds 
+  Import took 0.039909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Team131Game/Textures/M_MilitaryVehicle4.jpg
+  artifactKey: Guid(e02af18e55ab02947b5e6c4de1743b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Textures/M_MilitaryVehicle4.jpg using Guid(e02af18e55ab02947b5e6c4de1743b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98001f7ca0314fe5a215b88ce04b97e7') in 0.020748 seconds 
+  Import took 0.032178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Team131Game/Textures/M_BaseballBat.jpg
+  artifactKey: Guid(1566aea0fcdbb294686881bd01e07406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Textures/M_BaseballBat.jpg using Guid(1566aea0fcdbb294686881bd01e07406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e7e30e956cd568618dd11d9624b793a') in 0.024550 seconds 
+  Import took 0.037332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Team131Game/Textures/M_Shotgun.png
+  artifactKey: Guid(88e14067c74cb0346825b1b184653dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Textures/M_Shotgun.png using Guid(88e14067c74cb0346825b1b184653dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a781f8a81eaf0e7d424cf752132d5d9') in 0.025062 seconds 
+  Import took 0.050446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Team131Game/Textures/M_Blood.png
+  artifactKey: Guid(17200d1e41f43dc488453509df314317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Textures/M_Blood.png using Guid(17200d1e41f43dc488453509df314317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93225468eb9a5c13d6b8a3c4515d6073') in 0.021868 seconds 
+  Import took 0.035666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Team131Game/Textures/M_StreetLamp.jpg
+  artifactKey: Guid(f149da7a4d7e6874c853507f87992e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Textures/M_StreetLamp.jpg using Guid(f149da7a4d7e6874c853507f87992e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f70e8ac35b9ac1e32710451f94a60fc5') in 0.045481 seconds 
+  Import took 0.055918 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Team131Game/Textures/M_Medkit.png
+  artifactKey: Guid(6c11ac902bd88ba45960029cf1d08c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Textures/M_Medkit.png using Guid(6c11ac902bd88ba45960029cf1d08c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad9497d1044b3f97dbf7609d63c00841') in 0.027272 seconds 
+  Import took 0.039010 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/Team131Game/Textures/M_MilitaryVehicle6.PNG
+  artifactKey: Guid(f2e6782e5219afa4b9d017e2efef87fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Textures/M_MilitaryVehicle6.PNG using Guid(f2e6782e5219afa4b9d017e2efef87fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de5bd3a2d403ba951a0c64191cb28c71') in 0.022141 seconds 
+  Import took 0.034546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Team131Game/Textures/M_Building5.jpg
+  artifactKey: Guid(aed4ccb49bc252b4dac94edb3f072f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Textures/M_Building5.jpg using Guid(aed4ccb49bc252b4dac94edb3f072f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeed761c99e97a60cf90f11a82443e8d') in 0.028298 seconds 
+  Import took 0.037906 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000429 seconds.
+  path: Assets/Team131Game/Textures/M_Barrel.png
+  artifactKey: Guid(e51145144ef2767499ed2cb1cff0c29d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Textures/M_Barrel.png using Guid(e51145144ef2767499ed2cb1cff0c29d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cc6e3fa6b5eb5aa73fd79a4c1e8db42') in 0.023605 seconds 
+  Import took 0.033425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Team131Game/Textures/M_Building4.jpg
+  artifactKey: Guid(cfdbcb839c29a5444a674ca17913866a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Textures/M_Building4.jpg using Guid(cfdbcb839c29a5444a674ca17913866a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e08c5b29c2ce6e578c0c5bf1ca1dd1b') in 0.020677 seconds 
+  Import took 0.031965 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Team131Game/Textures/M_AmmoBox.png
+  artifactKey: Guid(b699001e4c18cb544b4fc71a3d149cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Textures/M_AmmoBox.png using Guid(b699001e4c18cb544b4fc71a3d149cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c998cce86b8e670ecc41f57a62d4ede') in 0.026033 seconds 
+  Import took 0.036301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Team131Game/Textures/M_MihitaryVehicle5.jpg
+  artifactKey: Guid(889138c13d91e41439d534e150981c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Textures/M_MihitaryVehicle5.jpg using Guid(889138c13d91e41439d534e150981c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8564bb095c79f0a99630fde319872a58') in 0.028445 seconds 
+  Import took 0.040877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Team131Game/Textures/M_SoldierBody.png
+  artifactKey: Guid(b48e39409e78db741a5c8e7c2124a105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Textures/M_SoldierBody.png using Guid(b48e39409e78db741a5c8e7c2124a105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89d694f548f2fe782d54391ae57a569f') in 0.027695 seconds 
+  Import took 0.043509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Team131Game/Textures/M_Smg.jpg
+  artifactKey: Guid(0f35cec6a78ce1e4b94aece9bda4a11e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Textures/M_Smg.jpg using Guid(0f35cec6a78ce1e4b94aece9bda4a11e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6adcd930656991ecdd09db35c5025d3f') in 0.017545 seconds 
+  Import took 0.031955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Team131Game/Textures/M_Building3.jpg
+  artifactKey: Guid(fdb68675b98e82d428fa47b94d4d9270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Textures/M_Building3.jpg using Guid(fdb68675b98e82d428fa47b94d4d9270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5578a8a3f260a0af8c9935abfb277572') in 0.023411 seconds 
+  Import took 0.039293 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000459 seconds.
+  path: Assets/Team131Game/Textures/M_Empties1.jpg
+  artifactKey: Guid(c6e89f6757546a6418fd2d566847bcf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Textures/M_Empties1.jpg using Guid(c6e89f6757546a6418fd2d566847bcf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b6d0370a876d3c1b2dde6c44abf4273') in 0.022790 seconds 
+  Import took 0.033590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Team131Game/Textures/M_MilitaryVehicle3.jpg
+  artifactKey: Guid(299c8a4cf160e1d43b684dab9d720a89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team131Game/Textures/M_MilitaryVehicle3.jpg using Guid(299c8a4cf160e1d43b684dab9d720a89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6864749c4ef6809aca91af985fc3d9a9') in 0.021061 seconds 
+  Import took 0.034572 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
