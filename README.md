@@ -36,8 +36,9 @@ ve Empties'lerin temizlenmesine odaklanan birinci şahıs nişancı türünde bi
 
 ## Product Backlog URL
 
-[Miro Backlog Board](https://miro.com/app/board/uXjVO6Xaf2U=/?share_link_id=633709052401)
-[Miro Moodboard](https://miro.com/app/board/uXjVO2DLwP4=/?share_link_id=814631969518)
+- [Miro Backlog Board](https://miro.com/app/board/uXjVO6Xaf2U=/?share_link_id=633709052401)
+- [Miro Moodboard](https://miro.com/app/board/uXjVO2DLwP4=/?share_link_id=814631969518)
+- [Game Desing Document](https://docs.google.com/document/d/16ENNLMy4iLyZDZlZeuvmyq_wKJYy9C5D/edit?usp=sharing&ouid=116119319976991765463&rtpof=true&sd=true)
 
 ---
 
