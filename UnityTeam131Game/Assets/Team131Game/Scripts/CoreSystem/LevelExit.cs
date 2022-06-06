@@ -2,9 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Analytics;
 
 public class LevelExit : MonoBehaviour
 {
+    public static LevelExit instance;
 
     public string nextLevel;
 
@@ -13,6 +15,8 @@ public class LevelExit : MonoBehaviour
 
     private void Awake()
     {
+        instance = this;
+
         scene = SceneManager.GetActiveScene();
     }
 
@@ -32,7 +36,6 @@ public class LevelExit : MonoBehaviour
         {
             GameManager.instance.LevelEnding = true;
             StartCoroutine(EndLevelCo());
-
         }
     }
 
