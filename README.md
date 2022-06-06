@@ -36,8 +36,9 @@ ve Empties'lerin temizlenmesine odaklanan birinci şahıs nişancı türünde bi
 
 ## Product Backlog URL
 
-[Miro Backlog Board](https://miro.com/app/board/uXjVO6Xaf2U=/?share_link_id=633709052401)
-[Miro Moodboard](https://miro.com/app/board/uXjVO2DLwP4=/?share_link_id=814631969518)
+- [Miro Backlog Board](https://miro.com/app/board/uXjVO6Xaf2U=/?share_link_id=633709052401)
+- [Miro Moodboard](https://miro.com/app/board/uXjVO2DLwP4=/?share_link_id=814631969518)
+- [Game Desing Document](https://docs.google.com/document/d/16ENNLMy4iLyZDZlZeuvmyq_wKJYy9C5D/edit?usp=sharing&ouid=116119319976991765463&rtpof=true&sd=true)
 
 ---
 
@@ -116,10 +117,11 @@ Alınan kararlar: Oyunda komple bir nükleer santral tesisi yapmayı planlıyord
 -  [Miro Backlog Board](https://miro.com/app/board/uXjVO6Xaf2U=/?share_link_id=633709052401)
 -  [Miro Moodboard](https://miro.com/app/board/uXjVO2DLwP4=/?share_link_id=814631969518)
 
-- **Sprint Review**: 
-Alınan kararlar:
 
+- **Sprint Review**: 
+Alınan kararlar: 3. Sprint'de arkadaşımızın aramızdan ayrılmasından dolayı bazı görevleri kendi aramızda paylaşmaya karar verdik. Product Owner rolündeki arkadaşımız, Scrum Master rolünü de üstlendi. Zamanımız az kaldığından dolayı nükleer santralin çekirdek odasını ve Cinemachine yapmaktan vazgeçtik. 
+- Sprint Review katılımcıları: Tüm Ekip
 
 - **Ürün Durumu**: Ekran görüntüleri:
 
-- **Sprint Retrospective:**
+- **Sprint Retrospective:** Son Sprint olması ve dört kişi kalmamız sebebiyle başta biraz sıkıntılı bir döneme girsek de, çabuk toparlayıp kalan işlerimize dört elle sarıldık. Ortaya çıkardığımız iş birtakım eksikleri olsa da hepimizin içine sindi. 
