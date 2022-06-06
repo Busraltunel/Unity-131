@@ -10,6 +10,7 @@ Oyun ve Uygulama Akademisi Takım 131
 - Yiğit Yalçın: Team Member/Developer/Game Artist
 - Görkem Kaleli: Team Member/Developer/Coder
 - Nur Şenavcı: Team Member/Developer/UI Artist
+- Şule Hilal Karakuş: Team Member/ 2.Sprint'in sonuna kadar Scrum Master
 
 ## Ürün İsmi
 
