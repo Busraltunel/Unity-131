@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
     public static GameManager instance;
 
     public float waitAfterDie = 2f;
+    public GameObject DeathFlash;
 
     [HideInInspector]
     public bool LevelEnding;
@@ -44,6 +45,10 @@ public class GameManager : MonoBehaviour
     public IEnumerator PlayerDeathCo()
     {
         AudioSource.PlayClipAtPoint(deathClip, transform.position);
+
+        DeathFlash.SetActive(true);
+
+        //UIController.instance.ShowDeathDamage();
 
         //animator.SetBool("isDead", true);
 

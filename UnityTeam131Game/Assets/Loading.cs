@@ -11,6 +11,8 @@ public class Loading : MonoBehaviour
     public TMP_Text loadingHint, sayiText;
     public GameObject bar, screen;
     public int hint;
+    public int backGround;
+    public GameObject bg1, bg2, bg3;
     private Scene scene;
 
     private void Awake()
@@ -21,16 +23,17 @@ public class Loading : MonoBehaviour
     {
         screen.SetActive(true);
         hint = Random.Range(0, 4);
+        backGround = Random.Range(0, 3);
     }
 
-   
+
     void Update()
     {
         sayiText.text = "" + (int)sayi + "%";
         bar.transform.localScale = new Vector3(sayi / 100, 1, 1);
         if (sayi < 100)
         {
-            sayi += Time.deltaTime * 12;
+            sayi += Time.deltaTime * 14;
         }
         if (sayi >= 100)
         {
@@ -54,5 +57,18 @@ public class Loading : MonoBehaviour
         {
             loadingHint.text = "HINT: Use the [E] key to interact with objects such as faucets, radios, doors. But you may need to find locks for some doors.";
         }
+        if (backGround == 0)
+        {
+            bg1.SetActive(true);
+        }
+        if (backGround == 1)
+        {
+            bg2.SetActive(true);
+        }
+        if (backGround == 2)
+        {
+            bg3.SetActive(true);
+        }
+
     }
 }

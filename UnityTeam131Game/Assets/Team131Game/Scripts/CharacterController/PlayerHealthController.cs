@@ -40,12 +40,15 @@ public class PlayerHealthController : MonoBehaviour
         if (currentHealth <= 0)
         {
             gameObject.SetActive(false);
-           // animator.SetBool("isDead", true);
+
+            // animator.SetBool("isDead", true);
 
             //canýn -deðerlere düþmemesi için
             currentHealth = 0;
 
             GameManager.instance.PlayerDeath();
+
+            //UIController.instance.ShowDeathDamage();
 
             AudioSource.PlayClipAtPoint(deathClip, transform.position);
             AudioManager.instance.StopBGM();

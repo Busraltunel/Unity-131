@@ -14,6 +14,8 @@ public class UIController : MonoBehaviour
     public Image damageEffect;
     public float damageAlpha = .15f, damageFadeSpeed = 2f;
 
+    public Image deathImage;
+
     public GameObject pauseScreen;
 
     public Image blackScreen;
@@ -49,5 +51,9 @@ public class UIController : MonoBehaviour
     public void ShowDamage()
     {
         damageEffect.color = new Color(damageEffect.color.r, damageEffect.color.g, damageEffect.color.b, .15f);
+    }
+    public void ShowDeathDamage()
+    {
+        deathImage.color = new Color(damageEffect.color.r, damageEffect.color.g, damageEffect.color.b, 1f);
     }
 }
