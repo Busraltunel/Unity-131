@@ -40,10 +40,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 324295109916072959}
-  - component: {fileID: 324295109916072956}
   - component: {fileID: 324295109916072957}
   - component: {fileID: 324295109916072954}
   - component: {fileID: 324295109916072955}
+  - component: {fileID: 1488798725}
   m_Layer: 10
   m_Name: ShooterEnemySpider 1
   m_TagString: EmptiesEnemy
@@ -67,20 +67,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!136 &324295109916072956
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 324295109916072952}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &324295109916072957
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -131,7 +117,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 15
-  chaseDistance: 20
+  chaseDistance: 30
   distanceToLose: 30
   distanceToStop: 3
   agent: {fileID: 324295109916072954}
@@ -142,6 +128,20 @@ MonoBehaviour:
   waitBetweenShots: 1
   timeToShoot: 1
   anim: {fileID: 5803681637109824943}
+--- !u!136 &1488798725
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 324295109916072952}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 1.8378563
+  m_Height: 3.6757126
+  m_Direction: 1
+  m_Center: {x: 0, y: -1.96, z: -0.45889664}
 --- !u!1 &324295111024656418
 GameObject:
   m_ObjectHideFlags: 0
