@@ -49,6 +49,7 @@ ve Empties'lerin temizlenmesine odaklanan birinci şahıs nişancı türünde bi
 - [Oyun Sesleri](https://opengameart.org/)
 - [Oyun Sesleri](https://freesound.org/search/?g=1&f=&q=handling&s=Duration+%28short+first%29&w=&advanced=0&page=7#sound)
 - [Oyunda kullandığımız Texture’lar](https://www.textures.com/)
+- [Oyunda kullandığımız Texture’lar](https://3dtextures.me/))
 
 ---
 
